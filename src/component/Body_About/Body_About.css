@@ -1,0 +1,79 @@
+.sumenh_title {
+    font-weight: 600;
+    text-align: center;
+    color: #012970;
+}
+
+.tamnhin_title {
+    font-weight: 600;
+    text-align: center;
+    color: #012970;
+}
+
+.sumenh1 {
+    height: 20px;
+}
+
+.sumenh_content,
+.tamnhin_content {
+    font-size: 18px;
+}
+
+#about {
+    margin-top: 90px;
+}
+
+.img-fluid {
+    height: 100%;
+    object-fit: cover;
+}
+
+.GTCL_title {
+    font-weight: 600;
+}
+
+.GTCL_noibo {
+    font-size: 25px;
+    font-weight: 700;
+    color: #012970;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.member {
+    padding: 20px;
+}
+
+.noibo_content {
+    font-size: 16px;
+}
+
+.trietly {
+    font-weight: 600;
+}
+
+.trietly1 {
+    font-weight: 600;
+    font-size: 20px !important;
+}
+
+.trietly_icon {
+    background-image: url(../../../public/Data/Images/logo-xanhArtboard\ 3@4x.png);
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 40px;
+}
+
+.connguoi_title {
+    font-weight: 600;
+    color: #012970;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#testimonials {
+    padding-bottom: 0;
+}
