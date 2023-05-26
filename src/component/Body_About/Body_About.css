@@ -1,13 +1,16 @@
+@import '../main.css';
+
+
 .sumenh_title {
     font-weight: 600;
     text-align: center;
-    color: #012970;
+    color: var(--text-color);
 }
 
 .tamnhin_title {
     font-weight: 600;
     text-align: center;
-    color: #012970;
+    color: var(--text-color);
 }
 
 .sumenh1 {
@@ -30,18 +33,22 @@
 
 .GTCL_title {
     font-weight: 600;
+    color: var(--text-color);
+
 }
 
 .GTCL_noibo {
+    text-align: center;
     font-size: 25px;
     font-weight: 700;
-    color: #012970;
+    color: var(--text-color);
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
 .member {
     padding: 20px;
+    color: var(--text-color);
 }
 
 .noibo_content {
@@ -68,7 +75,7 @@
 
 .connguoi_title {
     font-weight: 600;
-    color: #012970;
+    color: var(--text-color);
     text-align: center;
     font-size: 18px;
     margin-bottom: 10px;

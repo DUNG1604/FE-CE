@@ -18,7 +18,14 @@ const Header = () => {
             {/* ======= Header ======= */}
             <header id="header" className="fixed-top">
                 <div className="container d-flex align-items-center">
-                    <h1 className="logo me-auto"><a href="index.html">CAREEREMPOWER</a></h1>
+                    {/* <a href="index.html" class="logo d-flex align-items-center">
+                        <img src="./Data/Images/logo-xanhArtboard 3@4x.png" alt="">
+                        </img>
+                    </a> */}
+                    <div className="logo me-auto"><a href="index.html" class="logo d-flex align-items-center">
+                        <img src="./Data/Images/logo-xanhArtboard 3@4x.png" alt="">
+                        </img>
+                    </a></div>
                     <nav id="navbar" className="navbar order-last order-lg-0">
                         <ul>
                             <li><a className="nav-link scrollto " href="#hero">Về Chúng Tôi</a></li>
