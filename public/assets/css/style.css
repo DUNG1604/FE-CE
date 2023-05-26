@@ -1584,9 +1584,9 @@ section {
   color: #4154f1;
 }
 
-.recent-blog-posts .post-box:hover .post-img img {
+/* .recent-blog-posts .post-box:hover .post-img img {
   transform: rotate(6deg) scale(1.2);
-}
+} */
 
 /*--------------------------------------------------------------
 # Contact
