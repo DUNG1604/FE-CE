@@ -1,10 +1,3 @@
-/**
-* Template Name: FlexStart
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -168,37 +161,120 @@ section {
   }
 }
 
+
+
 /*--------------------------------------------------------------
-# Header
+# Top Bar
 --------------------------------------------------------------*/
-.header {
-  transition: all 0.5s;
-  z-index: 997;
-  padding: 20px 0;
-}
-
-.header.header-scrolled {
+#topbar {
   background: #fff;
-  padding: 15px 0;
-  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+  height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+  z-index: 996;
 }
 
-.header .logo {
+#topbar.topbar-scrolled {
+  top: -40px;
+}
+
+#topbar .contact-info a {
+  line-height: 1;
+  color: #444444;
+  transition: 0.3s;
+}
+
+#topbar .contact-info a:hover {
+  color: #1977cc;
+}
+
+#topbar .contact-info i {
+  color: #1977cc;
+  padding-right: 4px;
+  margin-left: 15px;
   line-height: 0;
 }
 
-.header .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+#topbar .contact-info i:first-child {
+  margin-left: 0;
 }
 
-.header .logo span {
+#topbar .social-links a {
+  color: #437099;
+  padding-left: 15px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+
+#topbar .social-links a:hover {
+  color: #1977cc;
+}
+
+#topbar .social-links a:first-child {
+  border-left: 0;
+}
+
+/**
+* Appointment Button *
+*/
+.appointment-btn {
+  margin-left: 25px;
+  background: #1977cc;
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.appointment-btn:hover {
+  background: #166ab5;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .appointment-btn {
+    margin: 0 15px 0 0;
+    padding: 6px 18px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  top: 40px;
+  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+}
+
+#header.header-scrolled {
+  top: 0;
+}
+
+#header .logo {
   font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
   font-weight: 700;
-  letter-spacing: 1px;
-  color: #012970;
-  font-family: "Nunito", sans-serif;
-  margin-top: 3px;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+}
+
+#header .logo a {
+  color: #2c4964;
+}
+
+#header .logo img {
+  max-height: 40px;
 }
 
 /*--------------------------------------------------------------
@@ -223,18 +299,27 @@ section {
   position: relative;
 }
 
+.navbar>ul>li {
+  position: relative;
+  white-space: nowrap;
+  padding: 8px 0 8px 20px;
+}
+
 .navbar a,
 .navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 5px 2px;
+  /* padding: 10px 0 10px 30px; */
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
   color: #013289;
   white-space: nowrap;
   transition: 0.3s;
+  border-bottom: 2px solid #fff;
+
 }
 
 .navbar a i,
@@ -248,7 +333,8 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #4154f1;
+  color: #1977cc;
+  border-color: #1977cc;
 }
 
 .navbar .getstarted,
@@ -288,9 +374,11 @@ section {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: 500;
   text-transform: none;
-  font-weight: 600;
+  color: #082744;
+  border: none;
 }
 
 .navbar .dropdown ul a i {
@@ -367,6 +455,7 @@ section {
   bottom: 0;
   background: rgba(1, 22, 61, 0.9);
   transition: 0.3s;
+  z-index: 999;
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -388,6 +477,9 @@ section {
   overflow-y: auto;
   transition: 0.3s;
 }
+.navbar-mobile>ul>li {
+  padding: 0;
+}
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
@@ -399,7 +491,7 @@ section {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #4154f1;
+  color: #1977cc;
 }
 
 .navbar-mobile .getstarted,
@@ -434,7 +526,7 @@ section {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #4154f1;
+  color: #1977cc;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -2218,12 +2310,167 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-.footer {
+#footer {
+  color: #444444;
+  font-size: 14px;
+  background: #f1f7fd;
+}
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h4 {
+  font-size: 22px;
+  margin: 0 0 30px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+#footer .footer-top .footer-contact p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  color: #777777;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444444;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #1c84e3;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+  color: #1977cc;
+}
+
+#footer .footer-newsletter {
+  font-size: 15px;
+}
+
+#footer .footer-newsletter h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444444;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  text-align: left;
+  border: 1px solid #bfdcf7;
+}
+
+#footer .footer-newsletter form input[type=email] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#footer .footer-newsletter form input[type=submit] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #1977cc;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+}
+
+#footer .footer-newsletter form input[type=submit]:hover {
+  background: #1c84e3;
+}
+
+#footer .credits {
+  padding-top: 5px;
+  font-size: 13px;
+  color: #444444;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #1977cc;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  background: #1c84e3;
+  color: #fff;
+  text-decoration: none;
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+/* .footer {
   background: #f6f9ff;
   padding: 0 0 30px 0;
   font-size: 14px;
-}
-
+} */
+/* 
 .footer .footer-newsletter {
   padding: 10px 0;
   background: #f6f9ff;
@@ -2393,4 +2640,4 @@ section {
   text-align: center;
   font-size: 13px;
   color: #012970;
-}
+} */

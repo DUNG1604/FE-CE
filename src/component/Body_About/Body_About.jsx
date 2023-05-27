@@ -25,7 +25,7 @@ const Body_About = () => {
                         </div>
                         <div className="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay={200}>
                             {/* <img src="assets/img/about.jpg" className="img-fluid" alt="" /> */}
-                            <img src="Data/Images/3.jpg" className="img-fluid" alt="" />
+                            <img src="./assets/img/home/3.jpg" className="img-fluid" alt="" />
                         </div>
                     </div>
                 </div>
@@ -185,7 +185,7 @@ const Body_About = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="post-box">
-                                <div className="post-img conguoiimg"><img src="Data/Images/6xx.jpg" className="img-fluid" alt="" /></div>
+                                <div className="post-img conguoiimg"><img src="./assets/img/home/7.jpg" className="img-fluid" alt="" /></div>
                                 <span className="post-date">Tue, September 15</span>
                                 <div className='connguoi_title'>ĐỘI NGŨ CAREEREMPOWER LÀ NHỮNG CON NGƯỜI ĐAM MÊ, TÀI NĂNG VÀ KHÔNG NGẠI THỬ THÁCH</div>
                                 <p>Không ngừng học hỏi, khám phá những  điều mới mẻ để nâng cao kỹ năng và phục vụ khách hàng tốt nhất. Đến với CE, bạn sẽ được hỗ trợ bởi chuyên gia và cũng là người bạn thân thiết, đáng tin cậy, sẵn sàng đồng hành cùng bạn trong hành trình phát triển nghề nghiệp. </p>
