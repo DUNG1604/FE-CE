@@ -1,7 +1,6 @@
 /**
-* Template Name: FlexStart
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+* Template Name: Selecao - v4.2.0
+* Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
@@ -24,10 +23,13 @@
    * Easy event listener function
    */
   const on = (type, el, listener, all = false) => {
-    if (all) {
-      select(el, all).forEach(e => e.addEventListener(type, listener))
-    } else {
-      select(el, all).addEventListener(type, listener)
+    let selectEl = select(el, all)
+    if (selectEl) {
+      if (all) {
+        selectEl.forEach(e => e.addEventListener(type, listener))
+      } else {
+        selectEl.addEventListener(type, listener)
+      }
     }
   }
 
@@ -64,10 +66,6 @@
   const scrollto = (el) => {
     let header = select('#header')
     let offset = header.offsetHeight
-
-    if (!header.classList.contains('header-scrolled')) {
-      offset -= 10
-    }
 
     let elementPos = select(el).offsetTop
     window.scrollTo({
@@ -157,42 +155,6 @@
   });
 
   /**
-   * Clients Slider
-   */
-  new Swiper('.clients-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 2,
-        spaceBetween: 40
-      },
-      480: {
-        slidesPerView: 3,
-        spaceBetween: 60
-      },
-      640: {
-        slidesPerView: 4,
-        spaceBetween: 80
-      },
-      992: {
-        slidesPerView: 6,
-        spaceBetween: 120
-      }
-    }
-  });
-
-  /**
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
@@ -200,7 +162,6 @@
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
         itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
       });
 
       let portfolioFilters = select('#portfolio-flters li', true);
@@ -215,7 +176,9 @@
         portfolioIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
-        aos_init();
+        portfolioIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
       }, true);
     }
 
@@ -225,7 +188,7 @@
    * Initiate portfolio lightbox 
    */
   const portfolioLightbox = GLightbox({
-    selector: '.portfokio-lightbox'
+    selector: '.portfolio-lightbox'
   });
 
   /**
@@ -233,6 +196,7 @@
    */
   new Swiper('.portfolio-details-slider', {
     speed: 400,
+    loop: true,
     autoplay: {
       delay: 5000,
       disableOnInteraction: false
@@ -263,11 +227,12 @@
     breakpoints: {
       320: {
         slidesPerView: 1,
-        spaceBetween: 40
+        spaceBetween: 20
       },
 
       1200: {
         slidesPerView: 3,
+        spaceBetween: 20
       }
     }
   });
@@ -275,21 +240,13 @@
   /**
    * Animation on scroll
    */
-  function aos_init() {
+  window.addEventListener('load', () => {
     AOS.init({
       duration: 1000,
-      easing: "ease-in-out",
+      easing: 'ease-in-out',
       once: true,
       mirror: false
-    });
-  }
-  window.addEventListener('load', () => {
-    aos_init();
+    })
   });
 
-  /**
-   * Initiate Pure Counter 
-   */
-  new PureCounter();
-
-})();
+})()

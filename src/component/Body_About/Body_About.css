@@ -1,88 +1,228 @@
-.sumenh_title {
-    font-weight: 600;
-    text-align: center;
-    color: #012970;
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
 }
 
-.tamnhin_title {
-    font-weight: 600;
-    text-align: center;
-    color: #012970;
+a {
+    color: #ef6603;
+    text-decoration: none;
 }
 
-.sumenh1 {
-    height: 20px;
+a:hover {
+    color: #fc8129;
+    text-decoration: none;
 }
 
-.sumenh_content,
-.tamnhin_content {
-    font-size: 18px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
 }
 
-#about {
-    margin-top: 90px;
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
 }
 
-.img-fluid {
-    height: 100%;
-    object-fit: cover;
+.section-title {
+    padding-bottom: 40px;
 }
 
-.GTCL_title {
-    font-weight: 600;
+.section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Montserrat", sans-serif;
 }
 
-.GTCL_noibo {
-    font-size: 25px;
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #fd9042;
+    margin: 4px 10px;
+}
+
+.section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
     font-weight: 700;
-    color: #012970;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    color: #2a2c39;
 }
 
-.member {
-    padding: 20px;
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+
+.about {
+    padding-top: 80px;
 }
 
-.noibo_content {
+.about .content h3 {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.about .content p,
+.about .content ul {
+    list-style: none;
+    padding: 0;
     font-size: 16px;
 }
 
-.trietly {
-    font-weight: 600;
+.about .content ul li {
+    padding-left: 28px;
+    position: relative;
 }
 
-.trietly1 {
-    font-weight: 600;
-    font-size: 20px !important;
+.about .content ul li+li {
+    margin-top: 10px;
 }
 
-.trietly_icon {
-    background-image: url(../../../public/Data/Images/logo-xanhArtboard\ 3@4x.png);
-    height: 35px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 40px;
+.about .content ul i {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 20px;
+    color: #ef6603;
+    line-height: 1;
 }
 
-.connguoi_title {
+.about .content p:last-child {
+    margin-bottom: 0;
+}
+
+.about .content .btn-learn-more {
+    font-family: "Raleway", sans-serif;
     font-weight: 600;
-    color: #012970;
-    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 5px;
+    transition: 0.3s;
+    line-height: 1;
+    color: #ef6603;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    margin-top: 6px;
+    border: 2px solid #ef6603;
+}
+
+.about .content .btn-learn-more:hover {
+    background: #ef6603;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*--------------------------------------------------------------
+# Our-value
+--------------------------------------------------------------*/
+
+.our-value {
+    background: #fff;
+    padding: 60px 0;
+}
+
+.our-value .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.our-value .member .member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.our-value .member .social {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-value .member .social a {
+    transition: color 0.3s;
+    margin: 0 3px;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    background: rgba(239, 102, 3, 0.8);
+    transition: ease-in-out 0.3s;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-value .member .social a:hover {
+    background: #fc8129;
+}
+
+.our-value .member .social i {
     font-size: 18px;
-    margin-bottom: 10px;
+    line-height: 0;
 }
 
-#testimonials {
-    padding-bottom: 0;
+.our-value .member .member-info {
+    padding: 25px 15px;
 }
 
-.headerlogo {
-    background-image: url(../../../public/Data/Images/logo-xanhArtboard\ 3@4x.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 20px;
-    font-size: 25px;
+.our-value .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #2a2c39;
 }
+
+.our-value .member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+.our-value .member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: #777777;
+}
+
+.our-value .member:hover .social {
+    opacity: 1;
+    bottom: 15px;
+}
+
