@@ -1,3 +1,4 @@
+import './Header.css'
 const Header = () => {
     return (
         <div>
@@ -18,7 +19,9 @@ const Header = () => {
             {/* ======= Header ======= */}
             <header id="header" className="fixed-top">
                 <div className="container d-flex align-items-center">
-                    <h1 className="logo me-auto"><a href="index.html">CAREEREMPOWER</a></h1>
+                    {/* <h1 className="logo me-auto">
+                    </h1> */}
+                    <div className="logo me-auto headerlogo"></div>
                     <nav id="navbar" className="navbar order-last order-lg-0">
                         <ul>
                             <li><a className="nav-link scrollto " href="#hero">Về Chúng Tôi</a></li>
