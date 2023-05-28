@@ -1,0 +1,27 @@
+.headerlogo {
+    background-image: url(../../../public/Data/Images/logo-xanhArtboard\ 3@4x.png);
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    background-size: contain;
+    height: 40px;
+    width: 35%;
+
+}
+
+
+@media (max-width: 1200px) {
+    .headerlogo {
+        width: 35%;
+    }
+
+    .navbar>ul>li {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .headerlogo {
+        width: 180px;
+    }
+
+}
