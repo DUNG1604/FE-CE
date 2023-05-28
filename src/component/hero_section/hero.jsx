@@ -7,7 +7,7 @@ const Hero = () => {
             <div className="carousel-container">
                 <h2 className="animate__animated animate__fadeInDown"><span>Career Empower</span></h2>
                 <p className="animate__animated fanimate__adeInUp">Đơn vị cung cấp giải pháp kết nối và phát triển nguồn nhân lực. Là đơn vị hàng đầu gắn bó với sự phát triển của sinh viên Trường Đại học Kinh tế Quốc dân.</p>
-                <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Về Chúng Tôi</a>
             </div>
             </div>
             {/* Slide 2 */}

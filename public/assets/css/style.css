@@ -90,7 +90,7 @@ h6 {
 }
 
 #header.header-transparent {
-    background: transparent;
+    background: rgba(42, 44, 57, 0.9);
 }
 
 #header.header-scrolled {
@@ -188,7 +188,7 @@ h6 {
     padding: 5px 2px;
     font-family: "Nunito", sans-serif;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     color: #fff;
     white-space: nowrap;
     transition: 0.3s;
@@ -610,7 +610,7 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-
+/* 
 .about {
     padding-top: 80px;
 }
@@ -670,7 +670,7 @@ section {
     background: #ef6603;
     color: #fff;
     text-decoration: none;
-}
+} */
 
 
 /*--------------------------------------------------------------
