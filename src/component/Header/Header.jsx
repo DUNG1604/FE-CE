@@ -6,7 +6,7 @@ const Header = () => {
                 <div className="container d-flex justify-content-between">
                     <div className="contact-info d-flex align-items-center">
                         <i className="bi bi-envelope" /> <a href="mailto:contact@example.com">AndrewNgo1604@gmail.com</a>
-                        <i className="bi bi-phone" /> 0123456789
+                        <i className="bi bi-phone" /> 01234567891
                     </div>
                     <div className="d-none d-lg-flex social-links align-items-center">
                         <a href="#" className="twitter"><i className="bi bi-twitter" /></a>
