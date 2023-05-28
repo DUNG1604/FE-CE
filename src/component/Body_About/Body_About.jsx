@@ -1,35 +1,41 @@
 import './Body_About.css'
 
-const Body_About = () => {
+const BodyAbout = () => {
     return (
         <main id="main">
             {/* ======= About Section ======= */}
-            {/*  */}
-            <section id="about" className="about">
-                <div className="container" data-aos="fade-up">
-                    <div className="row gx-0">
-                        <div className="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay={200}>
-                            <div className="content">
-                                <h1 className='sumenh_title'>Sứ Mệnh</h1>
-                                <div className='sumenh_content'>Career Empower cam kết cung cấp các  giải pháp toàn điện để sinh viên Đại học  Kinh tế Quốc dân có được công việc  đúng sở thích với mức lương xứng đáng  khi ra trường thông qua các sản phẩm cá  nhân hóa và sự đồng hành xuyên suốt.</div>
-                            </div>
-                            <div className='sumenh1'></div>
-                            <div className="content">
-                                <h1 className='sumenh_title'>Tầm Nhìn</h1>
-                                <div className='tamnhin_content'>Career Empower sẽ là tổ chức số 1 đồng  hành cùng sinh viên Đại học Kinh tế  Quốc dân trên quá trình có được công  việc theo đúng sở thích với mức lương  xứng đáng.
-                                </div>
-                                <div className='tamnhin_content'>
-                                    CareerEmpower cam kết đến 2026 sẽ  giúp đỡ được 20.000 sinh viên NEU
-                                </div>
-                            </div>
-                        </div>
+            <section id="about" class="about">
+                <div class="container">
+
+                    <div class="section-title" data-aos="zoom-out">
+                    <h2>về chúng tôi</h2>
+                    <p>Sứ mệnh & tầm nhìn</p>
+                    </div>
+
+                    <div class="row content" data-aos="fade-up">
+                    <div class="col-lg-6">
+                        <p>
+                        Career Empower mang sứ mệnh đưa ra các giải pháp toàn diện giúp sinh viên
+                        Đại học Kinh tế Quốc dân có được việc làm đúng ngành nghề với mức lương xứng
+                        đáng thông qua các sản phẩm mang tính cá nhân hóa và gắn bó xuyên suốt. Career
+                        Empower nỗ lực phát triên với tầm nhìn:
+                        </p>
+                        <ul>
+                        <li><i class="ri-check-double-line"></i> Trở thành đơn vị cung cấp giải pháp kết nối và phát triển nguồn nhân lực.</li>
+                        <li><i class="ri-check-double-line"></i> Kiếm việc làm cho 20.000 sinh viên đến năm 2026.</li>
+                        <li><i class="ri-check-double-line"></i> Trở thành đơn vị số một đồng hành cùng sinh viên ĐH Kinh tế Quốc dân.</li>
+                        <li><i class="ri-check-double-line"></i> Là đơn vị top đầu đào tạo kĩ năng gắn bó với sinh viên.</li>
+                        </ul>
+                        <a href="#" class="btn-learn-more">Tìm hiểu thêm</a>
+                    </div>
                         <div className="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay={200}>
-                            {/* <img src="assets/img/about.jpg" className="img-fluid" alt="" /> */}
                             <img src="./assets/img/home/3.jpg" className="img-fluid" alt="" />
                         </div>
                     </div>
+
                 </div>
             </section>
+ 
             {/* ======= Team Section ======= */}
             <section id="team" className="team">
                 <div className="container" data-aos="fade-up">
@@ -199,4 +205,4 @@ const Body_About = () => {
     )
 }
 
-export default Body_About
+export default BodyAbout
