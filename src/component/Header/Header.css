@@ -1,3 +1,5 @@
+@import url('../../root.css');
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -9,15 +11,15 @@
     transition: all 0.5s;
     z-index: 997;
     transition: all 0.5s;
-    background: rgba(42, 44, 57, 0.9);
+    background: var(--navbar-color);
 }
 
 #header.header-transparent {
-    background: rgba(42, 44, 57, 0.9);
+    background: var(--navbar-color);
 }
 
 #header.header-scrolled {
-    background: rgba(42, 44, 57, 0.9);
+    background: var(--navbar-color);
 }
 
 #header .logo h1 {
@@ -60,8 +62,8 @@
   }
   
   .appointment-btn:hover {
-    border: 2px solid #03ba00;
-    background: #03ba00;
+    border: 2px solid var(--login-btn-color);
+    background: var(--login-btn-color);
     color: #fff;
   }
   
