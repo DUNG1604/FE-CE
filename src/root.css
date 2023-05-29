@@ -1,0 +1,26 @@
+/* orange-dark-white */
+/* :root {
+  --hero-wave-color: linear-gradient(0deg, #2a2c39 0%, #33364a 100%);
+  --navbar-color: #33364afa;
+  --login-btn-color: #04bf01;
+  --check-item-color: #ef6603;
+  --read-btn-color: #ef6603;
+  --blue: #1977cc;
+  --orange: #ef6603;
+  --green: #006837;
+} */
+
+
+/* green-dark-white */
+:root {
+  --hero-wave-color: linear-gradient(0deg, #006837 0%, #33364a 100%);
+  --navbar-color: #33364afa;
+  --login-btn-color: #04bf01;
+  --check-item-color: #04bf01;
+  --read-btn-color: #ef6603;
+  --font-color: #04bf01;
+  --blue: #1977cc;
+  --orange: #ef6603;
+  --green: #006837;
+}
+
