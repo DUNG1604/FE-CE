@@ -2,7 +2,6 @@ import './Header.css'
 const Header = () => {
     return (
 
-
         <header id="header" className="fixed-top d-flex align-items-center header-transparent">
         <div className="container d-flex align-items-center">
 
