@@ -1,3 +1,4 @@
+import './hero.css'
 const Hero = () => {
     return (
         <section id="hero" className="d-flex flex-column justify-content-end align-items-center">

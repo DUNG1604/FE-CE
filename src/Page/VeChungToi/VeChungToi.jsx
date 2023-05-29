@@ -1,13 +1,13 @@
 import Header from "../../component/Header/Header"
-import Body_About from "../../component/Body_About/Body_About"
 import Footer from "../../component/Footer/Footer"
-import BackToTop from "../../component/back_to_top/back_to_top"
+import Hero from "../../component/hero_section/hero"
+import BodyAbout from "../../component/Body_About/Body_About"
 const VeChungToi = () => {
     return (
         <div>
             <Header></Header>
-            <Body_About></Body_About>
-
+            <Hero></Hero>
+            <BodyAbout></BodyAbout>
             <Footer></Footer>
 
         </div>
