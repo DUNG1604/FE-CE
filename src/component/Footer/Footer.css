@@ -117,14 +117,14 @@
     background: none;
     font-size: 16px;
     padding: 0 20px;
-    background: #1977cc;
+    background: var(--navbar-color);
     color: #fff;
     transition: 0.3s;
     border-radius: 50px;
   }
   
   #footer .footer-newsletter form input[type=submit]:hover {
-    background: #1c84e3;
+    background: var(--check-item-color);
   }
   
   #footer .credits {
@@ -136,7 +136,7 @@
   #footer .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #1977cc;
+    background: var(--navbar-color);
     color: #fff;
     line-height: 1;
     padding: 8px 0;
@@ -149,7 +149,7 @@
   }
   
   #footer .social-links a:hover {
-    background: #1c84e3;
+    background: var(--check-item-color);
     color: #fff;
     text-decoration: none;
   }
