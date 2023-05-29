@@ -1,3 +1,4 @@
+@import url('../../root.css');
 
 /*--------------------------------------------------------------
 # General
@@ -107,7 +108,7 @@ section {
     left: 0;
     top: 2px;
     font-size: 20px;
-    color: #ef6603;
+    color: var(--check-item-color);
     line-height: 1;
 }
 
@@ -125,15 +126,16 @@ section {
     border-radius: 5px;
     transition: 0.3s;
     line-height: 1;
-    color: #ef6603;
+    color: var(--check-item-color);
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
-    margin-top: 6px;
-    border: 2px solid #ef6603;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid var(--check-item-color);
 }
 
 .about .content .btn-learn-more:hover {
-    background: #ef6603;
+    background: var(--check-item-color);
     color: #fff;
     text-decoration: none;
 }
@@ -162,12 +164,12 @@ section {
   }
   
   .our-value .nav-link:hover {
-    color: #0fd219;
+    color: var(--font-color);
   }
   
   .our-value .nav-link.active {
-    color: #0fd219;
-    border-color: #0fd219;
+    color: var(--font-color);
+    border-color: var(--font-color);
   }
   
   .our-value .tab-pane.active {
