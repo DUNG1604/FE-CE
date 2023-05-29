@@ -171,60 +171,69 @@ const BodyAbout = () => {
             </div>
             </section>
 
- 
-         
-            {/* ======= Values Section ======= */}
-            <section id="testimonials" className="testimonials">
-                <div className="container" data-aos="fade-up">
-                    <header className="section-header">
-                        <h1 className='trietly'>Triết Lý Thương Hiệu</h1>
-                    </header>
+            {/* Philosophy */}
+            <section id="philosophy" class="philosophy">
+                <div class="container">
+
+                    <div class="section-title" data-aos="zoom-out">
+                    <h2>Phương châm</h2>
+                    <p>Triết lý thương hiệu</p>
+                    </div>
                     <div className="testimonial-item">
+                        <div className='testimonial-img'>
+                        <img src="./assets/img/home/logo_xanh.png" className="img-fluid" alt="" />                        
+                        </div>
                         <div className="stars">
                             <i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" />
                         </div>
+                        
+                        <div className='philosophy-content'>
                         <p className='trietly1'>
-                            "Tại CareerEmpower, nếu cảm thấy phù hợp, đây sẽ là sự nghiệp của bạn. Nếu không, CareerEmpower sẽ là bệ phóng của bạn trên con đường sự nghiệp."
+                            "Tại CareerEmpower, nếu cảm thấy phù hợp, đây sẽ là sự nghiệp của bạn.
                         </p>
+                        <p className='trietly1'>
+                            Nếu không, CareerEmpower sẽ là bệ phóng của bạn trên con đường sự nghiệp."
+                        </p> 
+                        </div>
+                        
                         <div className='trietly_icon'></div>
                     </div>
-                    {/* <div className="testimonials-slider swiper" > */}
-                    {/* <div className="swiper-wrapper">
-                        <div className="swiper-slide">
-                            <div className="testimonial-item">
-                                <div className="stars">
-                                    <i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" /><i className="bi bi-star-fill" />
-                                </div>
-                                <p>
-                                    Tại CareerEmpower, nếu cảm thấy phù hợp, đây sẽ là sự nghiệp của bạn. Nếu không, CareerEmpower sẽ là bệ phóng của bạn trên con đường sự nghiệp.
-                                </p>
-                                <div className="profile mt-auto">
-                                    <h3>Saul Goodman</h3>
-                                </div>
-                            </div>
 
-                        </div>
-                    </div> */}
+                    
                 </div>
-            </section>{/* End Testimonials Section */}
-            <section id="recent-blog-posts" className="recent-blog-posts">
-                <div className="container" data-aos="fade-up">
-                    {/* <header className="section-header">
-                        <h1 className='connguoi_title'>Con Người</h1>
-                    </header> */}
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="post-box">
-                                <div className="post-img conguoiimg"><img src="./assets/img/home/7.jpg" className="img-fluid" alt="" /></div>
-                                <span className="post-date">Tue, September 15</span>
-                                <div className='connguoi_title'>ĐỘI NGŨ CAREEREMPOWER LÀ NHỮNG CON NGƯỜI ĐAM MÊ, TÀI NĂNG VÀ KHÔNG NGẠI THỬ THÁCH</div>
-                                <p>Không ngừng học hỏi, khám phá những  điều mới mẻ để nâng cao kỹ năng và phục vụ khách hàng tốt nhất. Đến với CE, bạn sẽ được hỗ trợ bởi chuyên gia và cũng là người bạn thân thiết, đáng tin cậy, sẵn sàng đồng hành cùng bạn trong hành trình phát triển nghề nghiệp. </p>
-                            </div>
+            </section>
+
+            <section id="human-resource" class="human-resource">
+                <div class="container">
+
+                    <div class="section-title" data-aos="zoom-out">
+                    <h2>Nhân lực</h2>
+                    <p>Đội ngũ của chúng tôi</p>
+                    </div>
+
+                    <div class="row content" data-aos="fade-up">
+                    <div class="col-lg-5">
+                        <h3>
+                        Đội ngũ Career Empower là những con người có tài năng, hoài bão lớn và không ngại thử thách    
+                        </h3>
+                        <ul>
+                        <li><i class="ri-check-double-line"></i> Có năng lực chuyên môn cao trong đào tạo và quản lý nguồn nhân lực.</li>
+                        <li><i class="ri-check-double-line"></i> Thấu hiểu các bài toán khó của sinh viên, người đi làm và nhà tuyển dụng.</li>
+                        <li><i class="ri-check-double-line"></i> Năng động, sáng tạo và không ngừng đổi mới.</li>
+                        <li><i class="ri-check-double-line"></i> Không ngừng học hỏi, hoàn thiện, hướng đến đội ngũ chuyên nghiệp.</li>
+                        </ul>
+                        <p>
+                        Đến với Career Empower, bạn sẽ được hỗ trợ bởi chuyên gia thân thiện,
+                        đáng tin cậy, luôn sẵn sàng đồng hành cùng bạn trong hành trình phát triển nghề nghiệp
+                        </p>
+                    </div>
+                        <div className="col-lg-7 d-flex align-items-center" data-aos="zoom-out" data-aos-delay={200}>
+                            <img src="./assets/img/home/7.jpg" className="img-fluid" alt="" />
                         </div>
                     </div>
-                </div>
-            </section>{/* End Recent Blog Posts Section */}
 
+                </div>
+            </section>  
         </main>
     )
 }
