@@ -6,13 +6,13 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-md-6 footer-contact">
-                            <h3>CAREEREMPOWER</h3>
+                            {/* <h3>CAREEREMPOWER</h3> */}
+                            <div className='footer_img'></div>
                             <p>
-                                Số 1 Đại Cồ Việt <br />
-                                Hai Bà Trưng, Hà Nội<br />
+                                207 Giải Phóng, Đồng Tâm, Hai Bà Trưng, Hà Nội<br />
                                 {/* United States <br /><br /> */}
-                                <strong>Phone:</strong> +1 5589 55488 55<br />
-                                <strong>Email:</strong> info@example.com<br />
+                                <strong>Phone:</strong> 0888844426<br />
+                                <strong>Email:</strong> careerempower.neu@gmail.com<br />
                             </p>
                         </div>
                         <div className="col-lg-2 col-md-6 footer-links">
@@ -59,15 +59,14 @@ const Footer = () => {
                         © Copyright 2023 <strong><span>CareerEmpower</span></strong>. All Rights Reserved
                     </div>
                 </div>
-                <div className='links_social'>
-                    <div className="social-links text-center text-md-right pt-3 pt-md-0">
-                        <a href="#" className="twitter"><i className="bx bxl-twitter" /></a>
-                        <a href="#" className="facebook"><i className="bx bxl-facebook" /></a>
-                        <a href="#" className="instagram"><i className="bx bxl-instagram" /></a>
-                        <a href="#" className="google-plus"><i className="bx bxl-skype" /></a>
-                        <a href="#" className="linkedin"><i className="bx bxl-linkedin" /></a>
-                    </div>
+                {/* <div className='links_social'> */}
+                <div className="social-links text-center text-md-right pt-3 pt-md-0">
+                    {/* <a target='blank' href="" className="twitter"><i className="bx bxl-twitter" /></a> */}
+                    <a target='blank' href="https://www.facebook.com/CareerEmpower/ " className="facebook"><i className="bx bxl-facebook" /></a>
+                    <a target='blank' href="https://www.instagram.com/careerempower.company/ " className="instagram"><i className="bx bxl-instagram" /></a>
+                    <a target='blank' href="https://www.linkedin.com/company/91164917/admin/ " className="linkedin"><i className="bx bxl-linkedin" /></a>
                 </div>
+                {/* </div> */}
             </div>
         </footer>
 

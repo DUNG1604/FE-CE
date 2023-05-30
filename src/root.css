@@ -13,7 +13,7 @@
 
 /* green-dark-white */
 :root {
-  --hero-wave-color: linear-gradient(0deg, #006837 0%, #33364a 100%);
+  --hero-wave-color: linear-gradient(0deg, #006837 0%, #003A1D 100%);
   /* --navbar-color: #33364afa; */
   --navbar-color: #003A1D;
   --login-btn-color: #04bf01;

@@ -39,7 +39,7 @@ const BodyAbout = () => {
                 <div className="container">
                     <div className="section-title">
                         <h2>Giá trị</h2>
-                        <p>Giá trị chúng tôi mang lại</p>
+                        <p>Giá trị cốt lõi</p>
                     </div>
                     <div className="row gy-4">
                         <div className="col-lg-2">

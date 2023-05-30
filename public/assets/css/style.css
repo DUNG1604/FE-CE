@@ -1104,9 +1104,9 @@ h6 {
     background: transparent;
 }
 
-#header.header-scrolled {
-    background: rgba(42, 44, 57, 0.9);
-}
+/* #header.header-scrolled {
+    background: rgba(42, 44, 57);
+} */
 
 #header .logo h1 {
     font-size: 28px;
@@ -2537,7 +2537,7 @@ section {
     color: #fff;
     font-size: 14px;
     text-align: center;
-    padding: 30px 0;
+    padding: 3px 0;
 }
 
 #footer h3 {
@@ -2623,7 +2623,9 @@ section {
 } */
 
 #header.header-scrolled {
-    background: var(--navbar-color);
+    /* background: var(--navbar-color); */
+    background: #006837;
+    /* opacity: 0.9; */
 }
 
 #header .logo h1 {
