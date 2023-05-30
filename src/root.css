@@ -14,13 +14,15 @@
 /* green-dark-white */
 :root {
   --hero-wave-color: linear-gradient(0deg, #006837 0%, #33364a 100%);
-  --navbar-color: #33364afa;
+  /* --navbar-color: #33364afa; */
+  --navbar-color: #003A1D;
   --login-btn-color: #04bf01;
-  --check-item-color: #04bf01;
+  --check-item-color: #006837;
+  /* --check-item-color: --check-item-color: #006837; */
   --read-btn-color: #ef6603;
-  --font-color: #04bf01;
+  /* --font-color: #04bf01; */
+  --font-color: #006837;
   --blue: #1977cc;
   --orange: #ef6603;
   --green: #006837;
 }
-

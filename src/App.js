@@ -1,4 +1,4 @@
-import VeChungToi from "./page/VeChungToi/VeChungToi";
+import VeChungToi from "./Page/VeChungToi/VeChungToi";
 function App() {
   return (
     <div className="App">

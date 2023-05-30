@@ -146,13 +146,13 @@ section {
 --------------------------------------------------------------*/
 .our-value {
     overflow: hidden;
-  }
-  
-  .our-value .nav-tabs {
+}
+
+.our-value .nav-tabs {
     border: 0;
-  }
-  
-  .our-value .nav-link {
+}
+
+.our-value .nav-link {
     border: 0;
     padding: 18px 15px 12px 0;
     transition: 0.3s;
@@ -161,35 +161,35 @@ section {
     border-right: 2px solid #ebf1f6;
     font-weight: 600;
     font-size: 18px;
-  }
-  
-  .our-value .nav-link:hover {
+}
+
+.our-value .nav-link:hover {
     color: var(--font-color);
-  }
-  
-  .our-value .nav-link.active {
+}
+
+.our-value .nav-link.active {
     color: var(--font-color);
     border-color: var(--font-color);
-  }
-  
-  .our-value .tab-pane.active {
-    animation: fadeIn 0.5s ease-out;
-  }
+}
 
-  .our-value .member h3 {
+.our-value .tab-pane.active {
+    animation: fadeIn 0.5s ease-out;
+}
+
+.our-value .member h3 {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 10px;
     color: #2c4964;
-  }
+}
 
-  .our-value .member p {
+.our-value .member p {
     color: #777777;
-  }
-  
-  .our-value .details p:last-child {
+}
+
+.our-value .details p:last-child {
     margin-bottom: 0;
-  }
+}
 
 
 .our-value .member {
@@ -222,15 +222,16 @@ section {
 
 @media (max-width: 992px) {
     .our-value .nav-link {
-      border: 0;
-      padding: 15px;
+        border: 0;
+        padding: 15px;
     }
-  
+
     .our-value .nav-link.active {
-      color: #fff;
-      background: #1977cc;
+        color: #fff;
+        /* background: #1977cc; */
+        background: #006837;
     }
-  }
+}
 
 /*--------------------------------------------------------------
 # Philosophy
