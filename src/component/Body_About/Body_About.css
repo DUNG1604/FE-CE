@@ -25,7 +25,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Raleway", sans-serif;
+    /* font-family: "Raleway", sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -71,6 +72,12 @@ section {
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     color: #2a2c39;
+}
+
+@media (max-width: 400px) {
+    .section-title p {
+        font-size: 28px;
+    }
 }
 
 
@@ -352,7 +359,7 @@ section {
     left: 0;
     top: 2px;
     font-size: 20px;
-    color: #ef6603;
+    color: var(--check-item-color);
     line-height: 1;
 }
 
@@ -386,4 +393,16 @@ section {
 .human-resource .img-fluid {
     height: auto;
     margin-top: 30px;
+}
+
+.sumenhimg {
+    /* padding-top: 20px; */
+    width: 100%;
+    align-items: flex-start;
+}
+
+@media (max-width:990px) {
+    .sumenhimg {
+        padding-top: 20px;
+    }
 }

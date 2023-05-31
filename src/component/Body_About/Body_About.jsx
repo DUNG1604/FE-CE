@@ -15,10 +15,9 @@ const BodyAbout = () => {
                     <div class="row content" data-aos="fade-up">
                         <div class="col-lg-6">
                             <p>
-                                Career Empower mang sứ mệnh đưa ra các giải pháp toàn diện giúp sinh viên
+                                CareerEmpower mang sứ mệnh đưa ra các giải pháp toàn diện giúp sinh viên
                                 Đại học Kinh tế Quốc dân có được việc làm đúng ngành nghề với mức lương xứng
-                                đáng thông qua các sản phẩm mang tính cá nhân hóa và gắn bó xuyên suốt. Career
-                                Empower nỗ lực phát triên với tầm nhìn:
+                                đáng thông qua các sản phẩm mang tính cá nhân hóa và gắn bó xuyên suốt. CareerEmpower nỗ lực phát triên với tầm nhìn:
                             </p>
                             <ul>
                                 <li><i class="ri-check-double-line"></i> Trở thành đơn vị cung cấp giải pháp kết nối và phát triển nguồn nhân lực.</li>
@@ -28,8 +27,10 @@ const BodyAbout = () => {
                             </ul>
                             <a href="#" class="btn-learn-more">Tìm hiểu thêm</a>
                         </div>
-                        <div className="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay={200}>
-                            <img src="./assets/img/home/3.jpg" className="img-fluid" alt="" />
+                        {/* <div className="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay={200}> */}
+                        <div className="col-lg-6" data-aos="zoom-out" data-aos-delay={200}>
+                            {/* <img src="./assets/img/home/3.jpg" className="img-fluid" alt="" /> */}
+                            <img src="./assets/img/home/3.jpg" className="sumenhimg" alt="" />
                         </div>
                     </div>
 
@@ -48,7 +49,7 @@ const BodyAbout = () => {
                                     <a className="nav-link" data-bs-toggle="tab" href="#tab-1">Nội bộ</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link active show" data-bs-toggle="tab" href="#tab-2">Cho khách hàng</a>
+                                    <a className="nav-link active show" data-bs-toggle="tab" href="#tab-2">Khách hàng</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" data-bs-toggle="tab" href="#tab-3">Đối tác</a>
@@ -87,7 +88,7 @@ const BodyAbout = () => {
                                             <div className="member">
                                                 <div className="member-info">
                                                     <h3>Cân Bằng</h3>
-                                                    <p className='noibo_content'>Chú trọng sự cân bằng trong cuộc sống với tinh thần “Làm hết mình, chơi hêt sức”.</p>
+                                                    <p className='noibo_content'>Chú trọng sự cân bằng trong cuộc sống với tinh thần “Làm hết mình, chơi hết sức”.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -214,7 +215,7 @@ const BodyAbout = () => {
                     <div class="row content" data-aos="fade-up">
                         <div class="col-lg-5">
                             <h3>
-                                Đội ngũ Career Empower là những con người có tài năng, hoài bão lớn và không ngại thử thách
+                                Đội ngũ CareerEmpower là những con người có tài năng, hoài bão lớn và không ngại thử thách
                             </h3>
                             <ul>
                                 <li><i class="ri-check-double-line"></i> Có năng lực chuyên môn cao trong đào tạo và quản lý nguồn nhân lực.</li>
@@ -223,12 +224,14 @@ const BodyAbout = () => {
                                 <li><i class="ri-check-double-line"></i> Không ngừng học hỏi, hoàn thiện, hướng đến đội ngũ chuyên nghiệp.</li>
                             </ul>
                             <p>
-                                Đến với Career Empower, bạn sẽ được hỗ trợ bởi chuyên gia thân thiện,
+                                Đến với CareerEmpower, bạn sẽ được hỗ trợ bởi chuyên gia thân thiện,
                                 đáng tin cậy, luôn sẵn sàng đồng hành cùng bạn trong hành trình phát triển nghề nghiệp
                             </p>
                         </div>
-                        <div className="col-lg-7 d-flex align-items-center" data-aos="zoom-out" data-aos-delay={200}>
-                            <img src="./assets/img/home/7.jpg" className="img-fluid" alt="" />
+                        <div className="col-lg-7" data-aos="zoom-out" data-aos-delay={200}>
+                            {/* <img src="./assets/img/home/7.jpg" className="img-fluid" alt="" /> */}
+                            <img src="./assets/img/home/6.jpg" className="sumenhimg" alt="" />
+
                         </div>
                     </div>
 
