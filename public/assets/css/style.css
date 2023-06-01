@@ -29,6 +29,91 @@ h6 {
 }
 
 
+@import url('../../root.css');
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#header {
+    height: 70px;
+    /* padding: 15px 0; */
+
+    transition: all 0.5s;
+    z-index: 997;
+    transition: all 0.5s;
+    background: var(--navbar-color);
+}
+.header_logo {
+    background-image: url(../img/home/logo_trang.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 230px;
+}
+
+#header.header-transparent {
+    background: transparent;
+}
+
+#header.header-scrolled {
+    background: #006837;
+}
+
+#header .logo h1 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#header .logo h1 a,
+#header .logo h1 a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#header .logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 40px;
+}
+
+/**
+* Appointment Button *
+*/
+.appointment-btn {
+    background: none;
+    margin-left: 25px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    border: 2px solid #fff;
+}
+
+.appointment-btn:hover {
+    border: 2px solid var(--login-btn-color);
+    background: var(--login-btn-color);
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .appointment-btn {
+        margin: 0 15px 0 0;
+        padding: 6px 18px;
+    }
+}
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -241,7 +326,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-    color: #FF4E00;
+    color: #04bf01;
 }
 
 .navbar-mobile .getstarted {
@@ -275,7 +360,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-    color: #FF4E00;
+    color: #04bf01;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -1460,91 +1545,3 @@ section {
 }
 
 
-
-.header_logo {
-    background-image: url(../img/home/logo_trang.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 40px;
-    width: 230px;
-}
-
-
-/*  */
-/*  */
-@import url('../../root.css');
-
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-
-#header {
-    height: 70px;
-    /* padding: 15px 0; */
-
-    transition: all 0.5s;
-    z-index: 997;
-    transition: all 0.5s;
-    background: var(--navbar-color);
-}
-
-#header.header-transparent {
-    background: transparent;
-}
-
-#header.header-scrolled {
-    background: #006837;
-}
-
-#header .logo h1 {
-    font-size: 28px;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-#header .logo h1 a,
-#header .logo h1 a:hover {
-    color: #fff;
-    text-decoration: none;
-}
-
-#header .logo img {
-    padding: 0;
-    margin: 0;
-    max-height: 40px;
-}
-
-/**
-* Appointment Button *
-*/
-.appointment-btn {
-    background: none;
-    margin-left: 25px;
-    color: #fff;
-    border-radius: 10px;
-    padding: 8px 25px;
-    white-space: nowrap;
-    transition: 0.3s;
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    display: inline-block;
-    border: 2px solid #fff;
-}
-
-.appointment-btn:hover {
-    border: 2px solid var(--login-btn-color);
-    background: var(--login-btn-color);
-    color: #fff;
-}
-
-@media (max-width: 768px) {
-    .appointment-btn {
-        margin: 0 15px 0 0;
-        padding: 6px 18px;
-    }
-}
