@@ -99,6 +99,7 @@ section {
     list-style: none;
     padding: 0;
     font-size: 16px;
+    text-align: justify;
 }
 
 .about .content ul li {
@@ -163,7 +164,7 @@ section {
     border: 0;
     padding: 18px 15px 12px 0;
     transition: 0.3s;
-    color: #2c4964;
+    color: #363947;
     border-radius: 0;
     border-right: 2px solid #ebf1f6;
     font-weight: 600;
@@ -187,11 +188,12 @@ section {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #2c4964;
+    color: #363947;
 }
 
 .our-value .member p {
     color: #777777;
+    text-align: justify;
 }
 
 .our-value .details p:last-child {
@@ -335,7 +337,8 @@ section {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #2c4964;
+    color: #363947;
+    text-align: justify;
 }
 
 .human-resource .content p,
@@ -343,6 +346,7 @@ section {
     list-style: none;
     padding: 0;
     font-size: 16px;
+    text-align: justify;
 }
 
 .human-resource .content ul li {
