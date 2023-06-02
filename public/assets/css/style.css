@@ -1101,8 +1101,8 @@ h6 {
 }
 
 #header.header-transparent {
-    background: transparent;
-    /* background: #006837; */
+    /* background: transparent; */
+    background: #006837;
 }
 
 /* #header.header-scrolled {
@@ -1263,7 +1263,14 @@ h6 {
         display: block;
     }
 
+
     .navbar ul {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .navbarr {
         display: none;
     }
 }

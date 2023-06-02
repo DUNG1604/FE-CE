@@ -1,0 +1,11 @@
+.navbarr {
+    display: none;
+}
+
+@media screen and (min-width: 991px) {
+
+    .navbar-mobile,
+    .navbarr {
+        display: none;
+    }
+}

@@ -1,6 +1,6 @@
 import VeChungToi from "./Page/VeChungToi/VeChungToi";
 import DinhHuong from "./Page/DinhHuong/DinhHuong";
-import { Routes, Route, Link } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <div className="App">
