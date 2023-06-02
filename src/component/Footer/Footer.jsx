@@ -5,7 +5,7 @@ const Footer = () => {
             <div className="footer-top">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3 col-md-6 footer-contact">
+                        <div className="col-lg-4 col-md-6 footer-contact">
                             {/* <h3>CAREEREMPOWER</h3> */}
                             <div className='footer_img'></div>
                             <p>
@@ -26,14 +26,9 @@ const Footer = () => {
                                 <li><i className="bx bx-chevron-right" /> <a href="#">Chính sách bảo mật</a></li>
                             </ul>
                             <h4></h4>
-                            <h4> Đối tác</h4>
-                            <ul>
-                                <li><i className="bx bx-chevron-right" /> <a href="#">Đối tác 1</a></li>
-                                <li><i className="bx bx-chevron-right" /> <a href="#">Đối tác 2</a></li>
-                                <li><i className="bx bx-chevron-right" /> <a href="#">Đối tác 3</a></li>
-                            </ul>
+
                         </div>
-                        <div className="col-lg-3 col-md-6 footer-links">
+                        <div className="col-lg-2 col-md-6 footer-links">
                             <h4>Dịch vụ</h4>
                             <ul>
                                 <li><i className="bx bx-chevron-right" /> <a href="#">Đào tạo kĩ năng</a></li>
@@ -43,12 +38,13 @@ const Footer = () => {
                                 <li><i className="bx bx-chevron-right" /> <a href="#">Dịch vụ ...</a></li>
                             </ul>
                         </div>
-                        <div className="col-lg-4 col-md-6 footer-newsletter">
-                            <h4>Ý kiến phản hồi</h4>
-                            <p>Form phản hồi, form dành cho đăng kí hoặc mục đích khác. Hãy note lại thêm tính năng này nhé !</p>
-                            <form action method="post">
-                                <input type="email" name="email" /><input type="submit" defaultValue="Subscribe" />
-                            </form>
+                        <div className="col-lg-2 col-md-6 footer-links">
+                            <h4> Đối tác</h4>
+                            <ul>
+                                <li><i className="bx bx-chevron-right" /> <a href="#">Đối tác 1</a></li>
+                                <li><i className="bx bx-chevron-right" /> <a href="#">Đối tác 2</a></li>
+                                <li><i className="bx bx-chevron-right" /> <a href="#">Đối tác 3</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
