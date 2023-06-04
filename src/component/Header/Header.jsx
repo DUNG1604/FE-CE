@@ -1,5 +1,6 @@
 import { select, on } from "./Head"
 import { Link } from "react-router-dom"
+import React, { useEffect } from 'react';
 import './Header.css'
 const Header = () => {
     function handleClick(event) {
@@ -17,6 +18,21 @@ const Header = () => {
         const navb = document.querySelector('.navbarr')
         navb.style.display = 'none'
     }
+    useEffect(() => {
+        const selectHeader = document.querySelector('#header');
+        const headerScrolled = () => {
+            if (window.scrollY > 100) {
+                selectHeader.classList.add('header-scrolled')
+            } else {
+                selectHeader.classList.remove('header-scrolled')
+            }
+        }
+        window.addEventListener('load', headerScrolled)
+        document.addEventListener('scroll', headerScrolled)
+        return () => {
+            document.removeEventListener('scroll', headerScrolled)
+        }
+    }, []);
     return (
         <div>
             <div id="header_main">

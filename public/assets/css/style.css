@@ -55,8 +55,8 @@ h6 {
 }
 
 #header.header-transparent {
-    /* background: transparent; */
-    background: #006837;
+    background: transparent;
+    /* background: #006837; */
 }
 
 #header.header-scrolled {
