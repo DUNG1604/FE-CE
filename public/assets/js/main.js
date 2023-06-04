@@ -1,3 +1,10 @@
+/**
+* Template Name: Selecao
+* Updated: Mar 10 2023 with Bootstrap v5.2.3
+* Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
 (function () {
   "use strict";
 
@@ -84,7 +91,6 @@
     onscroll(document, headerScrolled)
   }
 
-
   /**
    * Back to top button
    */
@@ -104,9 +110,7 @@
   /**
    * Mobile nav toggle
    */
-
   on('click', '.mobile-nav-toggle', function (e) {
-    console.log("hello111")
     select('#navbar').classList.toggle('navbar-mobile')
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
@@ -116,7 +120,6 @@
    * Mobile nav dropdowns activate
    */
   on('click', '.navbar .dropdown > a', function (e) {
-    console.log("hello222")
     if (select('#navbar').classList.contains('navbar-mobile')) {
       e.preventDefault()
       this.nextElementSibling.classList.toggle('dropdown-active')

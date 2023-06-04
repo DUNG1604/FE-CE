@@ -2,7 +2,7 @@ import { select, on } from "./Head"
 import { Link } from "react-router-dom"
 import React, { useEffect } from 'react';
 import './Header.css'
-const Header = () => {
+const Header1 = () => {
     function handleClick(event) {
         event.preventDefault();
         const ul = event.currentTarget.nextElementSibling;
@@ -18,25 +18,10 @@ const Header = () => {
         const navb = document.querySelector('.navbarr')
         navb.style.display = 'none'
     }
-    useEffect(() => {
-        const selectHeader = document.querySelector('#header');
-        const headerScrolled = () => {
-            if (window.scrollY > 100) {
-                selectHeader.classList.add('header-scrolled')
-            } else {
-                selectHeader.classList.remove('header-scrolled')
-            }
-        }
-        window.addEventListener('load', headerScrolled)
-        document.addEventListener('scroll', headerScrolled)
-        return () => {
-            document.removeEventListener('scroll', headerScrolled)
-        }
-    }, []);
     return (
         <div>
-            <div id="header_main">
-                <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+            <div id="header_main1">
+                <header id="header" class="fixed-top d-flex align-items-center">
                     <div class="container d-flex align-items-center justify-content-between">
                         <div class="logo">
                             <h1>
@@ -205,4 +190,4 @@ const Header = () => {
         </div>
     )
 }
-export default Header
+export default Header1
