@@ -44,6 +44,7 @@ h6 {
     transition: all 0.5s;
     background: var(--navbar-color);
 }
+
 .header_logo {
     background-image: url(../img/home/logo_trang.png);
     background-position: left;
@@ -54,12 +55,8 @@ h6 {
 }
 
 #header.header-transparent {
-<<<<<<< HEAD
     /* background: transparent; */
     background: #006837;
-=======
-    background: transparent;
->>>>>>> 8035e8427bb6e3029d4d982f13f45045a49f5c90
 }
 
 #header.header-scrolled {
@@ -1557,3 +1554,27 @@ section {
 }
 
 
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 5px;
+    z-index: 996;
+    background: #ef6603;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+}
