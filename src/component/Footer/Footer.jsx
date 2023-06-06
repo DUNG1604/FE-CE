@@ -55,19 +55,19 @@ const Footer = () => {
                 <li>
                   <Link to="/Commingsoon">
                     <i className="bx bx-chevron-right" />
-                    <a href="#">Định hướng (Coming soon)</a>
+                    <a href="#">Định hướng</a>
                   </Link>
                 </li>
                 <li>
                   <Link to="/Commingsoon">
                     <i className="bx bx-chevron-right" />
-                    <a href="#">Đào tạo (Coming soon)</a>
+                    <a href="#">Đào tạo</a>
                   </Link>
                 </li>
                 <li>
                   <Link to="/Commingsoon">
                     <i className="bx bx-chevron-right" />
-                    <a href="#">Kết nối việc làm (Coming soon)</a>
+                    <a href="#">Kết nối việc làm</a>
                   </Link>
                 </li>
               </ul>
@@ -78,19 +78,19 @@ const Footer = () => {
                 <li>
                   <Link to="/Commingsoon">
                     <i className="bx bx-chevron-right" />
-                    <a href="#">Học bổng (Coming soon)</a>
+                    <a href="#">Học bổng</a>
                   </Link>
                 </li>
                 <li>
                   <Link to="/Commingsoon">
                     <i className="bx bx-chevron-right" />
-                    <a href="#">Sự kiện (Coming soon)</a>
+                    <a href="#">Sự kiện</a>
                   </Link>
                 </li>
                 <li>
                   <Link to="/Commingsoon">
                     <i className="bx bx-chevron-right" />
-                    <a href="#">Cuộc thi (Coming soon)</a>
+                    <a href="#">Cuộc thi</a>
                   </Link>
                 </li>
               </ul>
@@ -101,13 +101,13 @@ const Footer = () => {
                 <li>
                   <Link to="/Commingsoon">
                     <i className="bx bx-chevron-right" />
-                    <a href="#">Ứng tuyển (Coming soon)</a>
+                    <a href="#">Ứng tuyển</a>
                   </Link>
                 </li>
                 <li>
                   <Link to="/Commingsoon">
                     <i className="bx bx-chevron-right" />
-                    <a href="#">Hợp tác (Coming soon)</a>
+                    <a href="#">Hợp tác</a>
                   </Link>
                 </li>
               </ul>
