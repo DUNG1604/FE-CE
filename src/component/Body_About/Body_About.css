@@ -1,22 +1,22 @@
-@import url('../../root.css');
+@import url("../../root.css");
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 
 body {
-    font-family: "Open Sans", sans-serif;
-    color: #444444;
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
 }
 
 a {
-    color: #ef6603;
-    text-decoration: none;
+  color: #ef6603;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #fc8129;
-    text-decoration: none;
+  color: #fc8129;
+  text-decoration: none;
 }
 
 h1,
@@ -25,221 +25,241 @@ h3,
 h4,
 h5,
 h6 {
-    /* font-family: "Raleway", sans-serif; */
-    font-family: Arial, Helvetica, sans-serif;
+  /* font-family: "Raleway", sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
 }
-
 
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 
 section {
-    padding: 60px 0;
-    overflow: hidden;
+  padding: 60px 0;
+  overflow: hidden;
 }
 
 .section-title {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .section-title h2 {
-    font-size: 14px;
-    font-weight: 500;
-    padding: 0;
-    line-height: 1px;
-    margin: 0 0 5px 0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #aaaaaa;
-    font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Montserrat", sans-serif;
 }
 
 .section-title h2::after {
-    content: "";
-    width: 120px;
-    height: 1px;
-    display: inline-block;
-    background: #fd9042;
-    margin: 4px 10px;
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #fd9042;
+  margin: 4px 10px;
 }
 
 .section-title p {
-    margin: 0;
-    margin: 0;
-    font-size: 36px;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
-    color: #2a2c39;
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: #2a2c39;
 }
 
 @media (max-width: 400px) {
-    .section-title p {
-        font-size: 28px;
-    }
+  .section-title p {
+    font-size: 28px;
+  }
 }
-
 
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 
 .about {
-    padding-top: 80px;
+  padding-top: 80px;
 }
 
 .about .content h3 {
-    font-weight: 600;
-    font-size: 26px;
+  font-weight: 600;
+  font-size: 26px;
 }
 
 .about .content p,
 .about .content ul {
-    list-style: none;
-    padding: 0;
-    font-size: 16px;
-    text-align: justify;
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+  text-align: justify;
 }
 
 .about .content ul li {
-    padding-left: 28px;
-    position: relative;
+  padding-left: 28px;
+  position: relative;
 }
 
-.about .content ul li+li {
-    margin-top: 10px;
+.about .content ul li + li {
+  margin-top: 10px;
 }
 
 .about .content ul i {
-    position: absolute;
-    left: 0;
-    top: 2px;
-    font-size: 20px;
-    color: var(--check-item-color);
-    line-height: 1;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: var(--check-item-color);
+  line-height: 1;
 }
 
 .about .content p:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
+}
+.aligncenter {
+  align-items: center;
 }
 
 .about .content .btn-learn-more {
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 12px 32px;
-    border-radius: 5px;
-    transition: 0.3s;
-    line-height: 1;
-    color: var(--check-item-color);
-    -webkit-animation-delay: 0.8s;
-    animation-delay: 0.8s;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border: 2px solid var(--check-item-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 5px;
+  transition: 0.3s;
+  line-height: 1;
+  color: var(--check-item-color);
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 2px solid var(--check-item-color);
 }
-
+.about .container .items h3.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #363947;
+}
+.equal-height .col-lg-4 {
+  height: 100%;
+}
+.about .container .items {
+  display: inline-flex;
+  height: 100%;
+  padding: 30px 30px 0px 30px;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 1rem;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 20px 25px;
+  justify-content: flex-start;
+  align-items: center;
+}
 .about .content .btn-learn-more:hover {
-    background: var(--check-item-color);
-    color: #fff;
-    text-decoration: none;
+  background: var(--check-item-color);
+  color: #fff;
+  text-decoration: none;
 }
-
 
 /*--------------------------------------------------------------
 # Our-value
 --------------------------------------------------------------*/
 .our-value {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .our-value .nav-tabs {
-    border: 0;
+  border: 0;
 }
 
 .our-value .nav-link {
-    border: 0;
-    padding: 18px 15px 12px 0;
-    transition: 0.3s;
-    color: #363947;
-    border-radius: 0;
-    border-right: 2px solid #ebf1f6;
-    font-weight: 600;
-    font-size: 18px;
+  border: 0;
+  padding: 18px 15px 12px 0;
+  transition: 0.3s;
+  color: #363947;
+  border-radius: 0;
+  border-right: 2px solid #ebf1f6;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .our-value .nav-link:hover {
-    color: var(--font-color);
+  color: var(--font-color);
 }
 
 .our-value .nav-link.active {
-    color: var(--font-color);
-    border-color: var(--font-color);
+  color: var(--font-color);
+  border-color: var(--font-color);
 }
 
 .our-value .tab-pane.active {
-    animation: fadeIn 0.5s ease-out;
+  animation: fadeIn 0.5s ease-out;
 }
 
 .our-value .member h3 {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    color: #363947;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #363947;
 }
 
 .our-value .member p {
-    color: #777777;
-    text-align: justify;
+  color: #777777;
+  text-align: justify;
 }
 
 .our-value .details p:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-
 .our-value .member {
-    padding: 10px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 20px;
-    background: #fff;
-    box-shadow: 0 2px 29px 0 rgba(68, 88, 144, 0.12);
-    transition: all 0.4s ease-in-out;
-    width: 100%;
-    height: 100%;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 2px 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.4s ease-in-out;
+  width: 100%;
+  height: 100%;
 }
 
 .our-value .member:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 2px 35px 0 rgba(68, 88, 144, 0.2);
+  transform: translateY(-10px);
+  box-shadow: 0 2px 35px 0 rgba(68, 88, 144, 0.2);
 }
 
 .our-value .member .member-info {
-    padding: 15px 10px 0px 10px;
+  padding: 15px 10px 0px 10px;
 }
 
 .our-value .member .member-info p {
-    font-style: italic;
-    font-size: 14px;
-    line-height: 26px;
-    color: #777777;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
 }
 
 @media (max-width: 992px) {
-    .our-value .nav-link {
-        border: 0;
-        padding: 15px;
-    }
+  .our-value .nav-link {
+    border: 0;
+    padding: 15px;
+  }
 
-    .our-value .nav-link.active {
-        color: #fff;
-        /* background: #1977cc; */
-        background: #006837;
-    }
+  .our-value .nav-link.active {
+    color: #fff;
+    /* background: #1977cc; */
+    background: #006837;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -247,166 +267,164 @@ section {
 --------------------------------------------------------------*/
 
 .philosophy .testimonial-item {
-    box-sizing: content-box;
-    padding: 30px 50px 0 50px;
-    margin: 10px 0px;
-    text-align: center;
-    /* min-height: 280px; */
-    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  box-sizing: content-box;
+  padding: 30px 50px 0 50px;
+  margin: 10px 0px;
+  text-align: center;
+  /* min-height: 280px; */
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
 }
 
 .philosophy .testimonial-item .testimonial-img {
-    width: 70%;
-    border-radius: 50%;
-    border: 4px solid #fff;
-    margin: 0 auto;
+  width: 70%;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin: 0 auto;
 }
 
 .philosophy .testimonial-item .philosophy-content {
-    padding-top: 30px;
-    padding-bottom: 50px;
-    text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
-
 .philosophy .testimonial-item h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px 0 5px 0;
-    color: #111;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
 }
 
 .philosophy .testimonial-item h4 {
-    font-size: 14px;
-    color: #999;
-    margin: 0;
+  font-size: 14px;
+  color: #999;
+  margin: 0;
 }
 
 .philosophy .testimonial-item .quote-icon-left,
 .philosophy .testimonial-item .quote-icon-right {
-    color: #fedac0;
-    font-size: 26px;
+  color: #fedac0;
+  font-size: 26px;
 }
 
 .philosophy .testimonial-item .quote-icon-left {
-    display: inline-block;
-    left: -5px;
-    position: relative;
+  display: inline-block;
+  left: -5px;
+  position: relative;
 }
 
 .philosophy .testimonial-item .quote-icon-right {
-    display: inline-block;
-    right: -5px;
-    position: relative;
-    top: 10px;
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
 }
 
 .philosophy .testimonial-item p {
-    font-style: italic;
-    margin: 0 auto 0px auto;
-    font-size: 20px;
+  font-style: italic;
+  margin: 0 auto 0px auto;
+  font-size: 20px;
 }
 
 .philosophy .swiper-pagination {
-    margin-top: 20px;
-    position: relative;
+  margin-top: 20px;
+  position: relative;
 }
 
 .philosophy .swiper-pagination .swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    background-color: #fff;
-    opacity: 1;
-    border: 1px solid #ef6603;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #ef6603;
 }
 
 .philosophy .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #ef6603;
+  background-color: #ef6603;
 }
-
 
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 
 .human-resource {
-    padding-top: 80px;
+  padding-top: 80px;
 }
 
 .human-resource .content h3 {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    color: #363947;
-    text-align: justify;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #363947;
+  text-align: justify;
 }
 
 .human-resource .content p,
 .human-resource .content ul {
-    list-style: none;
-    padding: 0;
-    font-size: 16px;
-    text-align: justify;
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+  text-align: justify;
 }
 
 .human-resource .content ul li {
-    padding-left: 28px;
-    position: relative;
+  padding-left: 28px;
+  position: relative;
 }
 
-.human-resource .content ul li+li {
-    margin-top: 10px;
+.human-resource .content ul li + li {
+  margin-top: 10px;
 }
 
 .human-resource .content ul i {
-    position: absolute;
-    left: 0;
-    top: 2px;
-    font-size: 20px;
-    color: var(--check-item-color);
-    line-height: 1;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: var(--check-item-color);
+  line-height: 1;
 }
 
 .human-resource .content p:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .human-resource .content .btn-learn-more {
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 12px 32px;
-    border-radius: 5px;
-    transition: 0.3s;
-    line-height: 1;
-    color: #ef6603;
-    -webkit-animation-delay: 0.8s;
-    animation-delay: 0.8s;
-    margin-top: 6px;
-    border: 2px solid #ef6603;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 5px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #ef6603;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid #ef6603;
 }
 
 .human-resource .content .btn-learn-more:hover {
-    background: #ef6603;
-    color: #fff;
-    text-decoration: none;
+  background: #ef6603;
+  color: #fff;
+  text-decoration: none;
 }
 
 .human-resource .img-fluid {
-    height: auto;
-    margin-top: 30px;
+  height: auto;
+  margin-top: 30px;
 }
 
 .sumenhimg {
-    /* padding-top: 20px; */
-    width: 100%;
-    align-items: flex-start;
+  /* padding-top: 20px; */
+  width: 100%;
+  align-items: flex-start;
 }
 
-@media (max-width:990px) {
-    .sumenhimg {
-        padding-top: 20px;
-    }
+@media (max-width: 990px) {
+  .sumenhimg {
+    padding-top: 20px;
+  }
 }
