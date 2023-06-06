@@ -1,4 +1,6 @@
 import "./Footer.css";
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer id="footer">
@@ -41,7 +43,7 @@ const Footer = () => {
                   <i className="bx bx-chevron-right" />
                   <a href="#">
                     Con người
-                    <span class="sub"> (Tìm hiểu thêm - Page Life at CE)</span>
+                    <span class="sub"></span>(Tìm hiểu thêm - Page Life at CE)
                   </a>
                 </li>
               </ul>
@@ -51,16 +53,22 @@ const Footer = () => {
               <h4>Giải pháp</h4>
               <ul>
                 <li>
-                  <i className="bx bx-chevron-right" />
-                  <a href="#">Định hướng (Coming soon)</a>
+                  <Link to="/Commingsoon">
+                    <i className="bx bx-chevron-right" />
+                    <a href="#">Định hướng (Coming soon)</a>
+                  </Link>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right" />
-                  <a href="#">Đào tạo (Coming soon)</a>
+                  <Link to="/Commingsoon">
+                    <i className="bx bx-chevron-right" />
+                    <a href="#">Đào tạo (Coming soon)</a>
+                  </Link>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right" />
-                  <a href="#">Kết nối việc làm (Coming soon)</a>
+                  <Link to="/Commingsoon">
+                    <i className="bx bx-chevron-right" />
+                    <a href="#">Kết nối việc làm (Coming soon)</a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -68,16 +76,22 @@ const Footer = () => {
               <h4>Tin tức</h4>
               <ul>
                 <li>
-                  <i className="bx bx-chevron-right" />
-                  <a href="#">Học bổng (Coming soon)</a>
+                  <Link to="/Commingsoon">
+                    <i className="bx bx-chevron-right" />
+                    <a href="#">Học bổng (Coming soon)</a>
+                  </Link>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right" />
-                  <a href="#">Sự kiện (Coming soon)</a>
+                  <Link to="/Commingsoon">
+                    <i className="bx bx-chevron-right" />
+                    <a href="#">Sự kiện (Coming soon)</a>
+                  </Link>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right" />
-                  <a href="#">Cuộc thi (Coming soon)</a>
+                  <Link to="/Commingsoon">
+                    <i className="bx bx-chevron-right" />
+                    <a href="#">Cuộc thi (Coming soon)</a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -85,12 +99,16 @@ const Footer = () => {
               <h4>Liên hệ</h4>
               <ul>
                 <li>
-                  <i className="bx bx-chevron-right" />
-                  <a href="#">Ứng tuyển (Coming soon)</a>
+                  <Link to="/Commingsoon">
+                    <i className="bx bx-chevron-right" />
+                    <a href="#">Ứng tuyển (Coming soon)</a>
+                  </Link>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right" />
-                  <a href="#">Hợp tác (Coming soon)</a>
+                  <Link to="/Commingsoon">
+                    <i className="bx bx-chevron-right" />
+                    <a href="#">Hợp tác (Coming soon)</a>
+                  </Link>
                 </li>
               </ul>
             </div>
