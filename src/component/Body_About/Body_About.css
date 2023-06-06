@@ -120,6 +120,7 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+  
 }
 .aligncenter {
   align-items: center;
@@ -167,6 +168,7 @@ section {
   padding: 20px 25px;
   justify-content: flex-start;
   align-items: center;
+  text-align: justify;
 }
 
 

@@ -22,7 +22,7 @@ const Hero = () => {
                 {/* Slide 3 */}
                 <div className="carousel-item">
                     <div className="carousel-container">
-                        <h2 className="animate__animated animate__fadeInDown"><span>NEU JOBS & INTERNSHIPS <br></br>CƠ HỘI VIỆC LÀM, THỰC TẬP CHO GEN Z TẠI NEU</span></h2>
+                        <h2 className="animate__animated animate__fadeInDown"><span>NEU JOBS & INTERNSHIPS <br></br>Cơ hội việc làm, thực tập cho Gen Z tại NEU</span></h2>
                         <p className="animate__animated animate__fadeInUp">Group việc làm lớn nhất NEU với hơn 100k thành viên dành riêng cho sinh viên trường Đại học Kinh tế Quốc dân được thành lập bởi CareerEmpower với sứ mệnh kết nối việc làm đúng sở thích với mức lương xứng đáng. Đây là nơi chia sẻ kinh nghiệm, kiến thức và thông tin hữu ích về thị trường lao động, quy trình tuyển dụng và phát triển nghề nghiệp.</p>
                         <a href=" https://www.facebook.com/groups/careerempower "target="_blank" className="btn-get-started animate__animated animate__fadeInUp scrollto">Tham gia ngay!</a>
                     </div>
