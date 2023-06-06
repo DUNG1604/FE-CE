@@ -373,10 +373,9 @@ const BodyAbout = () => {
           <div class="row content" data-aos="fade-up">
             <div class="col-lg-5">
               <h3>
-                Đội ngũ CareerEmpower là những con người có tài năng, hoài bão
-                lớn và không ngại thử thách
+              CareerEmpower tự hào sở hữu đội ngữ nhân sự nhiệt huyết, giàu trải nghiệm và luôn sẵn sằng đón nhận thách thức.
               </h3>
-              <ul>
+              {/* <ul>
                 <li>
                   <i class="ri-check-double-line"></i> Có năng lực chuyên môn
                   cao trong đào tạo và quản lý nguồn nhân lực.
@@ -393,12 +392,13 @@ const BodyAbout = () => {
                   <i class="ri-check-double-line"></i> Không ngừng học hỏi, hoàn
                   thiện, hướng đến đội ngũ chuyên nghiệp.
                 </li>
-              </ul>
+              </ul> */}
               <p>
-                Đến với CareerEmpower, bạn sẽ được hỗ trợ bởi chuyên gia thân
-                thiện, đáng tin cậy, luôn sẵn sàng đồng hành cùng bạn trong hành
-                trình phát triển nghề nghiệp
+              Chúng tôi không ngừng cập nhật kiến thức, khai thác những xu hướng mới để nâng cao năng lực và mang đến cho khách hàng những dịch vụ chất lượng nhất. Khi đến với CareerEmpower, bạn sẽ được đồng hành bởi những người bạn tận tâm, chia sẻ và tin cậy, luôn sát cánh cùng bạn trong quá trình phát triển sự nghiệp.
               </p>
+              <a href="https://www.facebook.com/LifeatCareerEmpower"  target="_blank" rel="noopener noreferrer" class="btn-learn-more">
+                Tìm hiểu thêm
+              </a>
             </div>
             <div className="col-lg-7" data-aos="zoom-out" data-aos-delay={200}>
               {/* <img src="./assets/img/home/7.jpg" className="img-fluid" alt="" /> */}
