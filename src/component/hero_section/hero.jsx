@@ -24,7 +24,7 @@ const Hero = () => {
                     <div className="carousel-container">
                         <h2 className="animate__animated animate__fadeInDown">NEU JOBS AND INTERNSHIPS - CƠ HỘI VIỆC LÀM, THỰC TẬP CHO GEN Z TẠI NEU</h2>
                         <p className="animate__animated animate__fadeInUp">Group việc làm lớn nhất NEU với hơn 100k thành viên dành riêng cho sinh viên trường Đại học Kinh tế Quốc dân được thành lập bởi CareerEmpower với sứ mệnh kết nối việc làm đúng sở thích với mức lương xứng đáng. Đây là nơi chia sẻ kinh nghiệm, kiến thức và thông tin hữu ích về thị trường lao động, quy trình tuyển dụng và phát triển nghề nghiệp.</p>
-                        <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                        <a href=" https://www.facebook.com/groups/careerempower " className="btn-get-started animate__animated animate__fadeInUp scrollto">Tham gia ngay!</a>
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
