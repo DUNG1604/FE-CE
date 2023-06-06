@@ -207,7 +207,8 @@ const Header = () => {
                                     </Link>
                                     <ul>
                                         <li>
-                                            <a href="#">Ứng tuyển</a>
+                                            <Link to="/ungtuyen">Ứng tuyển</Link>
+
                                         </li>
                                         <li>
                                             <a href="#">Hợp tác</a>
@@ -376,7 +377,7 @@ const Header = () => {
                         </a>
                         <ul>
                             <li>
-                                <a href="#">Ứng tuyển</a>
+                                <Link to="/ungtuyen">Ứng tuyển</Link>
                             </li>
                             <li>
                                 <a href="#">Hợp tác</a>

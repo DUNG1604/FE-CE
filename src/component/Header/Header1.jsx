@@ -189,7 +189,7 @@ const Header1 = () => {
                   </Link>
                   <ul>
                     <li>
-                      <a href="#">Ứng tuyển</a>
+                      <Link to="/ungtuyen">Ứng tuyển</Link>
                     </li>
                     <li>
                       <a href="#">Hợp tác</a>
