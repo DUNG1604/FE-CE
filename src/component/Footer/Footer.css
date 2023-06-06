@@ -173,10 +173,11 @@
 }
 
 .footer_img {
-  background-image: url(../../../public/data/imgs/logo_xanh.png);
+  background-image: url(../../../public/assets/img/home/logo_xanh.png);
   background-size: contain;
   background-position: left;
   width: 100%;
-  height: 30px;
+  height: 25px;
   background-repeat: no-repeat;
+  margin-bottom: 10px;
 }
