@@ -1,7 +1,7 @@
 import VeChungToi from "./Page/VeChungToi/VeChungToi";
 import DinhHuong from "./Page/DinhHuong/DinhHuong";
-import UngTuyenPage from "./Page/UngTuyen/UngTuyenPage";
-import { Routes, Route } from 'react-router-dom'
+import Commingsoon from "./Page/DinhHuong/Commingsoon";
+import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
@@ -9,20 +9,13 @@ function App() {
       <Routes>
         <Route path="/" element={<VeChungToi />} />
         <Route path="/dinhhuong" element={<DinhHuong />} />
-        <Route path="/ungtuyen" element={<UngTuyenPage />} />
+        <Route path="/Commingsoon" element={<Commingsoon />} />
       </Routes>
     </div>
   );
 }
 
 export default App;
-
-
-
-
-
-
-
 
 // import logo from './logo.svg';
 // import './App.css';

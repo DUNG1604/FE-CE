@@ -1,6 +1,6 @@
 import Header1 from "../../component/Header/Header1";
 import "./Dinhhuong.css";
-const DinhHuong = () => {
+const Commingsoon = () => {
   return (
     <div>
       <Header1></Header1>
@@ -8,4 +8,4 @@ const DinhHuong = () => {
     </div>
   );
 };
-export default DinhHuong;
+export default Commingsoon;
