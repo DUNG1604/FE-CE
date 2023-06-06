@@ -1,5 +1,6 @@
 import VeChungToi from "./Page/VeChungToi/VeChungToi";
 import DinhHuong from "./Page/DinhHuong/DinhHuong";
+import UngTuyenPage from "./Page/UngTuyen/UngTuyenPage";
 import { Routes, Route } from 'react-router-dom'
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<VeChungToi />} />
         <Route path="/dinhhuong" element={<DinhHuong />} />
+        <Route path="/ungtuyen" element={<UngTuyenPage />} />
       </Routes>
     </div>
   );
