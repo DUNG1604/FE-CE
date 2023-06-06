@@ -148,9 +148,6 @@ section {
   margin-bottom: 10px;
   color: #363947;
 }
-.equal-height .col-lg-4 {
-  height: 100%;
-}
 .about .container .items {
   display: inline-flex;
   height: 100%;
