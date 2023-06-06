@@ -41,9 +41,9 @@ const Footer = () => {
                 </li>
                 <li>
                   <i className="bx bx-chevron-right" />
-                  <a href="#">
+                  <a href="https://www.facebook.com/LifeatCareerEmpower" target="_blank" rel="noopener noreferrer">
                     Con người
-                    <span class="sub"></span>(Tìm hiểu thêm - Page Life at CE)
+                    {/* <span class="sub"></span>(Tìm hiểu thêm - Page Life at CE) */}
                   </a>
                 </li>
               </ul>
