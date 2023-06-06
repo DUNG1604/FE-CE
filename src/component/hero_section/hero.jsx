@@ -14,16 +14,16 @@ const Hero = () => {
                 {/* Slide 2 */}
                 <div className="carousel-item">
                     <div className="carousel-container">
-                        <h2 className="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                        <p className="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                        <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                        <h2 className="animate__animated animate__fadeInDown">DỰ ÁN “MÙA HÈ KHÔNG HỐI TIẾC”</h2>
+                        <p className="animate__animated animate__fadeInUp">Dự án dành riêng cho các bạn sinh viên trường Đại học Kinh tế Quốc dân, với nhiều vị trí hấp dẫn như: Content Marketing, Designer, Event, KOLs Nhân sự, Leader Truyền thông, Quay, dựng video Tiktok,... Bạn sẽ có cơ hội trải nghiệm làm việc trong môi trường chuyên nghiệp, sáng tạo và năng động, cùng với những người bạn đồng hành tài năng và nhiệt huyết. Liệu bạn có đủ can đảm để trở thành nhân tố khiến “Mùa hè không hối tiếc” trở thành ngọn lửa rực cháy trong mùa hè này?</p>
+                        <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Tìm hiểu ngay!</a>
                     </div>
                 </div>
                 {/* Slide 3 */}
                 <div className="carousel-item">
                     <div className="carousel-container">
-                        <h2 className="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-                        <p className="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                        <h2 className="animate__animated animate__fadeInDown">NEU JOBS AND INTERNSHIPS - CƠ HỘI VIỆC LÀM, THỰC TẬP CHO GEN Z TẠI NEU</h2>
+                        <p className="animate__animated animate__fadeInUp">Group việc làm lớn nhất NEU với hơn 100k thành viên dành riêng cho sinh viên trường Đại học Kinh tế Quốc dân được thành lập bởi CareerEmpower với sứ mệnh kết nối việc làm đúng sở thích với mức lương xứng đáng. Đây là nơi chia sẻ kinh nghiệm, kiến thức và thông tin hữu ích về thị trường lao động, quy trình tuyển dụng và phát triển nghề nghiệp.</p>
                         <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                     </div>
                 </div>
