@@ -1,6 +1,5 @@
 import VeChungToi from "./Page/VeChungToi/VeChungToi";
 import DinhHuong from "./Page/DinhHuong/DinhHuong";
-import Commingsoon from "./Page/DinhHuong/Commingsoon";
 import UngTuyenPage from "./Page/UngTuyen/UngTuyenPage";
 import { Routes, Route } from "react-router-dom";
 function App() {
@@ -10,8 +9,8 @@ function App() {
       <Routes>
         <Route path="/" element={<VeChungToi />} />
         <Route path="/dinhhuong" element={<DinhHuong />} />
-        <Route path="/Commingsoon" element={<Commingsoon />} />
         <Route path="/ungtuyen" element={<UngTuyenPage />} />
+        <Route path="/Commingsoon" element={<DinhHuong />} />
       </Routes>
     </div>
   );

@@ -61,10 +61,10 @@ const Header = () => {
                                     </Link>
                                     <ul>
                                         <li>
-                                            <a href="#about">Sứ mệnh</a>
+                                            <a href="#mission">Sứ mệnh</a>
                                         </li>
                                         <li>
-                                            <a href="#about">Tầm nhìn</a>
+                                            <a href="#vision">Tầm nhìn</a>
                                         </li>
                                         <li>
                                             <a href="#our-value">Giá trị cốt lõi</a>
