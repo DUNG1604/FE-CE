@@ -84,10 +84,14 @@ const Header = () => {
                                     </Link>
                                     <ul>
                                         <li>
+                                            <Link to= "/Commingsoon">
                                             <a href="#">Công cụ</a>
+                                            </Link> 
                                         </li>
                                         <li>
+                                        <Link to= "/Commingsoon">
                                             <a href="#">Mentor</a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </li>
@@ -103,16 +107,24 @@ const Header = () => {
                                             </a>
                                             <ul>
                                                 <li>
+                                                <Link to= "/Commingsoon">
                                                     <a href="#">Khóa học</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
+                                                <Link to= "/Commingsoon">
                                                     <a href="#">Ebook</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
+                                                <Link to= "/Commingsoon">
                                                     <a href="#">Bài viết</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
+                                                <Link to= "/Commingsoon">
                                                     <a href="#">Video</a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </li>
@@ -123,16 +135,24 @@ const Header = () => {
                                             </a>
                                             <ul>
                                                 <li>
+                                                <Link to= "/Commingsoon">
                                                     <a href="#">Khóa học</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
+                                                <Link to= "/Commingsoon">
                                                     <a href="#">Ebook</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
+                                                <Link to= "/Commingsoon">
                                                     <a href="#">Bài viết</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
+                                                <Link to= "/Commingsoon">
                                                     <a href="#">Video</a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </li>
@@ -143,16 +163,24 @@ const Header = () => {
                                             </a>
                                             <ul>
                                                 <li>
+                                                <Link to= "/Commingsoon">
                                                     <a href="#">Khóa học</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
+                                                <Link to= "/Commingsoon">
                                                     <a href="#">Ebook</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
+                                                <Link to= "/Commingsoon">
                                                     <a href="#">Bài viết</a>
+                                                    </Link>
                                                 </li>
                                                 <li>
+                                                <Link to= "/Commingsoon">
                                                     <a href="#">Video</a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </li>
@@ -191,13 +219,19 @@ const Header = () => {
                                     </Link>
                                     <ul>
                                         <li>
+                                        <Link to= "/Commingsoon">
                                             <a href="#">Học bổng</a>
+                                            </Link>
                                         </li>
                                         <li>
+                                        <Link to= "/Commingsoon">
                                             <a href="#">Sự kiện</a>
+                                            </Link>
                                         </li>
                                         <li>
+                                        <Link to= "/Commingsoon">
                                             <a href="#">Cuộc thi</a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </li>
@@ -256,10 +290,14 @@ const Header = () => {
                         </a>
                         <ul>
                             <li>
+                            <Link to= "/Commingsoon">
                                 <a href="#">Công cụ</a>
+                                </Link>
                             </li>
                             <li>
+                            <Link to= "/Commingsoon">
                                 <a href="#">Mentor</a>
+                                </Link>
                             </li>
                         </ul>
                     </li>
@@ -275,16 +313,24 @@ const Header = () => {
                                 </a>
                                 <ul>
                                     <li>
+                                    <Link to= "/Commingsoon">
                                         <a href="#">Khóa học</a>
+                                        </Link>
                                     </li>
                                     <li>
+                                    <Link to= "/Commingsoon">
                                         <a href="#">Ebook</a>
+                                        </Link>
                                     </li>
                                     <li>
+                                    <Link to= "/Commingsoon">
                                         <a href="#">Bài viết</a>
+                                        </Link>
                                     </li>
                                     <li>
+                                    <Link to= "/Commingsoon">
                                         <a href="#">Video</a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </li>
@@ -294,16 +340,24 @@ const Header = () => {
                                 </a>
                                 <ul>
                                     <li>
+                                    <Link to= "/Commingsoon">
                                         <a href="#">Khóa học</a>
+                                        </Link>
                                     </li>
                                     <li>
+                                    <Link to= "/Commingsoon">
                                         <a href="#">Ebook</a>
+                                        </Link>
                                     </li>
                                     <li>
+                                    <Link to= "/Commingsoon">
                                         <a href="#">Bài viết</a>
+                                        </Link>
                                     </li>
                                     <li>
+                                    <Link to= "/Commingsoon">
                                         <a href="#">Video</a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </li>
@@ -314,16 +368,24 @@ const Header = () => {
                                 </a>
                                 <ul>
                                     <li>
+                                    <Link to= "/Commingsoon">
                                         <a href="#">Khóa học</a>
+                                        </Link>
                                     </li>
                                     <li>
+                                    <Link to= "/Commingsoon">
                                         <a href="#">Ebook</a>
+                                        </Link>
                                     </li>
                                     <li>
+                                    <Link to= "/Commingsoon">
                                         <a href="#">Bài viết</a>
+                                        </Link>
                                     </li>
                                     <li>
+                                    <Link to= "/Commingsoon">
                                         <a href="#">Video</a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </li>
@@ -361,13 +423,19 @@ const Header = () => {
                         </a>
                         <ul>
                             <li>
+                            <Link to= "/Commingsoon">
                                 <a href="#">Học bổng</a>
+                                </Link>
                             </li>
                             <li>
+                            <Link to= "/Commingsoon">
                                 <a href="#">Sự kiện</a>
+                                </Link>
                             </li>
                             <li>
+                            <Link to= "/Commingsoon">
                                 <a href="#">Cuộc thi</a>
+                                </Link>
                             </li>
                         </ul>
                     </li>
