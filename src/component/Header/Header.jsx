@@ -56,9 +56,9 @@ const Header = () => {
                                     </Link>
                                 </li>
                                 <li class="dropdown">
-                                    <Link to="/">
-                                        <span>Về chúng tôi</span> <i class="bi bi-chevron-down"></i>
-                                    </Link>
+                                    <a href="#mission">
+                                        <span href="#mission">Về chúng tôi</span> <i class="bi bi-chevron-down"></i>
+                                    </a>
                                     <ul>
                                         <li>
                                             <a href="#mission">Sứ mệnh</a>
