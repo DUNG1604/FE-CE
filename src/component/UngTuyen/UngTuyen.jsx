@@ -1,5 +1,6 @@
 import './UngTuyen.css'
 import React, { useState } from "react";
+import $ from 'jquery'
 const UngTuyen = () => {
     const [hovaten, setHovaten] = useState("")
     const [email, setEmail] = useState("")
@@ -41,6 +42,14 @@ const UngTuyen = () => {
             linkfb: linkfb,
             ungtuyen: ungtuyen
         }
+        var url = 'https://script.google.com/macros/s/AKfycbxqb7x0p0Y9pZk9-eP9tfwavnT0OdO6ETOOI1kPBOfAvZ-vDVx2yT65rHfEtf22bq-g/exec';
+
+        $.ajax({
+            url: url,
+            method: "GET",
+            dataType: "json",
+            data: newUse
+        });
         console.log(newUse)
         alert("Gửi thành công !")
         setCourse("")
