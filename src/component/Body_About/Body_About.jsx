@@ -69,8 +69,12 @@ const BodyAbout = () => {
           <div class="row content aligncenter" data-aos="fade-up">
             {/* <div className="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay={200}> */}
             <div className="col-lg-6" data-aos="zoom-out" data-aos-delay={200}>
-              {/* <img src="./assets/img/home/3.jpg" className="img-fluid" alt="" /> */}
-              <img src="./assets/img/home/3.jpg" className="sumenhimg" alt="" />
+              {/* <img src="src="./assets/img/home/VechungtoiImg.jpg"" className="img-fluid" alt="" /> */}
+              <img
+                src="./assets/img/home/VechungtoiImg2.jpg"
+                className="sumenhimg"
+                alt=""
+              />
             </div>
             <div class="col-lg-6">
               <p>
