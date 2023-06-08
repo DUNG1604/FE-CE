@@ -106,34 +106,6 @@ const Header = () => {
                                     <ul>
                                         <li class="dropdown">
                                             <a href="#">
-                                                <span>Định hướng sự nghiệp</span>{" "}
-                                                <i class="bi bi-chevron-right"></i>
-                                            </a>
-                                            <ul>
-                                                <li>
-                                                    <Link to="/Commingsoon">
-                                                        <a href="#">Khóa học</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/Commingsoon">
-                                                        <a href="#">Ebook</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/Commingsoon">
-                                                        <a href="#">Bài viết</a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/Commingsoon">
-                                                        <a href="#">Video</a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#">
                                                 <span>Kỹ năng mềm</span>{" "}
                                                 <i class="bi bi-chevron-right"></i>
                                             </a>
@@ -310,34 +282,6 @@ const Header = () => {
                             <span>Đào tạo</span> <i class="bi bi-chevron-down"></i>
                         </a>
                         <ul>
-                            <li class="dropdown">
-                                <a href="#">
-                                    <span>Định hướng sự nghiệp</span>{" "}
-                                    <i class="bi bi-chevron-right"></i>
-                                </a>
-                                <ul>
-                                    <li>
-                                        <Link to="/Commingsoon">
-                                            <a href="#">Khóa học</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/Commingsoon">
-                                            <a href="#">Ebook</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/Commingsoon">
-                                            <a href="#">Bài viết</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/Commingsoon">
-                                            <a href="#">Video</a>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </li>
                             <li class="dropdown">
                                 <a href="#">
                                     <span>Kỹ năng mềm</span> <i class="bi bi-chevron-right"></i>
