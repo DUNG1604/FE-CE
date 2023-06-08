@@ -25,25 +25,25 @@ const Footer = () => {
               <ul>
                 <li>
                   <i className="bx bx-chevron-right" />
-                  <a href="#about">Sứ mệnh</a>
+                  <a href="#mission">Sứ mệnh</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right" />
-                  <a href="#">Tầm nhìn</a>
+                  <a href="#vision">Tầm nhìn</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right" />
-                  <a href="#">Giá trị cốt lõi</a>
+                  <a href="#our-value">Giá trị cốt lõi</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right" />
-                  <a href="#">Triết lý thương hiệu</a>
+                  <a href="#philosophy">Triết lý thương hiệu</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right" />
-                  <a href="#">
+                  <a href="https://www.facebook.com/LifeatCareerEmpower" target="_blank" rel="noopener noreferrer">
                     Con người
-                    <span class="sub"></span>(Tìm hiểu thêm - Page Life at CE)
+                    {/* <span class="sub"></span>(Tìm hiểu thêm - Page Life at CE) */}
                   </a>
                 </li>
               </ul>
