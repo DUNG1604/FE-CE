@@ -72,9 +72,7 @@ const Header1 = () => {
                   </Link>
                   <ul>
                     <li>
-                      <Link to="/Commingsoon">
-                        <a href="#">Công cụ</a>
-                      </Link>
+                      <Link to="/Commingsoon"><a href="#">Công cụ</a></Link>
                     </li>
                     <li>
                       <Link to="/Commingsoon">
@@ -88,34 +86,6 @@ const Header1 = () => {
                     <span>Đào tạo</span> <i class="bi bi-chevron-down"></i>
                   </Link>
                   <ul>
-                    <li class="dropdown">
-                      <a href="#">
-                        <span>Định hướng sự nghiệp</span>{" "}
-                        <i class="bi bi-chevron-right"></i>
-                      </a>
-                      <ul>
-                        <li>
-                          <Link to="/Commingsoon">
-                            <a href="#">Khóa học</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/Commingsoon">
-                            <a href="#">Ebook</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/Commingsoon">
-                            <a href="#">Bài viết</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/Commingsoon">
-                            <a href="#">Video</a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
                     <li class="dropdown">
                       <a href="#">
                         <span>Kỹ năng mềm</span>{" "}
@@ -189,10 +159,14 @@ const Header1 = () => {
                       </a>
                       <ul>
                         <li>
+                          <Link to="/Commingsoon">  
                           <a href="#">Tìm việc</a>
+                          </Link>
                         </li>
                         <li>
+                          <Link to="/Commingsoon">
                           <a href="#">Tạo CV</a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -232,7 +206,9 @@ const Header1 = () => {
                       <Link to="/ungtuyen">Ứng tuyển</Link>
                     </li>
                     <li>
+                      <Link to="/Commingsoon">
                       <a href="#">Hợp tác</a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -277,9 +253,7 @@ const Header1 = () => {
             </a>
             <ul>
               <li>
-                <Link to="/Commingsoon">
-                  <a href="#">Công cụ</a>
-                </Link>
+              <Link to="/Commingsoon"><a href="#">Công cụ</a></Link>
               </li>
               <li>
                 <Link to="/Commingsoon">
@@ -293,34 +267,6 @@ const Header1 = () => {
               <span>Đào tạo</span> <i class="bi bi-chevron-down"></i>
             </a>
             <ul>
-              <li class="dropdown">
-                <a href="#">
-                  <span>Định hướng sự nghiệp</span>{" "}
-                  <i class="bi bi-chevron-right"></i>
-                </a>
-                <ul>
-                  <li>
-                    <Link to="/Commingsoon">
-                      <a href="#">Khóa học</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/Commingsoon">
-                      <a href="#">Ebook</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/Commingsoon">
-                      <a href="#">Bài viết</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/Commingsoon">
-                      <a href="#">Video</a>
-                    </Link>
-                  </li>
-                </ul>
-              </li>
               <li class="dropdown">
                 <a href="#">
                   <span>Kỹ năng mềm</span> <i class="bi bi-chevron-right"></i>
@@ -392,10 +338,14 @@ const Header1 = () => {
                 </a>
                 <ul>
                   <li>
+                    <Link to="/Commingsoon">
                     <a href="#">Tìm việc</a>
+                    </Link>
                   </li>
                   <li>
+                    <Link to="/Commingsoon">
                     <a href="#">Tạo CV</a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -435,7 +385,9 @@ const Header1 = () => {
                 <a href="#">Ứng tuyển</a>
               </li>
               <li>
+                <Link to="/Commingsoon">
                 <a href="#">Hợp tác</a>
+                </Link>
               </li>
             </ul>
           </li>
