@@ -503,7 +503,14 @@ section {
   border-radius: 50%;
   border: 4px solid #fff;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
+
+.philosophy .testimonial-item .stars .bi {
+  color: #fffb2b;
+  padding: 0px 3px;
+}
+
 
 .philosophy .testimonial-item .philosophy-content {
   padding-top: 30px;
