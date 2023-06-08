@@ -7,18 +7,19 @@ const BodyAbout = () => {
       <section id="mission" className="mission">
         <div className="container">
           <div className="section-title" data-aos="zoom-out">
-            <h2>Về chúng tôi</h2>
-            <p>Sứ mệnh</p>
+            <img src="assets/img/home/logo_circle.png" className="testimonial-img" alt />
+
+            <h2>Sứ mệnh</h2>
           </div>
             <div className="swiper-wrapper">
                 <div className="testimonial-item">
+
                   <p>
                     <i className="bx bxs-quote-alt-left quote-icon-left" />
                     CareerEmpower ra đời với sứ mệnh giúp đỡ sinh viên Đại học Kinh tế Quốc dân có được 
                     <br/> <b className="highlight">công việc đúng sở thích với mức lương xứng đáng</b>
                     <i className="bx bxs-quote-alt-right quote-icon-right" />
                   </p>
-                  <img src="assets/img/home/logo_circle.png" className="testimonial-img" alt />
                   {/* <h3>Saul Goodman</h3>
                   <h4>Ceo &amp; Founder</h4> */}
                   <div class="sub-mission row equal-height">
@@ -75,8 +76,7 @@ const BodyAbout = () => {
       <section id="vision" class="vision">
         <div class="container">
           <div class="section-title" data-aos="zoom-out">
-            <h2>Về chúng tôi</h2>
-            <p>Tầm nhìn</p>
+            <h2>Tầm nhìn</h2>
           </div>
 
           <div class="row content" data-aos="fade-up">
@@ -105,8 +105,7 @@ const BodyAbout = () => {
       <section id="our-value" className="our-value">
         <div className="container">
           <div className="section-title">
-            <h2>Giá trị</h2>
-            <p>Giá trị cốt lõi</p>
+            <h2>Giá trị cốt lõi</h2>
           </div>
           <div className="row gy-4">
             <div className="col-lg-2">
@@ -336,8 +335,8 @@ const BodyAbout = () => {
       <section id="philosophy" class="philosophy">
         <div class="container">
           <div class="section-title" data-aos="zoom-out">
-            <h2>Phương châm</h2>
-            <p>Triết lý thương hiệu</p>
+      
+            <h2>Triết lý thương hiệu</h2>
           </div>
           <div className="testimonial-item">
             <div className="testimonial-img">
@@ -374,8 +373,7 @@ const BodyAbout = () => {
       <section id="human-resource" class="human-resource">
         <div class="container">
           <div class="section-title" data-aos="zoom-out">
-            <h2>Nhân lực</h2>
-            <p>Đội ngũ của chúng tôi</p>
+            <h2>Đội ngũ của chúng tôi</h2>
           </div>
 
           <div class="row content" data-aos="fade-up">
