@@ -524,13 +524,14 @@ h6 {
 /*--------------------------------------------------------------
   # Sections General
   --------------------------------------------------------------*/
-section {
+/* section {
     padding: 60px 0;
     overflow: hidden;
 }
 
 .section-title {
     padding-bottom: 40px;
+    text-align: center;
 }
 
 .section-title h2 {
@@ -562,7 +563,7 @@ section {
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     color: #2a2c39;
-}
+} */
 
 /*--------------------------------------------------------------
   # About
