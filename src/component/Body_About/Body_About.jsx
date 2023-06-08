@@ -7,19 +7,17 @@ const BodyAbout = () => {
       <section id="mission" className="mission">
         <div className="container">
           <div className="section-title" data-aos="zoom-out">
-            <img src="assets/img/home/logo_circle.png" className="testimonial-img" alt />
-
             <h2>Sứ mệnh</h2>
           </div>
             <div className="swiper-wrapper">
                 <div className="testimonial-item">
-
                   <p>
                     <i className="bx bxs-quote-alt-left quote-icon-left" />
                     CareerEmpower ra đời với sứ mệnh giúp đỡ sinh viên Đại học Kinh tế Quốc dân có được 
                     <br/> <b className="highlight">công việc đúng sở thích với mức lương xứng đáng</b>
                     <i className="bx bxs-quote-alt-right quote-icon-right" />
                   </p>
+                  {/* <img src="assets/img/home/logo_circle.png" className="testimonial-img" alt /> */}
                   {/* <h3>Saul Goodman</h3>
                   <h4>Ceo &amp; Founder</h4> */}
                   <div class="sub-mission row equal-height">
@@ -27,8 +25,12 @@ const BodyAbout = () => {
                       <div
                         class="icon-box aos-init aos-animate items items-1"
                         data-aos="zoom-in-left"
-                      >
-                        <h3 class="title">Vấn đề then chốt</h3>
+                      > 
+
+                        <h3 class="title">
+                          <i class="bi bi-circle"></i>
+
+                          Vấn đề then chốt</h3>
                         <p class="description">
                           CareerEmpower được thành lập để giải quyết ba thách thức lớn
                           của sinh viên NEU đó là thiếu định hướng nghề nghiệp, kỹ năng
@@ -43,7 +45,10 @@ const BodyAbout = () => {
                       data-aos="zoom-in-left"
                       data-aos-delay="100"
                     >
-                      <h3 class="title">Giải pháp cốt lõi</h3>
+                      <h3 class="title">
+                        <i class="bi bi-record-circle"></i>
+
+                        Giải pháp cốt lõi</h3>
                       <p class="description">
                         CareerEmpower cung cấp chuỗi giải pháp toàn diện dựa trên nền
                         tảng cá nhân hóa và sự đồng hành xuyên suốt thông qua 3 mắt
@@ -58,7 +63,10 @@ const BodyAbout = () => {
                       data-aos="zoom-in-left"
                       data-aos-delay="200"
                     >
-                      <h3 class="title">Lợi ích mang lại</h3>
+                      <h3 class="title">
+                        <i class="bi bi-circle-fill"></i>
+
+                        Lợi ích mang lại</h3>
                       <p class="description">
                         Giải pháp của CareerEmpower giúp sinh viên tiết kiệm thời gian
                         và chi phí để khám phá bản thân và thị trường. Chúng tôi cung
