@@ -9,7 +9,7 @@ const Hero = () => {
                 <div className="carousel-item active">
                     <div className="carousel-container">
                         <h2 className="animate__animated animate__fadeInDown"><span>CareerEmpower</span></h2>
-                        <p className="animate__animated fanimate__adeInUp">Đơn vị cung cấp giải pháp kết nối và phát triển nguồn nhân lực. Là đơn vị hàng đầu gắn bó với sự phát triển của sinh viên Trường Đại học Kinh tế Quốc dân.</p>
+                        <p className="animate__animated fanimate__adeInUp">CareerEmpower là đơn vị cung cấp các giải pháp toàn diện về định hướng nghề nghiệp, đào tạo kỹ năng và kết nối cơ hội việc làm. Tổ chức là đối tác tin cậy và đồng hành cùng sinh viên Trường Đại học Kinh tế Quốc dân trong việc xây dựng và phát triển lộ trình sự nghiệp hiệu quả.</p>
                         <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Về Chúng Tôi</a>
                     </div>
                 </div>
@@ -17,7 +17,7 @@ const Hero = () => {
                 <div className="carousel-item">
                     <div className="carousel-container">
                         <h2 className="animate__animated animate__fadeInDown"><span>Dự án “Mùa hè không hối tiếc”</span></h2>
-                        <p className="animate__animated animate__fadeInUp">Dự án dành riêng cho các bạn sinh viên trường Đại học Kinh tế Quốc dân, với nhiều vị trí hấp dẫn như: Content Marketing, Designer, Event, KOLs Nhân sự, Leader Truyền thông, Quay, dựng video Tiktok,... Bạn sẽ có cơ hội trải nghiệm làm việc trong môi trường chuyên nghiệp, sáng tạo và năng động, cùng với những người bạn đồng hành tài năng và nhiệt huyết. Liệu bạn có đủ can đảm để trở thành nhân tố khiến “Mùa hè không hối tiếc” trở thành ngọn lửa rực cháy trong mùa hè này?</p>
+                        <p className="animate__animated animate__fadeInUp">Dự án lớn nhất mùa hè 2023 nhằm khám phá năng lực cũng như định vị bản thân cho những bạn sinh viên trường Đại học Kinh tế Quốc dân. Tham gia dự án, bạn sẽ có cơ hội trải nghiệm làm việc trong môi trường chuyên nghiệp, sáng tạo và năng động, cùng với những người bạn đồng hành tài năng và nhiệt huyết. Liệu bạn có đủ can đảm để trở thành nhân tố khiến “Mùa hè không hối tiếc” trở thành ngọn lửa rực cháy trong mùa hè này?</p>
                         <Link to="/ungtuyen">
                             <a href="#" className="btn-get-started animate__animated animate__fadeInUp scrollto">Ứng tuyển</a>
 
@@ -29,7 +29,7 @@ const Hero = () => {
                 <div className="carousel-item">
                     <div className="carousel-container">
                         <h2 className="animate__animated animate__fadeInDown"><span>NEU JOBS & INTERNSHIPS <br></br>Cơ hội việc làm, thực tập cho Gen Z tại NEU</span></h2>
-                        <p className="animate__animated animate__fadeInUp">Group việc làm lớn nhất NEU với hơn 100k thành viên dành riêng cho sinh viên trường Đại học Kinh tế Quốc dân được thành lập bởi CareerEmpower với sứ mệnh kết nối việc làm đúng sở thích với mức lương xứng đáng. Đây là nơi chia sẻ kinh nghiệm, kiến thức và thông tin hữu ích về thị trường lao động, quy trình tuyển dụng và phát triển nghề nghiệp.</p>
+                        <p className="animate__animated animate__fadeInUp">CareerEmpower là đơn vị sáng lập group việc làm dành cho sinh viên Kinh tế Quốc dân với hơn 100k thành viên. Group <strong>NEU JOBS & INTERNSHIPS - Cơ hội việc làm, thực tập cho Gen Z tại NEU</strong> là cộng đồng chuyên nghiệp nơi các bạn có thể trao đổi kinh nghiệm, học hỏi kiến thức và cập nhật thông tin mới nhất về thị trường lao động, quy trình tuyển dụng và phát triển nghề nghiệp.</p>
                         <a href=" https://www.facebook.com/groups/careerempower "target="_blank" className="btn-get-started animate__animated animate__fadeInUp scrollto">Tham gia ngay</a>
                     </div>
                 </div>
