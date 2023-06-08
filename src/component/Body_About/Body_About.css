@@ -50,7 +50,7 @@ section {
   padding-bottom: 20px;
   text-transform: uppercase;
   position: relative;
-  color: var(--xam-den);
+  color: var(--green);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -128,7 +128,7 @@ section {
 
 .mission .testimonial-item .quote-icon-left,
 .mission .testimonial-item .quote-icon-right {
-  color: var(--xanh-dam);
+  color: var(--green);
   font-size: 26px;
   /* opacity: 30%; */
 }
@@ -148,10 +148,10 @@ section {
 
 .mission .testimonial-item p {
   font-style: italic;
-  margin: 0 auto 15px auto;
+  margin: 0 auto 0px auto;
   font-size: 24px;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .mission .swiper-pagination {
@@ -179,12 +179,22 @@ section {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #363947;
+  color: #ffffff;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  background-color: #006837;
+  border-radius: 30px;
 }
+.mission .container .items .bi::before {
+  padding-right: 10px;
+  color: #ffffff;
+}
+
 .mission .container .description {
   font-size: 16px;
   text-align: justify;
   font-style: normal;
+  padding-top: 15px;
 
 }
 
