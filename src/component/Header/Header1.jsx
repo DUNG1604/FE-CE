@@ -72,9 +72,7 @@ const Header1 = () => {
                   </Link>
                   <ul>
                     <li>
-                      <Link to="/Commingsoon">
-                        <a href="#">Công cụ</a>
-                      </Link>
+                      <Link to="/Commingsoon"><a href="#">Công cụ</a></Link>
                     </li>
                     <li>
                       <Link to="/Commingsoon">
@@ -161,10 +159,14 @@ const Header1 = () => {
                       </a>
                       <ul>
                         <li>
+                          <Link to="/Commingsoon">  
                           <a href="#">Tìm việc</a>
+                          </Link>
                         </li>
                         <li>
+                          <Link to="/Commingsoon">
                           <a href="#">Tạo CV</a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -204,7 +206,9 @@ const Header1 = () => {
                       <Link to="/ungtuyen">Ứng tuyển</Link>
                     </li>
                     <li>
+                      <Link to="/Commingsoon">
                       <a href="#">Hợp tác</a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -249,9 +253,7 @@ const Header1 = () => {
             </a>
             <ul>
               <li>
-                <Link to="/Commingsoon">
-                  <a href="#">Công cụ</a>
-                </Link>
+              <Link to="/Commingsoon"><a href="#">Công cụ</a></Link>
               </li>
               <li>
                 <Link to="/Commingsoon">
@@ -336,10 +338,14 @@ const Header1 = () => {
                 </a>
                 <ul>
                   <li>
+                    <Link to="/Commingsoon">
                     <a href="#">Tìm việc</a>
+                    </Link>
                   </li>
                   <li>
+                    <Link to="/Commingsoon">
                     <a href="#">Tạo CV</a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -379,7 +385,9 @@ const Header1 = () => {
                 <a href="#">Ứng tuyển</a>
               </li>
               <li>
+                <Link to="/Commingsoon">
                 <a href="#">Hợp tác</a>
+                </Link>
               </li>
             </ul>
           </li>
