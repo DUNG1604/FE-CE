@@ -18,6 +18,9 @@ const Header1 = () => {
     const navb = document.querySelector(".navbarr");
     navb.style.display = "none";
   }
+  function scrollToTop() {
+    window.scrollTo(0, 0);
+  }
   return (
     <div>
       <div id="header_main1">
@@ -25,7 +28,10 @@ const Header1 = () => {
           <div class="container d-flex align-items-center justify-content-between">
             <div class="logo">
               <h1>
-                <div class="header_logo"></div>
+                <Link onClick={scrollToTop} to="/">
+                  <div class="header_logo">
+                  </div>
+                </Link>
               </h1>
             </div>
 
@@ -33,7 +39,7 @@ const Header1 = () => {
               <ul>
                 {/* <li><Link class="nav-link scrollto active" to='/'>Trang chủ</Link></li> */}
                 <li>
-                  <Link class="nav-link scrollto " to="/">
+                  <Link onClick={scrollToTop} class="nav-link scrollto " to="/">
                     Trang chủ
                   </Link>
                 </li>
@@ -66,13 +72,13 @@ const Header1 = () => {
                   </Link>
                   <ul>
                     <li>
-                    <Link to= "/Commingsoon">
-                      <a href="#">Công cụ</a>
+                      <Link to="/Commingsoon">
+                        <a href="#">Công cụ</a>
                       </Link>
                     </li>
                     <li>
-                    <Link to= "/Commingsoon">
-                      <a href="#">Mentor</a>
+                      <Link to="/Commingsoon">
+                        <a href="#">Mentor</a>
                       </Link>
                     </li>
                   </ul>
@@ -89,23 +95,23 @@ const Header1 = () => {
                       </a>
                       <ul>
                         <li>
-                        <Link to= "/Commingsoon">
-                          <a href="#">Khóa học</a>
+                          <Link to="/Commingsoon">
+                            <a href="#">Khóa học</a>
                           </Link>
                         </li>
                         <li>
-                        <Link to= "/Commingsoon">
-                          <a href="#">Ebook</a>
+                          <Link to="/Commingsoon">
+                            <a href="#">Ebook</a>
                           </Link>
                         </li>
                         <li>
-                        <Link to= "/Commingsoon">
-                          <a href="#">Bài viết</a>
+                          <Link to="/Commingsoon">
+                            <a href="#">Bài viết</a>
                           </Link>
                         </li>
                         <li>
-                        <Link to= "/Commingsoon">
-                          <a href="#">Video</a>
+                          <Link to="/Commingsoon">
+                            <a href="#">Video</a>
                           </Link>
                         </li>
                       </ul>
@@ -117,23 +123,23 @@ const Header1 = () => {
                       </a>
                       <ul>
                         <li>
-                        <Link to= "/Commingsoon">
-                          <a href="#">Khóa học</a>
+                          <Link to="/Commingsoon">
+                            <a href="#">Khóa học</a>
                           </Link>
                         </li>
                         <li>
-                        <Link to= "/Commingsoon">
-                          <a href="#">Ebook</a>
+                          <Link to="/Commingsoon">
+                            <a href="#">Ebook</a>
                           </Link>
                         </li>
                         <li>
-                        <Link to= "/Commingsoon">
-                          <a href="#">Bài viết</a>
+                          <Link to="/Commingsoon">
+                            <a href="#">Bài viết</a>
                           </Link>
                         </li>
                         <li>
-                        <Link to= "/Commingsoon">
-                          <a href="#">Video</a>
+                          <Link to="/Commingsoon">
+                            <a href="#">Video</a>
                           </Link>
                         </li>
                       </ul>
@@ -145,23 +151,23 @@ const Header1 = () => {
                       </a>
                       <ul>
                         <li>
-                        <Link to= "/Commingsoon">
-                          <a href="#">Khóa học</a>
+                          <Link to="/Commingsoon">
+                            <a href="#">Khóa học</a>
                           </Link>
                         </li>
                         <li>
-                        <Link to= "/Commingsoon">
-                          <a href="#">Ebook</a>
+                          <Link to="/Commingsoon">
+                            <a href="#">Ebook</a>
                           </Link>
                         </li>
                         <li>
-                        <Link to= "/Commingsoon">
-                          <a href="#">Bài viết</a>
-                            </Link>
+                          <Link to="/Commingsoon">
+                            <a href="#">Bài viết</a>
+                          </Link>
                         </li>
                         <li>
-                        <Link to= "/Commingsoon">
-                          <a href="#">Video</a>
+                          <Link to="/Commingsoon">
+                            <a href="#">Video</a>
                           </Link>
                         </li>
                       </ul>
@@ -201,18 +207,18 @@ const Header1 = () => {
                   </Link>
                   <ul>
                     <li>
-                    <Link to= "/Commingsoon">
-                      <a href="#">Học bổng</a>
+                      <Link to="/Commingsoon">
+                        <a href="#">Học bổng</a>
                       </Link>
                     </li>
                     <li>
-                    <Link to= "/Commingsoon">
-                      <a href="#">Sự kiện</a>
+                      <Link to="/Commingsoon">
+                        <a href="#">Sự kiện</a>
                       </Link>
                     </li>
                     <li>
-                    <Link to= "/Commingsoon">
-                      <a href="#">Cuộc thi</a>
+                      <Link to="/Commingsoon">
+                        <a href="#">Cuộc thi</a>
                       </Link>
                     </li>
                   </ul>
@@ -271,13 +277,13 @@ const Header1 = () => {
             </a>
             <ul>
               <li>
-              <Link to= "/Commingsoon">
-                <a href="#">Công cụ</a>
+                <Link to="/Commingsoon">
+                  <a href="#">Công cụ</a>
                 </Link>
               </li>
               <li>
-              <Link to= "/Commingsoon">
-                <a href="#">Mentor</a>
+                <Link to="/Commingsoon">
+                  <a href="#">Mentor</a>
                 </Link>
               </li>
             </ul>
@@ -294,23 +300,23 @@ const Header1 = () => {
                 </a>
                 <ul>
                   <li>
-                  <Link to= "/Commingsoon">
-                    <a href="#">Khóa học</a>
+                    <Link to="/Commingsoon">
+                      <a href="#">Khóa học</a>
                     </Link>
                   </li>
                   <li>
-                  <Link to= "/Commingsoon">
-                    <a href="#">Ebook</a>
+                    <Link to="/Commingsoon">
+                      <a href="#">Ebook</a>
                     </Link>
                   </li>
                   <li>
-                  <Link to= "/Commingsoon">
-                    <a href="#">Bài viết</a>
+                    <Link to="/Commingsoon">
+                      <a href="#">Bài viết</a>
                     </Link>
                   </li>
                   <li>
-                  <Link to= "/Commingsoon">
-                    <a href="#">Video</a>
+                    <Link to="/Commingsoon">
+                      <a href="#">Video</a>
                     </Link>
                   </li>
                 </ul>
@@ -321,23 +327,23 @@ const Header1 = () => {
                 </a>
                 <ul>
                   <li>
-                  <Link to= "/Commingsoon">
-                    <a href="#">Khóa học</a>
+                    <Link to="/Commingsoon">
+                      <a href="#">Khóa học</a>
                     </Link>
                   </li>
                   <li>
-                  <Link to= "/Commingsoon">
-                    <a href="#">Ebook</a>
+                    <Link to="/Commingsoon">
+                      <a href="#">Ebook</a>
                     </Link>
                   </li>
                   <li>
-                  <Link to= "/Commingsoon">
-                    <a href="#">Bài viết</a>
+                    <Link to="/Commingsoon">
+                      <a href="#">Bài viết</a>
                     </Link>
                   </li>
                   <li>
-                  <Link to= "/Commingsoon">
-                    <a href="#">Video</a>
+                    <Link to="/Commingsoon">
+                      <a href="#">Video</a>
                     </Link>
                   </li>
                 </ul>
@@ -349,23 +355,23 @@ const Header1 = () => {
                 </a>
                 <ul>
                   <li>
-                  <Link to= "/Commingsoon">
-                    <a href="#">Khóa học</a>
+                    <Link to="/Commingsoon">
+                      <a href="#">Khóa học</a>
                     </Link>
                   </li>
                   <li>
-                  <Link to= "/Commingsoon">
-                    <a href="#">Ebook</a>
+                    <Link to="/Commingsoon">
+                      <a href="#">Ebook</a>
                     </Link>
                   </li>
                   <li>
-                  <Link to= "/Commingsoon">
-                    <a href="#">Bài viết</a>
+                    <Link to="/Commingsoon">
+                      <a href="#">Bài viết</a>
                     </Link>
                   </li>
                   <li>
-                  <Link to= "/Commingsoon">
-                    <a href="#">Video</a>
+                    <Link to="/Commingsoon">
+                      <a href="#">Video</a>
                     </Link>
                   </li>
                 </ul>
@@ -404,18 +410,18 @@ const Header1 = () => {
             </a>
             <ul>
               <li>
-              <Link to= "/Commingsoon">
-                <a href="#">Học bổng</a>
+                <Link to="/Commingsoon">
+                  <a href="#">Học bổng</a>
                 </Link>
               </li>
               <li>
-              <Link to= "/Commingsoon">
-                <a href="#">Sự kiện</a>
+                <Link to="/Commingsoon">
+                  <a href="#">Sự kiện</a>
                 </Link>
               </li>
               <li>
-              <Link to= "/Commingsoon">
-                <a href="#">Cuộc thi</a>
+                <Link to="/Commingsoon">
+                  <a href="#">Cuộc thi</a>
                 </Link>
               </li>
             </ul>
