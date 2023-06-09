@@ -41,7 +41,11 @@ const Footer = () => {
                 </li>
                 <li>
                   <i className="bx bx-chevron-right" />
-                  <a href="https://www.facebook.com/LifeatCareerEmpower" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://www.facebook.com/LifeatCareerEmpower"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Con người
                     {/* <span class="sub"></span>(Tìm hiểu thêm - Page Life at CE) */}
                   </a>
@@ -99,7 +103,7 @@ const Footer = () => {
               <h4>Liên hệ</h4>
               <ul>
                 <li>
-                  <Link to="/Commingsoon">
+                  <Link to="/ungtuyen">
                     <i className="bx bx-chevron-right" />
                     <a href="#">Ứng tuyển</a>
                   </Link>
