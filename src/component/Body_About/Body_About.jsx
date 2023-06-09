@@ -91,26 +91,14 @@ const BodyAbout = () => {
             <h2>Tầm nhìn</h2>
           </div>
 
-          <div class="row content" data-aos="fade-up">
-            <div className="col-lg-6" data-aos="zoom-out" data-aos-delay={200}>
-              {/* <img src="./assets/img/home/7.jpg" className="img-fluid" alt="" /> */}
-              <img src="./assets/img/home/3.jpg" className="sumenhimg" alt="" />
-              {/* <img src="src="./assets/img/home/VechungtoiImg.jpg"" className="img-fluid" alt="" /> */}
-              <img
-                src="./assets/img/home/VechungtoiImg2.jpg"
-                className="sumenhimg"
-                alt=""
-              />
-            </div>
-            <div class="col-lg-6">
-              <p>
-                <strong>
-                  CareerEmpower sẽ là tổ chức dẫn đầu về đồng hành cùng sinh
-                  viên Đại học Kinh tế Quốc dân trên con đường đạt được công
-                  việc đúng sở thích với mức lương xứng đáng
-                </strong>
+          <div className="swiper-wrapper">
+            <div className="testimonial-item">
+              <p class="title">
+                CareerEmpower sẽ là tổ chức dẫn đầu về đồng hành cùng sinh viên
+                Đại học Kinh tế Quốc dân trên con đường đạt được công việc đúng
+                sở thích với mức lương xứng đáng
               </p>
-              <p>
+              <p class="sub-title">
                 CareerEmpower nỗ lực và cam kết sẽ tăng cả về chất lượng và số
                 lượng các bạn sinh viên NEU mà CareerEmpower đồng hành.
                 CareerEmpower cam kết đến 2026 sẽ giúp đỡ được 20.000 sinh viên
@@ -422,7 +410,11 @@ const BodyAbout = () => {
             </div>
             <div className="col-lg-7" data-aos="zoom-out" data-aos-delay={200}>
               {/* <img src="./assets/img/home/7.jpg" className="img-fluid" alt="" /> */}
-              <img src="./assets/img/home/6.jpg" className="sumenhimg" alt="" />
+              <img
+                src="./assets/img/home/VeChungToiImg.jpg"
+                className="sumenhimg"
+                alt=""
+              />
             </div>
           </div>
         </div>

@@ -1,8 +1,8 @@
 @import url("../../root.css");
 
 /*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+  # General
+  --------------------------------------------------------------*/
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -30,8 +30,8 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+  # Sections General
+  --------------------------------------------------------------*/
 
 section {
   padding: 60px 0;
@@ -87,19 +87,19 @@ section {
 }
 
 /* @media (max-width: 400px) {
-  .section-title p {
-    font-size: 28px;
-  }
-} */
+    .section-title p {
+      font-size: 28px;
+    }
+  } */
 
 /*--------------------------------------------------------------
-# Mission
---------------------------------------------------------------*/
+  # Mission
+  --------------------------------------------------------------*/
 
 .mission .testimonial-item {
   box-sizing: content-box;
   /* padding: 30px 30px 0 30px;
-  margin: 30px 15px; */
+    margin: 30px 15px; */
   text-align: center;
   min-height: 350px;
   /* box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08); */
@@ -159,7 +159,6 @@ section {
   position: relative;
 }
 
-
 .mission .container .items {
   display: inline-flex;
   height: 100%;
@@ -195,21 +194,16 @@ section {
   text-align: justify;
   font-style: normal;
   padding-top: 15px;
-
 }
 
 .mission .container .items:hover {
-
   transform: translateY(-10px);
   transition: all 0.4s ease-in-out;
 }
 
-
-
-
 /*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+  # About
+  --------------------------------------------------------------*/
 
 .about {
   padding-top: 80px;
@@ -248,12 +242,14 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
-  
 }
 .aligncenter {
   align-items: center;
 }
 
+.align-item {
+  align-items: center;
+}
 .about .content .btn-learn-more {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -278,18 +274,15 @@ section {
   text-decoration: none;
 }
 
-
-
 /*--------------------------------------------------------------
-# Human-resource
---------------------------------------------------------------*/
+  # Human-resource
+  --------------------------------------------------------------*/
 
 .vision {
   padding-top: 80px;
 }
 
-
-.vision .content h3{
+.vision .content h3 {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -355,6 +348,15 @@ section {
   margin-top: 30px;
 }
 
+.vision .container .title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+.vision .container .sub-title {
+  text-align: center;
+  font-size: 20px;
+}
 
 .vision .content .btn-learn-more {
   font-family: "Raleway", sans-serif;
@@ -380,7 +382,6 @@ section {
   text-decoration: none;
 }
 
-
 .sumenhimg {
   /* padding-top: 20px; */
   width: 100%;
@@ -394,8 +395,8 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Our-value
---------------------------------------------------------------*/
+  # Our-value
+  --------------------------------------------------------------*/
 .our-value {
   overflow: hidden;
 }
@@ -486,8 +487,8 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Philosophy
---------------------------------------------------------------*/
+  # Philosophy
+  --------------------------------------------------------------*/
 
 .philosophy .testimonial-item {
   box-sizing: content-box;
@@ -510,7 +511,6 @@ section {
   color: #fffb2b;
   padding: 0px 3px;
 }
-
 
 .philosophy .testimonial-item .philosophy-content {
   padding-top: 30px;
@@ -574,15 +574,14 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Human-resource
---------------------------------------------------------------*/
+  # Human-resource
+  --------------------------------------------------------------*/
 
 .human-resource {
   padding-top: 80px;
 }
 
-
-.human-resource .content h3{
+.human-resource .content h3 {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -648,7 +647,6 @@ section {
   margin-top: 30px;
 }
 
-
 .human-resource .content .btn-learn-more {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -672,7 +670,6 @@ section {
   color: #fff;
   text-decoration: none;
 }
-
 
 .sumenhimg {
   /* padding-top: 20px; */
