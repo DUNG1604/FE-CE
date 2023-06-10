@@ -125,14 +125,14 @@ const Header = () => {
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#">Chương trình thực tế</a>
+                                            <Link to="/Commingsoon">Chương trình thực tế</Link>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <Link to="/dinhhuong">
+                                    <a onClick={handleClick} href="#">
                                         <span>Việc làm</span> <i class="bi bi-chevron-down"></i>
-                                    </Link>
+                                    </a>
                                     <ul>
                                         <li class="dropdown">
                                             <a href="#">
@@ -150,7 +150,7 @@ const Header = () => {
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#">
+                                    <a onClick={handleClick} href="#">
                                         <span>Tin tức</span> <i class="bi bi-chevron-down"></i>
                                     </a>
                                     <ul>                            
@@ -178,9 +178,9 @@ const Header = () => {
             <nav id="navbar" className="navbarr navbar navbar-mobile">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto" href="#about">
-                            Trang chủ
-                        </a>
+                    <Link onClick={scrollToTop} class="nav-link scrollto " to="/">
+                        Trang chủ
+                    </Link>
                     </li>
                     <li class="dropdown">
                         <a onClick={handleClick} href="#about">
@@ -220,7 +220,7 @@ const Header = () => {
                         </a>
                         <ul>
                             <li class="dropdown">
-                                <a href="#">
+                                <a onClick={handleClick} href="#">
                                     <span>Kỹ năng mềm</span> <i class="bi bi-chevron-right"></i>
                                 </a>
                                 <ul>
@@ -231,7 +231,7 @@ const Header = () => {
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#">
+                                <a onClick={handleClick} href="#">
                                     <span>Kỹ năng chuyên môn</span>{" "}
                                     <i class="bi bi-chevron-right"></i>
                                 </a>
@@ -243,7 +243,7 @@ const Header = () => {
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Chương trình thực tế</a>
+                                <Link to="/Commingsoon">Chương trình thực tế</Link>
                             </li>
                         </ul>
                     </li>

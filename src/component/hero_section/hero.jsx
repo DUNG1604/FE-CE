@@ -9,7 +9,7 @@ const Hero = () => {
                 <div className="carousel-item active">
                     <div className="carousel-container">
                         <h2 className="animate__animated animate__fadeInDown"><span>CareerEmpower</span></h2>
-                        <p className="animate__animated fanimate__adeInUp">CareerEmpower là đơn vị cung cấp các giải pháp toàn diện về định hướng nghề nghiệp, đào tạo kỹ năng và kết nối cơ hội việc làm. Tổ chức là đối tác tin cậy và đồng hành cùng sinh viên Trường Đại học Kinh tế Quốc dân trong việc xây dựng và phát triển lộ trình sự nghiệp hiệu quả.</p>
+                        <p className="animate__animated fanimate__adeInUp">CareerEmpower cung cấp các giải pháp toàn diện về định hướng nghề nghiệp, đào tạo kỹ năng và kết nối cơ hội việc làm. Chúng tôi là đối tác tin cậy và đồng hành cùng sinh viên Trường Đại học Kinh tế Quốc dân trong việc xây dựng và phát triển lộ trình sự nghiệp hiệu quả.</p>
                         <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Về Chúng Tôi</a>
                     </div>
                 </div>
@@ -17,7 +17,7 @@ const Hero = () => {
                 <div className="carousel-item">
                     <div className="carousel-container">
                         <h2 className="animate__animated animate__fadeInDown"><span>Dự án “Mùa hè không hối tiếc”</span></h2>
-                        <p className="animate__animated animate__fadeInUp">Dự án lớn nhất mùa hè 2023 nhằm khám phá năng lực cũng như định vị bản thân cho những bạn sinh viên trường Đại học Kinh tế Quốc dân. Tham gia dự án, bạn sẽ có cơ hội trải nghiệm làm việc trong môi trường chuyên nghiệp, sáng tạo và năng động, cùng với những người bạn đồng hành tài năng và nhiệt huyết. Liệu bạn có đủ can đảm để trở thành nhân tố khiến “Mùa hè không hối tiếc” trở thành ngọn lửa rực cháy trong mùa hè này?</p>
+                        <p className="animate__animated animate__fadeInUp">Một dự án dành cho sinh viên NEU muốn trải nghiệm làm việc chuyên nghiệp, sáng tạo và năng động. Bạn sẽ được học hỏi và làm việc cùng những người bạn tài năng và nhiệt huyết trong một “Mùa hè không nuối tiếc”.</p>
                         <Link to="/ungtuyen">
                             <a href="#" className="btn-get-started animate__animated animate__fadeInUp scrollto">Ứng tuyển ngay</a>
 
@@ -29,7 +29,7 @@ const Hero = () => {
                 <div className="carousel-item">
                     <div className="carousel-container">
                         <h2 className="animate__animated animate__fadeInDown"><span>Group việc làm hàng đầu tại NEU</span></h2>
-                        <p className="animate__animated animate__fadeInUp">CareerEmpower là đơn vị sáng lập group việc làm dành cho sinh viên Kinh tế Quốc dân với hơn 100k thành viên. Group <strong>NEU JOBS & INTERNSHIPS - Cơ hội việc làm, thực tập cho Gen Z tại NEU</strong> là cộng đồng chuyên nghiệp nơi các bạn có thể trao đổi kinh nghiệm, học hỏi kiến thức và cập nhật thông tin mới nhất về thị trường lao động, quy trình tuyển dụng và phát triển nghề nghiệp.</p>
+                        <p className="animate__animated animate__fadeInUp">Group <strong>NEU JOBS & INTERNSHIPS - Cơ hội việc làm, thực tập cho Gen Z tại NEU </strong> với hơn 100k thành viên là cộng đồng hàng đầu giúp bạn học hỏi kiến thức, kinh nghiệm và cập nhật thông tin mới nhất về thị trường lao động, tuyển dụng và phát triển nghề nghiệp</p>
                         <a href=" https://www.facebook.com/groups/careerempower "target="_blank" className="btn-get-started animate__animated animate__fadeInUp scrollto">Tham gia ngay</a>
                     </div>
                 </div>

@@ -5,7 +5,7 @@
   --------------------------------------------------------------*/
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Opensans", sans-serif;
   color: #444444;
 }
 
@@ -44,14 +44,14 @@ section {
 }
 
 .section-title h2 {
-  font-size: 36px;
-  font-weight: bold;
+  font-size: 42px;
+  font-weight: 900;
   margin-bottom: 20px;
   padding-bottom: 20px;
   text-transform: uppercase;
   position: relative;
   color: var(--green);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter";
 }
 
 .section-title h2::before {
@@ -71,7 +71,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: var(--xanhla-sang);
+  background: var(--cam-logo);
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -82,7 +82,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter";
   color: #2a2c39;
 }
 
@@ -96,7 +96,7 @@ section {
   # Mission
   --------------------------------------------------------------*/
 
-.mission .testimonial-item {
+.mission .container .testimonial-item {
   box-sizing: content-box;
   /* padding: 30px 30px 0 30px;
     margin: 30px 15px; */
@@ -147,11 +147,20 @@ section {
 }
 
 .mission .testimonial-item p {
-  font-style: italic;
   margin: 0 auto 0px auto;
   font-size: 24px;
   text-align: center;
   padding-bottom: 30px;
+}
+
+.mission .testimonial-item .highlight {
+  width: 80%;
+  padding: 0 0px 30px 0px;
+  margin: 0 auto 0px auto;
+  font-size: 26px;
+  font-family: "Vollkorn";
+  font-weight: 500;
+  text-align: center;
 }
 
 .mission .swiper-pagination {
@@ -175,7 +184,8 @@ section {
 }
 
 .mission .container .items h3.title {
-  font-size: 24px;
+  font-family: 'Inter';
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
   color: #ffffff;
@@ -190,6 +200,7 @@ section {
 }
 
 .mission .container .description {
+  font-family: 'Inter';
   font-size: 16px;
   text-align: justify;
   font-style: normal;
@@ -201,106 +212,35 @@ section {
   transition: all 0.4s ease-in-out;
 }
 
-/*--------------------------------------------------------------
-  # About
-  --------------------------------------------------------------*/
-
-.about {
-  padding-top: 80px;
-}
-
-.about .content h3 {
-  font-weight: 600;
-  font-size: 26px;
-}
-
-.about .content p,
-.about .content ul {
-  list-style: none;
-  padding: 0;
-  font-size: 16px;
-  text-align: justify;
-}
-
-.about .content ul li {
-  padding-left: 28px;
-  position: relative;
-}
-
-.about .content ul li + li {
-  margin-top: 10px;
-}
-
-.about .content ul i {
-  position: absolute;
-  left: 0;
-  top: 2px;
-  font-size: 20px;
-  color: var(--check-item-color);
-  line-height: 1;
-}
-
-.about .content p:last-child {
-  margin-bottom: 0;
-}
-.aligncenter {
-  align-items: center;
-}
-
-.align-item {
-  align-items: center;
-}
-.about .content .btn-learn-more {
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 5px;
-  transition: 0.3s;
-  line-height: 1;
-  color: var(--check-item-color);
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border: 2px solid var(--check-item-color);
-}
-
-.about .content .btn-learn-more:hover {
-  background: var(--check-item-color);
-  color: #fff;
-  text-decoration: none;
-}
 
 /*--------------------------------------------------------------
-  # Human-resource
+  # Vision
   --------------------------------------------------------------*/
 
 .vision {
-  padding-top: 80px;
+  background-color: var(--green);
+  text-align: center;
+  
 }
 
-.vision .content h3 {
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #363947;
-  text-align: justify;
+.vision .container .testimonial-item {
+  
+  box-sizing: content-box;
+  text-align: center;
 }
 
-.vision .content p,
-.vision .content ul {
-  list-style: none;
-  padding: 0;
-  font-size: 16px;
-  text-align: justify;
+.vision .container .section-title h2 {
+  color: #ffffff;
 }
 
-.vision .content ul li {
-  padding-left: 28px;
-  position: relative;
+.vision .container .testimonial-item .highlight {
+  width: 80%;
+  padding: 0 0px 0px 0px;
+  margin: 0 auto 0px auto;
+  font-size: 26px;
+  font-family: "Vollkorn";
+  font-weight: 500;
+  text-align: center;
 }
 
 .vision .content ul li + li {
@@ -348,14 +288,19 @@ section {
   margin-top: 30px;
 }
 
+
 .vision .container .title {
+  font-family: 'Vollkorn';
   text-align: center;
-  font-weight: bold;
-  font-size: 30px;
+  font-weight: 700;
+  font-size: 42px;
+  color: #fff;
 }
 .vision .container .sub-title {
+  font-family: 'Inter';
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
+  color:  #fff;
 }
 
 .vision .content .btn-learn-more {
@@ -407,6 +352,7 @@ section {
 
 .our-value .nav-link {
   border: 0;
+  font-family: 'Inter';
   padding: 18px 15px 12px 0;
   transition: 0.3s;
   color: #363947;
@@ -430,7 +376,8 @@ section {
 }
 
 .our-value .member h3 {
-  font-size: 24px;
+  font-family: 'Inter';
+  font-size: 26px;
   font-weight: 600;
   margin-bottom: 10px;
   color: #363947;
@@ -468,7 +415,8 @@ section {
 
 .our-value .member .member-info p {
   /* font-style: italic; */
-  font-size: 14px;
+  font-family: 'Inter';
+  font-size: 16px;
   line-height: 26px;
   color: #777777;
 }
@@ -489,17 +437,23 @@ section {
 /*--------------------------------------------------------------
   # Philosophy
   --------------------------------------------------------------*/
-
-.philosophy .testimonial-item {
-  box-sizing: content-box;
-  padding: 30px 50px 0 50px;
-  margin: 10px 0px;
+.philosophy{
+  background-color: var(--green);
   text-align: center;
-  /* min-height: 280px; */
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  
 }
 
-.philosophy .testimonial-item .testimonial-img {
+.philosophy .container .testimonial-item {
+  text-align: center;
+}
+
+.philosophy .container .section-title h2 {
+  color: #ffffff;
+}
+
+
+
+/* .philosophy .testimonial-item .testimonial-img {
   width: 70%;
   border-radius: 50%;
   border: 4px solid #fff;
@@ -510,12 +464,20 @@ section {
 .philosophy .testimonial-item .stars .bi {
   color: #fffb2b;
   padding: 0px 3px;
-}
+} */
 
 .philosophy .testimonial-item .philosophy-content {
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   text-align: center;
+
+
+}
+.philosophy .testimonial-item p {
+  font-family: 'Inter';
+  color: #fff;
+  font-weight: 700;
+  font-size: 26px;
+  margin: 0px;
 }
 
 .philosophy .testimonial-item h3 {
@@ -550,11 +512,6 @@ section {
   top: 10px;
 }
 
-.philosophy .testimonial-item p {
-  font-style: italic;
-  margin: 0 auto 0px auto;
-  font-size: 20px;
-}
 
 .philosophy .swiper-pagination {
   margin-top: 20px;
@@ -578,11 +535,12 @@ section {
   --------------------------------------------------------------*/
 
 .human-resource {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 .human-resource .content h3 {
-  font-size: 24px;
+  font-family: 'Vollkorn';
+  font-size: 42px;
   font-weight: 600;
   margin-bottom: 10px;
   color: #363947;
@@ -591,6 +549,7 @@ section {
 
 .human-resource .content p,
 .human-resource .content ul {
+  font-family: 'Inter';
   list-style: none;
   padding: 0;
   font-size: 16px;
@@ -622,7 +581,7 @@ section {
 .human-resource .content .btn-learn-more {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -648,21 +607,21 @@ section {
 }
 
 .human-resource .content .btn-learn-more {
-  font-family: "Raleway", sans-serif;
+  font-family: "Inter";
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
   border-radius: 5px;
   transition: 0.3s;
   line-height: 1;
-  color: var(--check-item-color);
+  color: var(--green);
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 30px;
   margin-bottom: 30px;
-  border: 2px solid var(--check-item-color);
+  border: 2px solid var(--green);
 }
 
 .human-resource .content .btn-learn-more:hover {

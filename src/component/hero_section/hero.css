@@ -29,8 +29,9 @@
 
 #hero h2 {
     color: #fff;
+    font-family: 'Vollkorn';
     margin-bottom: 30px;
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 700;
 }
 
@@ -40,6 +41,7 @@
     animation-delay: 0.4s;
     margin: 0 auto 30px auto;
     color: #fff;
+    font-family: 'Inter';
 }
 
 #hero .carousel-control-prev,
@@ -49,6 +51,7 @@
 
 #hero .carousel-control-next-icon,
 #hero .carousel-control-prev-icon {
+    
     background: none;
     font-size: 48px;
     line-height: 1;
@@ -57,9 +60,9 @@
 }
 
 #hero .btn-get-started {
-    font-family: "Raleway", sans-serif;
+    font-family: "Inter";
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
     padding: 12px 32px;
