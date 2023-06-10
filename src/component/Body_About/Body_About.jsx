@@ -37,10 +37,7 @@ const BodyAbout = () => {
                       Vấn đề then chốt
                     </h3>
                     <p class="description">
-                      CareerEmpower được thành lập để giải quyết ba thách thức
-                      lớn của sinh viên NEU đó là thiếu định hướng nghề nghiệp,
-                      kỹ năng chuyên môn và cơ hội tiếp cận các doanh nghiệp uy
-                      tín khi mới bước chân vào thị trường lao động.
+                    CareerEmpower được thành lập để giải quyết ba thách thức lớn của Sinh viên trường Đại học Kinh tế Quốc dân đó là thiếu định hướng nghề nghiệp, kỹ năng chuyên môn và cơ hội tiếp cận các doanh nghiệp uy tín khi mới bước chân vào thị trường lao động.
                     </p>
                   </div>
                 </div>
@@ -55,10 +52,7 @@ const BodyAbout = () => {
                       Giải pháp cốt lõi
                     </h3>
                     <p class="description">
-                      CareerEmpower cung cấp chuỗi giải pháp toàn diện dựa trên
-                      nền tảng cá nhân hóa và sự đồng hành xuyên suốt thông qua
-                      3 mắt xích sản phẩm: Định hướng - Đào tạo - Kết nối việc
-                      làm.
+                    CareerEmpower cung cấp giải pháp toàn diện dựa trên nền tảng cá nhân hóa của Sinh viên trường Đại học Kinh tế Quốc dân và sự đồng hành xuyên suốt trong quá trình học thông qua 3 mắt xích sản phẩm là: Định hướng - Đào tạo - Kết nối việc làm.
                     </p>
                   </div>
                 </div>
@@ -74,11 +68,7 @@ const BodyAbout = () => {
                       Lợi ích mang lại
                     </h3>
                     <p class="description">
-                      Giải pháp của CareerEmpower giúp sinh viên tiết kiệm thời
-                      gian và chi phí để khám phá bản thân và thị trường. Chúng
-                      tôi cung cấp cho sinh viên một bức tranh toàn cảnh, một lộ
-                      trình rõ ràng và các giải pháp thực tiễn để tối ưu hóa mục
-                      tiêu sự nghiệp.
+                    Giải pháp của CareerEmpower giúp sinh viên tiết kiệm thời gian và chi phí để khám phá bản thân và thị trường. Chúng tôi cung cấp cho sinh viên một bức tranh toàn cảnh, một lộ trình rõ ràng và các giải pháp thực tiễn để tối ưu hóa mục tiêu sự nghiệp.
                     </p>
                   </div>
                 </div>
