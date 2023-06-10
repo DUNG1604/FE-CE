@@ -5,7 +5,7 @@
 --------------------------------------------------------------*/
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", "Vollkorn", sans-serif;
     color: #444444;
 }
 
@@ -144,7 +144,7 @@ h6 {
 .navbar>ul>li {
     position: relative;
     white-space: nowrap;
-    padding: 8px 0 8px 20px;
+    padding: 6px 0 6px 20px;
 }
 
 .navbar a,
@@ -228,7 +228,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-    color: #04bf01;
+    color: var(--green);
     /* color: #FF4E00; */
 
 }
@@ -326,7 +326,7 @@ h6 {
 }
 
 .navbar-mobile a {
-    padding: 10px 20px;
+    padding: 5px 20px;
     margin: 5px;
     font-size: 15px;
     color: #2a2c39;
@@ -345,8 +345,8 @@ h6 {
 .navbar-mobile .dropdown ul {
     position: static;
     display: none;
-    margin: 10px 20px;
-    padding: 10px 0;
+    margin: 0px 10px;
+    padding: 0px 0;
     z-index: 99;
     opacity: 1;
     visibility: visible;
@@ -1567,7 +1567,7 @@ h6 {
     right: 15px;
     bottom: 5px;
     z-index: 996;
-    background: #ef6603;
+    background: var(--cam-logo);
     width: 40px;
     height: 40px;
     border-radius: 50px;
