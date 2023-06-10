@@ -44,7 +44,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 42px;
+  font-size: 22px;
   font-weight: 900;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -234,7 +234,7 @@ section {
 }
 
 .vision .container .testimonial-item .highlight {
-  width: 80%;
+  width: 70%;
   padding: 0 0px 0px 0px;
   margin: 0 auto 0px auto;
   font-size: 26px;
@@ -293,13 +293,13 @@ section {
   font-family: 'Vollkorn';
   text-align: center;
   font-weight: 700;
-  font-size: 42px;
+  font-size: 24px;
   color: #fff;
 }
 .vision .container .sub-title {
   font-family: 'Inter';
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   color:  #fff;
 }
 
