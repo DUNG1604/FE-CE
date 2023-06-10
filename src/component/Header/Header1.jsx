@@ -46,23 +46,23 @@ const Header1 = () => {
                                 </li>
                                 <li class="dropdown">
                                     <a href="#mission">
-                                        <span href="#mission">Về chúng tôi</span> <i class="bi bi-chevron-down"></i>
+                                        <span href="/#mission">Về chúng tôi</span> <i class="bi bi-chevron-down"></i>
                                     </a>
                                     <ul>
                                         <li>
-                                            <a href="#mission">Sứ mệnh</a>
+                                            <a href="/#mission">Sứ mệnh</a>
                                         </li>
                                         <li>
-                                            <a href="#vision">Tầm nhìn</a>
+                                            <a href="/#vision">Tầm nhìn</a>
                                         </li>
                                         <li>
-                                            <a href="#our-value">Giá trị cốt lõi</a>
+                                            <a href="/#our-value">Giá trị cốt lõi</a>
                                         </li>
                                         <li>
-                                            <a href="#philosophy">Triết lý thương hiệu</a>
+                                            <a href="/#philosophy">Triết lý thương hiệu</a>
                                         </li>
                                         <li>
-                                            <a href="#human-resource">Con người</a>
+                                            <a href="/#human-resource">Con người</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -168,24 +168,24 @@ const Header1 = () => {
                     </Link>
                     </li>
                     <li class="dropdown">
-                        <a onClick={handleClick} href="#about">
+                        <a onClick={handleClick} href="/#mission">
                             <span>Về chúng tôi</span> <i class="bi bi-chevron-down"></i>
                         </a>
                         <ul className="chua">
                             <li>
-                                <a href="#about">Sứ mệnh</a>
+                                <a href="/#mission">Sứ mệnh</a>
                             </li>
                             <li>
-                                <a href="#about">Tầm nhìn</a>
+                                <a href="/#vision">Tầm nhìn</a>
                             </li>
                             <li>
-                                <a href="#our-value">Giá trị cốt lõi</a>
+                                <a href="/#our-value">Giá trị cốt lõi</a>
                             </li>
                             <li>
-                                <a href="#philosophy">Triết lý thương hiệu</a>
+                                <a href="/#philosophy">Triết lý thương hiệu</a>
                             </li>
                             <li>
-                                <a href="#human-resource">Con người</a>
+                                <a href="/#human-resource">Con người</a>
                             </li>
                         </ul>
                     </li>

@@ -121,7 +121,7 @@ section {
 }
 
 .mission .testimonial-item h4 {
-  font-size: 14px;
+  font-size: 13px;
   color: #999;
   margin: 0;
 }
@@ -129,7 +129,7 @@ section {
 .mission .testimonial-item .quote-icon-left,
 .mission .testimonial-item .quote-icon-right {
   color: var(--green);
-  font-size: 26px;
+  font-size: 24px;
   /* opacity: 30%; */
 }
 
@@ -157,7 +157,7 @@ section {
   width: 80%;
   padding: 0 0px 30px 0px;
   margin: 0 auto 0px auto;
-  font-size: 26px;
+  font-size: 24px;
   font-family: "Vollkorn";
   font-weight: 500;
   text-align: center;
@@ -185,7 +185,7 @@ section {
 
 .mission .container .items h3.title {
   font-family: 'Inter';
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   margin-bottom: 10px;
   color: #ffffff;
@@ -201,7 +201,7 @@ section {
 
 .mission .container .description {
   font-family: 'Inter';
-  font-size: 16px;
+  font-size: 13px;
   text-align: justify;
   font-style: normal;
   padding-top: 15px;
@@ -234,10 +234,10 @@ section {
 }
 
 .vision .container .testimonial-item .highlight {
-  width: 70%;
+  width: 85%;
   padding: 0 0px 0px 0px;
   margin: 0 auto 0px auto;
-  font-size: 26px;
+  font-size: 24px;
   font-family: "Vollkorn";
   font-weight: 500;
   text-align: center;
@@ -263,7 +263,7 @@ section {
 .vision .content .btn-learn-more {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -299,14 +299,14 @@ section {
 .vision .container .sub-title {
   font-family: 'Inter';
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   color:  #fff;
 }
 
 .vision .content .btn-learn-more {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -377,7 +377,7 @@ section {
 
 .our-value .member h3 {
   font-family: 'Inter';
-  font-size: 26px;
+  font-size: 17px;
   font-weight: 600;
   margin-bottom: 10px;
   color: #363947;
@@ -416,7 +416,7 @@ section {
 .our-value .member .member-info p {
   /* font-style: italic; */
   font-family: 'Inter';
-  font-size: 16px;
+  font-size: 13px;
   line-height: 26px;
   color: #777777;
 }
@@ -476,7 +476,7 @@ section {
   font-family: 'Inter';
   color: #fff;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
   margin: 0px;
 }
 
@@ -488,7 +488,7 @@ section {
 }
 
 .philosophy .testimonial-item h4 {
-  font-size: 14px;
+  font-size: 13px;
   color: #999;
   margin: 0;
 }
@@ -496,7 +496,7 @@ section {
 .philosophy .testimonial-item .quote-icon-left,
 .philosophy .testimonial-item .quote-icon-right {
   color: #fedac0;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .philosophy .testimonial-item .quote-icon-left {
@@ -540,7 +540,7 @@ section {
 
 .human-resource .content h3 {
   font-family: 'Vollkorn';
-  font-size: 42px;
+  font-size: 24px;
   font-weight: 600;
   margin-bottom: 10px;
   color: #363947;
@@ -552,7 +552,7 @@ section {
   font-family: 'Inter';
   list-style: none;
   padding: 0;
-  font-size: 16px;
+  font-size: 13px;
   text-align: justify;
 }
 
@@ -581,7 +581,7 @@ section {
 .human-resource .content .btn-learn-more {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 13px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -609,7 +609,7 @@ section {
 .human-resource .content .btn-learn-more {
   font-family: "Inter";
   font-weight: 600;
-  font-size: 16px;
+  font-size: 13px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
