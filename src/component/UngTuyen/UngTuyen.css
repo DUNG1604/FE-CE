@@ -1,3 +1,120 @@
 .UngTuyen {
-    margin-top: 73px;
+  margin-top: 73px;
+}
+* {
+  font-family: "Opensans", sans-serif;
+  color: #fff;
+}
+body {
+  box-sizing: border-box;
+}
+
+/*  */
+.pd-10-14 {
+  padding: 10px 14px;
+}
+.fl {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 22px;
+}
+/*  */
+/*--------------------------------------------------------------
+  # commingsoon
+  --------------------------------------------------------------*/
+#backgr {
+  background: url("../../../public/assets/img/bg.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+#backgr::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(22, 22, 22, 0.8);
+}
+
+#backgr .container {
+  position: relative;
+  padding: 150px 0;
+  color: #fff;
+}
+#backgr .container h1 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+#backgr .container .content {
+  padding-top: 20px;
+}
+
+.title .sub-title {
+  font-size: 35.2px;
+}
+select {
+  word-wrap: normal;
+  width: 100%;
+}
+.col-md-6.form-group {
+  margin: 0 0px 22px 0;
+}
+
+select {
+  word-wrap: normal;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 15px 20px;
+  margin-top: -10px;
+}
+.row.gy-2.gx-md-3.row-form {
+  margin-bottom: 52px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.row-content {
+  align-items: flex-end;
+}
+select option {
+  padding: 10px;
+  color: #212529;
+}
+.content p.sub-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.btn_submit {
+  background-color: #006837;
+  border: 1px solid transparent;
+  width: 40%;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.6em;
+  border-radius: 0;
+  padding: 10px 50px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.btn_submit:hover {
+  background-color: #fff;
+  color: #006837;
 }
