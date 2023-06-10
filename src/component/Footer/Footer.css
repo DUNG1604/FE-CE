@@ -55,7 +55,7 @@
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #1c84e3;
+  color: var(--cam-logo);
   font-size: 18px;
   line-height: 1;
   text-align: left;
@@ -82,7 +82,7 @@
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #1977cc;
+  color: var(--cam-logo);
 }
 
 #footer .footer-newsletter {
@@ -136,6 +136,10 @@
   padding-top: 5px;
   font-size: 13px;
   color: #444444;
+}
+
+#footer .footer-bot {
+  background-color: #e3e3e3;
 }
 
 #footer .social-links a {

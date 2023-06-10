@@ -125,14 +125,14 @@ const Header = () => {
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#">Chương trình thực tế</a>
+                                            <Link to="/Commingsoon">Chương trình thực tế</Link>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <Link to="/dinhhuong">
+                                    <a onClick={handleClick} href="#">
                                         <span>Việc làm</span> <i class="bi bi-chevron-down"></i>
-                                    </Link>
+                                    </a>
                                     <ul>
                                         <li class="dropdown">
                                             <a href="#">
@@ -150,7 +150,7 @@ const Header = () => {
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#">
+                                    <a onClick={handleClick} href="#">
                                         <span>Tin tức</span> <i class="bi bi-chevron-down"></i>
                                     </a>
                                     <ul>                            
@@ -178,9 +178,9 @@ const Header = () => {
             <nav id="navbar" className="navbarr navbar navbar-mobile">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto" href="#about">
-                            Trang chủ
-                        </a>
+                    <Link onClick={scrollToTop} class="nav-link scrollto " to="/">
+                        Trang chủ
+                    </Link>
                     </li>
                     <li class="dropdown">
                         <a onClick={handleClick} href="#about">
@@ -209,14 +209,9 @@ const Header = () => {
                             <span>Định hướng</span> <i class="bi bi-chevron-down"></i>
                         </a>
                         <ul>
-                            <li>
-                            <Link to="/Commingsoon"><a href="#">Công cụ</a></Link>
-                            </li>
-                            <li>
-                                <Link to="/Commingsoon">
-                                    <a href="#">Mentor</a>
-                                </Link>
-                            </li>
+                            <li><Link to="/Commingsoon">Công cụ</Link></li>
+                            {/* <li><Link to="/Commingsoon">Công cụ</Link></li> */}
+                            <li><Link to="/Commingsoon">Mentor</Link></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -225,62 +220,30 @@ const Header = () => {
                         </a>
                         <ul>
                             <li class="dropdown">
-                                <a href="#">
+                                <a onClick={handleClick} href="#">
                                     <span>Kỹ năng mềm</span> <i class="bi bi-chevron-right"></i>
                                 </a>
                                 <ul>
-                                    <li>
-                                        <Link to="/Commingsoon">
-                                            <a href="#">Khóa học</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/Commingsoon">
-                                            <a href="#">Ebook</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/Commingsoon">
-                                            <a href="#">Bài viết</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/Commingsoon">
-                                            <a href="#">Video</a>
-                                        </Link>
-                                    </li>
+                                    <li><Link to="/Commingsoon">Khóa học</Link></li>
+                                    <li><Link to="/Commingsoon">Ebook</Link></li>
+                                    <li><Link to="/Commingsoon">Bài viết</Link></li>
+                                    <li><Link to="/Commingsoon">Video</Link></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#">
+                                <a onClick={handleClick} href="#">
                                     <span>Kỹ năng chuyên môn</span>{" "}
                                     <i class="bi bi-chevron-right"></i>
                                 </a>
                                 <ul>
-                                    <li>
-                                        <Link to="/Commingsoon">
-                                            <a href="#">Khóa học</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/Commingsoon">
-                                            <a href="#">Ebook</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/Commingsoon">
-                                            <a href="#">Bài viết</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/Commingsoon">
-                                            <a href="#">Video</a>
-                                        </Link>
-                                    </li>
+                                    <li><Link to="/Commingsoon">Khóa học</Link></li>
+                                    <li><Link to="/Commingsoon">Ebook</Link></li>
+                                    <li><Link to="/Commingsoon">Bài viết</Link></li>
+                                    <li><Link to="/Commingsoon">Video</Link></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Chương trình thực tế</a>
+                                <Link to="/Commingsoon">Chương trình thực tế</Link>
                             </li>
                         </ul>
                     </li>
@@ -294,22 +257,12 @@ const Header = () => {
                                     <span>Ứng viên</span> <i class="bi bi-chevron-right"></i>
                                 </a>
                                 <ul>
-                                    <li>
-                                        <Link to="/Commingsoon">
-                                        <a href="#">Tìm việc</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/Commingsoon">
-                                        <a href="#">Tạo CV</a>
-                                        </Link>
-                                    </li>
+                                    <li><Link to="/Commingsoon">Tìm việc</Link></li>
+                                    <li><Link to="/Commingsoon">Tạo CV</Link></li>
                                 </ul>
                             </li>
                             <li>
-                                <Link to="/Commingsoon">
-                                <a href="#">Nhà tuyển dụng</a>
-                                </Link>
+                                <Link to="/Commingsoon">Nhà tuyển dụng</Link>
                             </li>
                         </ul>
                     </li>
@@ -318,21 +271,9 @@ const Header = () => {
                             <span>Tin tức</span> <i class="bi bi-chevron-down"></i>
                         </a>
                         <ul>
-                            <li>
-                                <Link to="/Commingsoon">
-                                    <a href="#">Học bổng</a>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/Commingsoon">
-                                    <a href="#">Sự kiện</a>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/Commingsoon">
-                                    <a href="#">Cuộc thi</a>
-                                </Link>
-                            </li>
+                            <li><Link to="/Commingsoon">Học bổng</Link></li>
+                            <li><Link to="/Commingsoon">Sự kiện</Link></li>
+                            <li><Link to="/Commingsoon">Cuộc thi</Link></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -340,14 +281,8 @@ const Header = () => {
                             <span>Liên hệ</span> <i class="bi bi-chevron-down"></i>
                         </a>
                         <ul>
-                            <li>
-                                <Link to="/ungtuyen">Ứng tuyển</Link>
-                            </li>
-                            <li>
-                                <Link to="/Commingsoon">
-                                <a href="#">Hợp tác</a>
-                                </Link>
-                            </li>
+                            <li><Link to="/ungtuyen">Ứng tuyển</Link></li>
+                            <li><Link to="/Commingsoon">Hợp tác</Link></li>
                         </ul>
                     </li>
                 </ul>

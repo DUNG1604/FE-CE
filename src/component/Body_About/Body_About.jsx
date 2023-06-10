@@ -9,18 +9,20 @@ const BodyAbout = () => {
           <div className="section-title" data-aos="zoom-out">
             <h2>Sứ mệnh</h2>
           </div>
+          
           <div className="swiper-wrapper">
             <div className="testimonial-item">
-              <p>
-                <i className="bx bxs-quote-alt-left quote-icon-left" />
+            <div className="highlight">
                 CareerEmpower ra đời với sứ mệnh giúp đỡ sinh viên Đại học Kinh
                 tế Quốc dân có được
-                <br />{" "}
-                <b className="highlight">
                   công việc đúng sở thích với mức lương xứng đáng
-                </b>
+                </div>
+              {/* <p>
+                <i className="bx bxs-quote-alt-left quote-icon-left" />
+                
+                
                 <i className="bx bxs-quote-alt-right quote-icon-right" />
-              </p>
+              </p> */}
               {/* <img src="assets/img/home/logo_circle.png" className="testimonial-img" alt /> */}
               {/* <h3>Saul Goodman</h3>
                   <h4>Ceo &amp; Founder</h4> */}
@@ -91,8 +93,8 @@ const BodyAbout = () => {
             <h2>Tầm nhìn</h2>
           </div>
 
-          <div className="swiper-wrapper">
             <div className="testimonial-item">
+              <div className="highlight">
               <p class="title">
                 CareerEmpower sẽ là tổ chức dẫn đầu về đồng hành cùng sinh viên
                 Đại học Kinh tế Quốc dân trên con đường đạt được công việc đúng
@@ -104,10 +106,7 @@ const BodyAbout = () => {
                 CareerEmpower cam kết đến 2026 sẽ giúp đỡ được 20.000 sinh viên
                 Đại học Kinh tế Quốc dân{" "}
               </p>
-              {/* <a href="https://www.facebook.com/LifeatCareerEmpower"  target="_blank" rel="noopener noreferrer" class="btn-learn-more">
-                Tìm hiểu thêm
-              </a> */}
-            </div>
+              </div>
           </div>
         </div>
       </section>
@@ -348,29 +347,16 @@ const BodyAbout = () => {
             <h2>Triết lý thương hiệu</h2>
           </div>
           <div className="testimonial-item">
-            <div className="testimonial-img">
-              <img
-                src="./assets/img/home/logo_xanh.png"
-                className="img-fluid"
-                alt=""
-              />
-            </div>
-            <div className="stars">
-              <i className="bi bi-star-fill" />
-              <i className="bi bi-star-fill" />
-              <i className="bi bi-star-fill" />
-              <i className="bi bi-star-fill" />
-              <i className="bi bi-star-fill" />
-            </div>
+
 
             <div className="philosophy-content">
-              <p className="trietly1">
-                "Tại CareerEmpower, nếu cảm thấy phù hợp, đây sẽ là sự nghiệp
+              <p>
+                Tại CareerEmpower, nếu cảm thấy phù hợp, đây sẽ là sự nghiệp
                 của bạn.
               </p>
-              <p className="trietly1">
+              <p>
                 Nếu không, CareerEmpower sẽ là bệ phóng của bạn trên con đường
-                sự nghiệp."
+                sự nghiệp.
               </p>
             </div>
 
