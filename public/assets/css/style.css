@@ -153,7 +153,7 @@ h6 {
     align-items: center;
     justify-content: space-between;
     padding: 5px 2px;
-    font-family: "Nunito", sans-serif;
+    font-family: "Inter";
     font-size: 16px;
     font-weight: 700;
     color: #fff;
@@ -167,7 +167,7 @@ h6 {
     align-items: center;
     justify-content: space-between;
     padding: 5px 2px;
-    font-family: "Nunito", sans-serif;
+    font-family: "Inter";
     font-size: 16px;
     font-weight: 700;
     color: #fff;
@@ -218,7 +218,7 @@ h6 {
     color: #2a2c39;
     margin: 0 5px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .navbar .dropdown ul a i {

@@ -375,7 +375,7 @@ const BodyAbout = () => {
             <div class="col-lg-5">
               <h3>
                 CareerEmpower tự hào sở hữu đội ngũ nhân sự nhiệt huyết, giàu
-                trải nghiệm và luôn sẵn sằng đón nhận thách thức.
+                trải nghiệm và luôn sẵn sàng đón nhận thách thức.
               </h3>
 
               <p>
