@@ -30,7 +30,7 @@ const Hero = () => {
                 <div className="carousel-item">
                     <div className="carousel-container">
                         <h2 className="animate__animated animate__fadeInDown"><span>Group việc làm hàng đầu tại NEU</span></h2>
-                        <p className="animate__animated animate__fadeInUp">Group <strong>NEU JOBS & INTERNSHIPS - Cơ hội việc làm, thực tập cho Gen Z tại NEU </strong> với hơn 100k thành viên là cộng đồng hàng đầu giúp bạn học hỏi kiến thức, kinh nghiệm và cập nhật thông tin mới nhất về thị trường lao động, tuyển dụng và phát triển nghề nghiệp</p>
+                        <p className="animate__animated animate__fadeInUp">Group <strong>NEU JOBS & INTERNSHIPS - Cơ hội việc làm, thực tập cho Gen Z tại NEU </strong> với hơn 100k thành viên là cộng đồng hàng đầu giúp bạn học hỏi kiến thức, kinh nghiệm và cập nhật thông tin mới nhất về thị trường lao động, tuyển dụng và phát triển nghề nghiệp.</p>
                         <a href=" https://www.facebook.com/groups/careerempower "target="_blank" className="btn-get-started animate__animated animate__fadeInUp scrollto">Tham gia ngay</a>
                     </div>
                 </div>
