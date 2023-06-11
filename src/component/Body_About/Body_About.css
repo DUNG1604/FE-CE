@@ -473,7 +473,7 @@ section {
 
 }
 .philosophy .testimonial-item p {
-  font-family: 'Inter';
+  font-family: "Vollkorn";
   color: #fff;
   font-weight: 700;
   font-size: 24px;
@@ -605,7 +605,10 @@ section {
   height: auto;
   margin-top: 30px;
 }
-
+.human-resource .center-block{
+  display: flex;
+  justify-content: center;
+}
 .human-resource .content .btn-learn-more {
   font-family: "Inter";
   font-weight: 600;
@@ -623,6 +626,7 @@ section {
   margin-bottom: 30px;
   border: 2px solid var(--green);
 }
+
 
 .human-resource .content .btn-learn-more:hover {
   background: var(--check-item-color);
