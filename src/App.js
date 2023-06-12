@@ -5,7 +5,6 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      {/* <VeChungToi></VeChungToi> */}
       <Routes>
         <Route path="/" element={<VeChungToi />} />
         <Route path="/dinhhuong" element={<DinhHuong />} />
