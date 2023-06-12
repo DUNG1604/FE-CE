@@ -62,7 +62,7 @@ const UngTuyen = () => {
     setUngtuyen("");
   }
   return (
-    <div id="backgr" className="backgr">
+    <div id="Ungtuyen" className="Ungtuyen">
       <div class="container">
         <div class="row mt-5 row-content">
           <div class="col-lg-6 ">

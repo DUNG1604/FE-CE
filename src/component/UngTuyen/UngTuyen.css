@@ -1,8 +1,9 @@
+
 .UngTuyen {
   margin-top: 73px;
+  
 }
-* {
-  font-family: "Opensans", sans-serif;
+.backgr .container .UngTuyen {
   color: #fff;
 }
 body {
@@ -27,6 +28,8 @@ body {
   background-size: cover;
   position: relative;
   height: 100vh;
+  font-family: "Inter";
+
 }
 #backgr::before {
   content: "";
