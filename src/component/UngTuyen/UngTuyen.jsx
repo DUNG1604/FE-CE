@@ -59,6 +59,7 @@ const UngTuyen = () => {
         setSchool("")
         setSdt("")
         setUngtuyen("")
+
     }
     return (
         <div className='UngTuyen'>
