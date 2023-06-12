@@ -21,17 +21,18 @@ body {
 }
 /*  */
 /*--------------------------------------------------------------
-  # commingsoon
+  # ungtuyen
   --------------------------------------------------------------*/
-#backgr {
+#ungtuyen {
   background: url("../../../public/assets/img/bg.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   height: 100vh;
   font-family: "Inter";
+  color: #fff;
 
 }
-#backgr::before {
+#ungtuyen::before {
   content: "";
   position: absolute;
   left: 0;
@@ -41,7 +42,8 @@ body {
   background: rgba(22, 22, 22, 0.8);
 }
 
-#backgr .container {
+#ungtuyen .container {
+  text-align: justify;
   position: relative;
   padding: 150px 0;
   color: #fff;
