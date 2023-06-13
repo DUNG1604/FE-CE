@@ -8,6 +8,7 @@
     background: url("../../../public/assets/img/hihi.jpg") top center no-repeat;
     background-size: cover;
     position: relative;
+    margin-top: 35px;
   }
   #backgr::before {
     content: "";
