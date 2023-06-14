@@ -92,7 +92,7 @@ const BodyAbout = () => {
               </p>
               <p class="sub-title">
                 CareerEmpower nỗ lực và cam kết sẽ tăng cả về chất lượng và số
-                lượng các bạn sinh viên NEU mà CareerEmpower đồng hành.
+                lượng các bạn sinh viên NEU mà CareerEmpower đồng hành.<br></br>
                 CareerEmpower cam kết đến 2026 sẽ giúp đỡ được 20.000 sinh viên
                 Đại học Kinh tế Quốc dân.{" "}
               </p>

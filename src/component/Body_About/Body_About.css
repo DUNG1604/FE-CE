@@ -41,6 +41,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .section-title h2 {
@@ -605,10 +606,6 @@ section {
   height: auto;
   margin-top: 30px;
 }
-.human-resource .center-block{
-  display: flex;
-  justify-content: center;
-}
 .human-resource .content .btn-learn-more {
   font-family: "Inter";
   font-weight: 600;
@@ -640,8 +637,13 @@ section {
   align-items: flex-start;
 }
 
+
 @media (max-width: 990px) {
   .sumenhimg {
     padding-top: 20px;
+  }
+  .human-resource .center-block{
+    display: flex;
+    justify-content: center;
   }
 }
