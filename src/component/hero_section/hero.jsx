@@ -14,7 +14,7 @@ const Hero = () => {
         data-bs-ride="carousel"
       >
         {/* Slide 1 */}
-        <div className="carousel-item active">
+        {/* <div className="carousel-item active">
           <div className="carousel-container">
             <h2 className="animate__animated animate__fadeInDown">
               <span>CareerEmpower</span>
@@ -32,6 +32,28 @@ const Hero = () => {
             >
               Về Chúng Tôi
             </a>
+          </div>
+        </div> */}
+        <div className="carousel-item">
+          <div className="carousel-container">
+            <h2 className="animate__animated animate__fadeInDown">
+              <span>CareerEmpower</span>
+            </h2>
+            <p className="animate__animated animate__fadeInUp">
+              CareerEmpower cung cấp các giải pháp toàn diện về định hướng nghề
+              nghiệp, đào tạo kỹ năng và kết nối cơ hội việc làm. Chúng tôi là
+              đối tác tin cậy và đồng hành cùng sinh viên Trường Đại học Kinh tế
+              Quốc dân trong việc xây dựng và phát triển lộ trình sự nghiệp hiệu
+              quả.
+            </p>
+            <Link to="/#mission">
+              <a
+                href="#"
+                className="btn-get-started animate__animated animate__fadeInUp scrollto"
+              >
+                Về chúng tôi
+              </a>
+            </Link>
           </div>
         </div>
         {/* Slide 2 */}
