@@ -35,8 +35,8 @@
 }
 
 .ungtuyen .sub-title {
-    
-    font-size: 17px;
+
+    font-size: 14px;
     font-weight: 500;
 }
 
@@ -48,7 +48,7 @@
     border-radius: 10px 0 0 10px;
     box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
     color: #fff;
-    font-size: 13px;
+    font-size: 14px;
   }
 
 
@@ -128,7 +128,7 @@
   .ungtuyen .ungtuyen-form h2{
     color: var(--green);
     font-size: 24px;
-    padding-bottom: 25x;
+    padding-bottom: 13px;
 }
 /*   
   .ungtuyen .ungtuyen-form .form-group {
@@ -204,6 +204,22 @@
   .ungtuyen .button {
     text-align: right;
   }
+  .ungtuyen button[type=details] {
+    background: none;
+    border: 2px solid;
+    border-color: var(--cam-logo);
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    /* width: 100%; */
+    font-size: 14px;
+    position: relative;
+  }
+  
+  .ungtuyen button[type=details]:hover {
+    background: var(--cam-logo);
+  }
   .ungtuyen button[type=submit] {
     background: var(--green);
     border: 0;
@@ -211,11 +227,12 @@
     color: #fff;
     transition: 0.4s;
     border-radius: 5px;
+    font-size: 14px;
     width: 100%;
   }
   
   .ungtuyen button[type=submit]:hover {
-    background: var(--cam-logo);
+    background: var(--xanh-sang);
   }
   
   @keyframes animate-loading {
@@ -244,3 +261,7 @@
     color: #000000;
   }
  
+
+  .ungtuyen .info-container .btn-details {
+    text-align: center;
+  }

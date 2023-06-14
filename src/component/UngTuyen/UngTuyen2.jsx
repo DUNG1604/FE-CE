@@ -107,13 +107,17 @@ const UngTuyen = () => {
                   sáng tạo đa dạng về nhiều lĩnh vực.
                 </li>
               </ul>
+              <div className="btn-details">
+              <a href="https://drive.google.com/drive/folders/1mKu0yp6oYAr0uocKpHlmBGHm4ukTpa96" target="_blank" rel="noopener noreferrer" className="button form-group mt-1 "><button type="details">CHI TIẾT CÁC VỊ TRÍ ỨNG TUYỂN</button></a>
+              </div>
+
             </div>
         </div>
       </div>
       <div className="col-lg-6">
         
         <form onSubmit={(e) => handleLogin(e)} action="" className="ungtuyen-form text-center">
-         <h2>Gửi Thông tin ứng tuyển</h2>
+         <h2>THÔNG TIN ỨNG TUYỂN</h2>
 
           <div className="row form-group mt-4">
             <div class="col-md-6 form-group">
@@ -136,7 +140,7 @@ const UngTuyen = () => {
                           <input
                             name="email"
                             placeholder="Email"
-                            type="text"
+                            type="email"
                             id="email"
                             className="form-control pd-10-14"
                             required
@@ -154,7 +158,7 @@ const UngTuyen = () => {
                     <input
                       name="sdt"
                       placeholder="Số điện thoại"
-                      type="text"
+                      type="number"
                       id="sdt"
                       className="form-control pd-10-14"
                       required
@@ -218,7 +222,7 @@ const UngTuyen = () => {
             <select className="form-select mt-4" name="Ungtuyen" id="lang-select" value={ungtuyen}
                     onChange={(e) => onChangeUngtuyen(e)}>
                 <option hidden disabled selected value="">
-                  Vị Trí làm việc
+                  Vị trí làm việc
                 </option>
                 <option value="Nghiên cứu và phát triển sản phẩm">
                   Nghiên cứu và phát triển sản phẩm
@@ -257,9 +261,12 @@ const UngTuyen = () => {
           <div className="form-group mt-4">
             <input type="text" className="form-control" name="subject" id="subject" placeholder="Link tải CV của bạn" required />
           </div>
+          <div className="form-group mt-4">
+            <input type="text" className="form-control" name="subject" id="subject" placeholder="Link portfolio của bạn"/>
+          </div>
 
 
-          <div className="button form-group mt-5 "><button type="submit">Gửi thông tin ứng tuyển</button></div>
+          <div className="button form-group mt-5 "><button type="submit">GỬI THÔNG TIN ỨNG TUYỂN</button></div>
         </form>
       </div>
     </div>
