@@ -6,7 +6,7 @@
 #footer {
   color: #444444;
   font-size: 14px;
-  background: #f1f7fd;
+  background: #eeeeee;
 }
 
 #footer .footer-top {
@@ -55,7 +55,7 @@
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #1c84e3;
+  color: var(--cam-logo);
   font-size: 18px;
   line-height: 1;
   text-align: left;
@@ -82,7 +82,7 @@
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #1977cc;
+  color: var(--cam-logo);
 }
 
 #footer .footer-newsletter {
@@ -138,6 +138,10 @@
   color: #444444;
 }
 
+#footer .footer-bot {
+  background-color: #e3e3e3;
+}
+
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -173,10 +177,11 @@
 }
 
 .footer_img {
-  background-image: url(../../../public/data/imgs/logo_xanh.png);
+  background-image: url(../../../public/assets/img/home/logo_xanh.png);
   background-size: contain;
   background-position: left;
   width: 100%;
-  height: 30px;
+  height: 25px;
   background-repeat: no-repeat;
+  margin-bottom: 10px;
 }

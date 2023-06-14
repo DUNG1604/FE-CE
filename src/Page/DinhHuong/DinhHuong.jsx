@@ -1,10 +1,11 @@
 import Header1 from "../../component/Header/Header1";
-import "./Dinhhuong.css";
+import Commingsoon from "../../component/Commingsoon/commingsoon";
+
 const DinhHuong = () => {
   return (
     <div>
       <Header1></Header1>
-      <div className="dinhhuong"></div>
+      <Commingsoon></Commingsoon>
     </div>
   );
 };

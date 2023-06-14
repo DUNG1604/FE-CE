@@ -5,7 +5,7 @@
 --------------------------------------------------------------*/
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", "Vollkorn", sans-serif;
     color: #444444;
 }
 
@@ -95,8 +95,8 @@ h6 {
     padding: 8px 25px;
     white-space: nowrap;
     transition: 0.3s;
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
+    font-family: "Inter";
+    font-size: 13px;
     font-weight: 700;
     display: inline-block;
     border: 2px solid #fff;
@@ -144,7 +144,7 @@ h6 {
 .navbar>ul>li {
     position: relative;
     white-space: nowrap;
-    padding: 8px 0 8px 20px;
+    padding: 6px 0 6px 20px;
 }
 
 .navbar a,
@@ -153,8 +153,8 @@ h6 {
     align-items: center;
     justify-content: space-between;
     padding: 5px 2px;
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
+    font-family: "Inter";
+    font-size: 13px;
     font-weight: 700;
     color: #fff;
     white-space: nowrap;
@@ -167,8 +167,8 @@ h6 {
     align-items: center;
     justify-content: space-between;
     padding: 5px 2px;
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
+    font-family: "Inter";
+    font-size: 13px;
     font-weight: 700;
     color: #fff;
     white-space: nowrap;
@@ -217,8 +217,8 @@ h6 {
     padding: 10px 20px;
     color: #2a2c39;
     margin: 0 5px;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .navbar .dropdown ul a i {
@@ -228,7 +228,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-    color: #04bf01;
+    color: var(--green);
     /* color: #FF4E00; */
 
 }
@@ -326,7 +326,7 @@ h6 {
 }
 
 .navbar-mobile a {
-    padding: 10px 20px;
+    padding: 5px 20px;
     margin: 5px;
     font-size: 15px;
     color: #2a2c39;
@@ -335,7 +335,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-    color: #04bf01;
+    color: var(--green);
 }
 
 .navbar-mobile .getstarted {
@@ -345,8 +345,8 @@ h6 {
 .navbar-mobile .dropdown ul {
     position: static;
     display: none;
-    margin: 10px 20px;
-    padding: 10px 0;
+    margin: 0px 10px;
+    padding: 0px 0;
     z-index: 99;
     opacity: 1;
     visibility: visible;
@@ -369,7 +369,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-    color: #04bf01;
+    color: var(--green);
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -429,7 +429,7 @@ h6 {
 #hero .btn-get-started {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
     letter-spacing: 1px;
     display: inline-block;
     padding: 12px 32px;
@@ -524,17 +524,18 @@ h6 {
 /*--------------------------------------------------------------
   # Sections General
   --------------------------------------------------------------*/
-section {
+/* section {
     padding: 60px 0;
     overflow: hidden;
 }
 
 .section-title {
     padding-bottom: 40px;
+    text-align: center;
 }
 
 .section-title h2 {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     padding: 0;
     line-height: 1px;
@@ -562,7 +563,7 @@ section {
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     color: #2a2c39;
-}
+} */
 
 /*--------------------------------------------------------------
   # About
@@ -606,7 +607,7 @@ section {
 .about .content .btn-learn-more {
     font-family: "Raleway", sans-serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 13px;
     letter-spacing: 1px;
     display: inline-block;
     padding: 12px 32px;
@@ -732,7 +733,7 @@ section {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 13px;
     letter-spacing: 1px;
     display: inline-block;
     padding: 12px 30px;
@@ -811,7 +812,7 @@ section {
 }
 
 .services .description {
-    font-size: 14px;
+    font-size: 13px;
     margin-left: 40px;
     line-height: 24px;
     margin-bottom: 0;
@@ -829,7 +830,7 @@ section {
     cursor: pointer;
     display: inline-block;
     margin: 0 0 10px 10px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 500;
     line-height: 1;
     text-transform: uppercase;
@@ -899,7 +900,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info p {
     color: #fedac0;
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 0;
 }
 
@@ -1049,7 +1050,7 @@ section {
 }
 
 .testimonials .testimonial-item h4 {
-    font-size: 14px;
+    font-size: 13px;
     color: #999;
     margin: 0;
 }
@@ -1134,7 +1135,7 @@ section {
 
 .pricing h4 span {
     color: #bababa;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 300;
 }
 
@@ -1144,7 +1145,7 @@ section {
     color: #444444;
     text-align: center;
     line-height: 20px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .pricing ul li {
@@ -1176,7 +1177,7 @@ section {
     border-radius: 50px;
     color: #fff;
     transition: none;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
@@ -1203,7 +1204,7 @@ section {
     right: -68px;
     transform: rotate(45deg);
     z-index: 1;
-    font-size: 14px;
+    font-size: 13px;
     padding: 1px 0 3px 0;
     background: #ef6603;
     color: #fff;
@@ -1241,7 +1242,7 @@ section {
 }
 
 .faq .faq-list i {
-    font-size: 16px;
+    font-size: 13px;
     position: absolute;
     left: 0;
     top: -2px;
@@ -1350,7 +1351,7 @@ section {
 
 .team .member .member-info p {
     font-style: italic;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 26px;
     color: #777777;
 }
@@ -1393,7 +1394,7 @@ section {
 .contact .info p {
     padding: 0 0 0 60px;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 13px;
     color: #555974;
 }
 
@@ -1463,7 +1464,7 @@ section {
 .contact .php-email-form textarea {
     border-radius: 0;
     box-shadow: none;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .contact .php-email-form input {
@@ -1519,7 +1520,7 @@ section {
     list-style: none;
     padding: 0;
     margin: 0;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 @media (max-width: 992px) {
@@ -1566,7 +1567,7 @@ section {
     right: 15px;
     bottom: 5px;
     z-index: 996;
-    background: #ef6603;
+    background: var(--cam-logo);
     width: 40px;
     height: 40px;
     border-radius: 50px;

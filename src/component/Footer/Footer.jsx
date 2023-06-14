@@ -25,25 +25,29 @@ const Footer = () => {
               <ul>
                 <li>
                   <i className="bx bx-chevron-right" />
-                  <a href="#about">Sứ mệnh</a>
+                  <a href="#mission">Sứ mệnh</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right" />
-                  <a href="#">Tầm nhìn</a>
+                  <a href="#vision">Tầm nhìn</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right" />
-                  <a href="#">Giá trị cốt lõi</a>
+                  <a href="#our-value">Giá trị cốt lõi</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right" />
-                  <a href="#">Triết lý thương hiệu</a>
+                  <a href="#philosophy">Triết lý thương hiệu</a>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right" />
-                  <a href="#">
+                  <a
+                    href="https://www.facebook.com/LifeatCareerEmpower"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Con người
-                    <span class="sub"></span>(Tìm hiểu thêm - Page Life at CE)
+                    {/* <span class="sub"></span>(Tìm hiểu thêm - Page Life at CE) */}
                   </a>
                 </li>
               </ul>
@@ -52,23 +56,17 @@ const Footer = () => {
             <div className="col-lg-2 col-md-6 footer-links">
               <h4>Giải pháp</h4>
               <ul>
-                <li>
-                  <Link to="/Commingsoon">
-                    <i className="bx bx-chevron-right" />
-                    <a href="#">Định hướng (Coming soon)</a>
-                  </Link>
+              <li>
+                  <i className="bx bx-chevron-right" />
+                  <Link to="/Commingsoon">Định hướng</Link>
                 </li>
                 <li>
-                  <Link to="/Commingsoon">
-                    <i className="bx bx-chevron-right" />
-                    <a href="#">Đào tạo (Coming soon)</a>
-                  </Link>
+                  <i className="bx bx-chevron-right" />
+                  <Link to="/Commingsoon">Đào tạo</Link>
                 </li>
                 <li>
-                  <Link to="/Commingsoon">
-                    <i className="bx bx-chevron-right" />
-                    <a href="#">Kết nối việc làm (Coming soon)</a>
-                  </Link>
+                  <i className="bx bx-chevron-right" />
+                  <Link to="/Commingsoon">Kết nối việc làm</Link>
                 </li>
               </ul>
             </div>
@@ -76,44 +74,37 @@ const Footer = () => {
               <h4>Tin tức</h4>
               <ul>
                 <li>
-                  <Link to="/Commingsoon">
-                    <i className="bx bx-chevron-right" />
-                    <a href="#">Học bổng (Coming soon)</a>
-                  </Link>
+                  <i className="bx bx-chevron-right" />
+                  <Link to="/Commingsoon">Học bổng</Link>
                 </li>
                 <li>
-                  <Link to="/Commingsoon">
-                    <i className="bx bx-chevron-right" />
-                    <a href="#">Sự kiện (Coming soon)</a>
-                  </Link>
+                  <i className="bx bx-chevron-right" />
+                  <Link to="/Commingsoon">Sự kiện</Link>
                 </li>
                 <li>
-                  <Link to="/Commingsoon">
-                    <i className="bx bx-chevron-right" />
-                    <a href="#">Cuộc thi (Coming soon)</a>
-                  </Link>
+                  <i className="bx bx-chevron-right" />
+                  <Link to="/Commingsoon">Cuộc thi</Link>
                 </li>
               </ul>
             </div>
             <div className="col-lg-2 col-md-6 footer-links">
               <h4>Liên hệ</h4>
               <ul>
-                <li>
-                  <Link to="/Commingsoon">
-                    <i className="bx bx-chevron-right" />
-                    <a href="#">Ứng tuyển (Coming soon)</a>
-                  </Link>
+              <li>
+                  <i className="bx bx-chevron-right" />
+                  <Link to="/Ungtuyen">Ứng tuyển</Link>
                 </li>
                 <li>
-                  <Link to="/Commingsoon">
-                    <i className="bx bx-chevron-right" />
-                    <a href="#">Hợp tác (Coming soon)</a>
-                  </Link>
+                  <i className="bx bx-chevron-right" />
+                  <Link to="/Commingsoon">Hợp tác</Link>
                 </li>
               </ul>
             </div>
           </div>
         </div>
+      </div>
+      <div>
+
       </div>
       <div className="container d-md-flex py-4">
         <div className="me-md-auto text-center text-md-start">
