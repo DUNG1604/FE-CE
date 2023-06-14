@@ -94,7 +94,7 @@ const BodyAbout = () => {
                 CareerEmpower nỗ lực và cam kết sẽ tăng cả về chất lượng và số
                 lượng các bạn sinh viên NEU mà CareerEmpower đồng hành.
                 CareerEmpower cam kết đến 2026 sẽ giúp đỡ được 20.000 sinh viên
-                Đại học Kinh tế Quốc dân{" "}
+                Đại học Kinh tế Quốc dân.{" "}
               </p>
               </div>
           </div>
@@ -144,7 +144,7 @@ const BodyAbout = () => {
                           <h3>Đào tạo</h3>
                           <p className="noibo_content">
                             Tôn trọng và đề cao giá trị của đào tạo và phát
-                            triển năng lực cho nhân viên.
+                            triển năng lực cho nhân sự.
                           </p>
                         </div>
                       </div>
@@ -375,6 +375,7 @@ const BodyAbout = () => {
                 đồng hành bởi những người bạn tận tâm, chia sẻ và tin cậy, luôn
                 sát cánh cùng bạn trong quá trình phát triển sự nghiệp.
               </p>
+              <div className="center-block">
               <a
                 href="https://www.facebook.com/LifeatCareerEmpower"
                 target="_blank"
@@ -383,6 +384,7 @@ const BodyAbout = () => {
               >
                 Tìm hiểu thêm
               </a>
+              </div>
             </div>
             <div className="col-lg-7" data-aos="zoom-out" data-aos-delay={200}>
               {/* <img src="./assets/img/home/7.jpg" className="img-fluid" alt="" /> */}

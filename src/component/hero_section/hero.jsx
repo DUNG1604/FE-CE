@@ -10,7 +10,8 @@ const Hero = () => {
                     <div className="carousel-container">
                         <h2 className="animate__animated animate__fadeInDown"><span>CareerEmpower</span></h2>
                         <p className="animate__animated fanimate__adeInUp">CareerEmpower cung cấp các giải pháp toàn diện về định hướng nghề nghiệp, đào tạo kỹ năng và kết nối cơ hội việc làm. Chúng tôi là đối tác tin cậy và đồng hành cùng sinh viên Trường Đại học Kinh tế Quốc dân trong việc xây dựng và phát triển lộ trình sự nghiệp hiệu quả.</p>
-                        <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Về Chúng Tôi</a>
+                        <a href="/#mission" className="btn-get-started animate__animated animate__fadeInUp scrollto">Về Chúng Tôi</a>
+                       
                     </div>
                 </div>
                 {/* Slide 2 */}
@@ -29,7 +30,7 @@ const Hero = () => {
                 <div className="carousel-item">
                     <div className="carousel-container">
                         <h2 className="animate__animated animate__fadeInDown"><span>Group việc làm hàng đầu tại NEU</span></h2>
-                        <p className="animate__animated animate__fadeInUp">Group <strong>NEU JOBS & INTERNSHIPS - Cơ hội việc làm, thực tập cho Gen Z tại NEU </strong> với hơn 100k thành viên là cộng đồng hàng đầu giúp bạn học hỏi kiến thức, kinh nghiệm và cập nhật thông tin mới nhất về thị trường lao động, tuyển dụng và phát triển nghề nghiệp</p>
+                        <p className="animate__animated animate__fadeInUp">Group <strong>NEU JOBS & INTERNSHIPS - Cơ hội việc làm, thực tập cho Gen Z tại NEU </strong> với hơn 100k thành viên là cộng đồng hàng đầu giúp bạn học hỏi kiến thức, kinh nghiệm và cập nhật thông tin mới nhất về thị trường lao động, tuyển dụng và phát triển nghề nghiệp.</p>
                         <a href=" https://www.facebook.com/groups/careerempower "target="_blank" className="btn-get-started animate__animated animate__fadeInUp scrollto">Tham gia ngay</a>
                     </div>
                 </div>
