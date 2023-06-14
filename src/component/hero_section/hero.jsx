@@ -14,12 +14,12 @@ const Hero = () => {
         data-bs-ride="carousel"
       >
         {/* Slide 1 */}
-        {/* <div className="carousel-item active">
+        <div className="carousel-item active">
           <div className="carousel-container">
             <h2 className="animate__animated animate__fadeInDown">
               <span>CareerEmpower</span>
             </h2>
-            <p className="animate__animated fanimate__adeInUp">
+            <p className="animate__animated animate__fadeInUp">
               CareerEmpower cung cấp các giải pháp toàn diện về định hướng nghề
               nghiệp, đào tạo kỹ năng và kết nối cơ hội việc làm. Chúng tôi là
               đối tác tin cậy và đồng hành cùng sinh viên Trường Đại học Kinh tế
@@ -33,8 +33,8 @@ const Hero = () => {
               Về Chúng Tôi
             </a>
           </div>
-        </div> */}
-        <div className="carousel-item">
+        </div>
+        {/* <div className="carousel-item">
           <div className="carousel-container">
             <h2 className="animate__animated animate__fadeInDown">
               <span>CareerEmpower</span>
@@ -55,7 +55,7 @@ const Hero = () => {
               </a>
             </Link>
           </div>
-        </div>
+        </div> */}
         {/* Slide 2 */}
         <div className="carousel-item">
           <div className="carousel-container">
@@ -66,7 +66,7 @@ const Hero = () => {
               Một dự án dành cho sinh viên NEU muốn trải nghiệm làm việc chuyên
               nghiệp, sáng tạo và năng động. Bạn sẽ được học hỏi và làm việc
               cùng những người bạn tài năng và nhiệt huyết trong một “Mùa hè
-              không nuối tiếc”.
+              không hối tiếc”.
             </p>
             <Link to="/ungtuyen">
               <a
