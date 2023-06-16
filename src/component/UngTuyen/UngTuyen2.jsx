@@ -253,10 +253,10 @@ const UngTuyen = () => {
                       <option value="Designer">Designer</option>
                       <option value="Editor">Editor</option>
                       <option value="Lập trình web (Có kinh nghiệm)">
-                        Web Deverloper (Có kinh nghiệm)
+                        Web Deverloper
                       </option>
                       <option value="Communication Team Leader (Có kinh nghiệm)">
-                        Communication Team Leader (Có kinh nghiệm)
+                        Communication Team Leader
                       </option>
                       <option value="Social Content">Social Content</option>
                       <option value="Social Media">Social Media</option>
