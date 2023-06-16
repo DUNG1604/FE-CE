@@ -1,11 +1,17 @@
 .navbarr {
-    display: none;
+  display: none;
 }
 
 @media screen and (min-width: 992px) {
+  .navbar-mobile,
+  .navbarr {
+    display: none;
+  }
+  .navbar-mobile {
+    display: none;
+  }
 
-    .navbar-mobile,
-    .navbarr {
-        display: none;
-    }
+  .navbar-mobile.show {
+    display: block;
+  }
 }
