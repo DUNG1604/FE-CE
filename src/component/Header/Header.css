@@ -7,11 +7,4 @@
   .navbarr {
     display: none;
   }
-  .navbar-mobile {
-    display: none;
-  }
-
-  .navbar-mobile.show {
-    display: block;
-  }
 }
