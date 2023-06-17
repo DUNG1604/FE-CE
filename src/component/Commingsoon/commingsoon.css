@@ -1,251 +1,244 @@
-
-
-  /*--------------------------------------------------------------
+/*--------------------------------------------------------------
   # commingsoon
   --------------------------------------------------------------*/
-  #backgr {
-  
-    background: url("../../../public/assets/img/hihi.jpg") top center no-repeat;
-    background-size: cover;
-    position: relative;
-    margin-top: 35px;
-  }
-  #backgr::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: rgba(22, 22, 22, 0.8);
-  }
-  #commingsoon {
-    text-align: center;
-    position: relative;
-    width: 100%;
-    padding: 300px 0;
+#backgr {
+  background: url("../../../public/assets/img/hihi.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  /* margin-top: 35px; */
+}
+#backgr::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(22, 22, 22, 0.8);
+}
+#commingsoon {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 300px 0;
+}
 
-  }
+#commingsoon h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
 
-  
-  #commingsoon h1 {
-    margin: 0 0 10px 0;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 56px;
-    color: #fff;
-  }
-  
-  #commingsoon h2 {
-    color: #eee;
-    margin-bottom: 40px;
-    font-size: 22px;
-  }
-  
-  #commingsoon .countdown {
-    margin-bottom: 80px;
-  }
-  
+#commingsoon h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 22px;
+}
+
+#commingsoon .countdown {
+  margin-bottom: 80px;
+}
+
+#commingsoon .countdown div {
+  text-align: center;
+  margin: 10px;
+  width: 100px;
+  padding: 15px 0;
+  background: rgba(255, 255, 255, 0.12);
+  border-top: 5px solid #ff0000;
+}
+
+#commingsoon .countdown div h3 {
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 15px;
+}
+
+#commingsoon .countdown div h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 575px) {
   #commingsoon .countdown div {
-    text-align: center;
-    margin: 10px;
-    width: 100px;
-    padding: 15px 0;
-    background: rgba(255, 255, 255, 0.12);
-    border-top: 5px solid #ff0000;
+    width: 70px;
+    padding: 10px 0;
+    margin: 10px 8px;
   }
-  
+
   #commingsoon .countdown div h3 {
-    font-weight: 700;
-    font-size: 44px;
-    margin-bottom: 15px;
+    font-size: 28px;
+    margin-bottom: 10px;
   }
-  
+
   #commingsoon .countdown div h4 {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
   }
-  
-  @media (max-width: 575px) {
-    #commingsoon .countdown div {
-      width: 70px;
-      padding: 10px 0;
-      margin: 10px 8px;
-    }
-  
-    #commingsoon .countdown div h3 {
-      font-size: 28px;
-      margin-bottom: 10px;
-    }
-  
-    #commingsoon .countdown div h4 {
-      font-size: 14px;
-      font-weight: 500;
-    }
+}
+
+#commingsoon .subscribe {
+  font-size: 15px;
+  text-align: center;
+}
+
+#commingsoon .subscribe h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#commingsoon .subscribe .subscribe-form {
+  min-width: 300px;
+  margin-top: 10px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  text-align: left;
+}
+
+#commingsoon .subscribe .subscribe-form input[type="email"] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#commingsoon .subscribe .subscribe-form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #ff0000;
+  color: #fff;
+  transition: 0.3s;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#commingsoon .subscribe .subscribe-form input[type="submit"]:hover {
+  background: #f50000;
+}
+
+#commingsoon .subscribe .error-message {
+  display: none;
+  color: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#commingsoon .subscribe .sent-message {
+  display: none;
+  color: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#commingsoon .subscribe .loading {
+  display: none;
+  text-align: center;
+  padding: 15px;
+}
+
+#commingsoon .subscribe .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  animation: animate-loading-notify 1s linear infinite;
+}
+
+@keyframes animate-loading-notify {
+  0% {
+    transform: rotate(0deg);
   }
-  
-  #commingsoon .subscribe {
-    font-size: 15px;
-    text-align: center;
+
+  100% {
+    transform: rotate(360deg);
   }
-  
-  #commingsoon .subscribe h4 {
-    font-size: 20px;
-    font-weight: 600;
-    color: #fff;
-    position: relative;
-    padding-bottom: 12px;
-  }
-  
-  #commingsoon .subscribe .subscribe-form {
-    min-width: 300px;
-    margin-top: 10px;
-    background: #fff;
-    padding: 6px 10px;
-    position: relative;
-    text-align: left;
-  }
-  
-  #commingsoon .subscribe .subscribe-form input[type=email] {
-    border: 0;
-    padding: 4px 8px;
-    width: calc(100% - 100px);
-  }
-  
-  #commingsoon .subscribe .subscribe-form input[type=submit] {
-    position: absolute;
-    top: 0;
-    right: -2px;
-    bottom: 0;
-    border: 0;
-    background: none;
-    font-size: 16px;
-    padding: 0 20px;
-    background: #ff0000;
-    color: #fff;
-    transition: 0.3s;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  }
-  
-  #commingsoon .subscribe .subscribe-form input[type=submit]:hover {
-    background: #f50000;
-  }
-  
-  #commingsoon .subscribe .error-message {
-    display: none;
-    color: #ed3c0d;
-    text-align: center;
-    padding: 15px;
-    font-weight: 600;
-  }
-  
-  #commingsoon .subscribe .sent-message {
-    display: none;
-    color: #18d26e;
-    text-align: center;
-    padding: 15px;
-    font-weight: 600;
-  }
-  
-  #commingsoon .subscribe .loading {
-    display: none;
-    text-align: center;
-    padding: 15px;
-  }
-  
-  #commingsoon .subscribe .loading:before {
-    content: "";
-    display: inline-block;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    margin: 0 10px -6px 0;
-    border: 3px solid #18d26e;
-    border-top-color: #eee;
-    animation: animate-loading-notify 1s linear infinite;
-  }
-  
-  @keyframes animate-loading-notify {
-    0% {
-      transform: rotate(0deg);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-  #commingsoon .social-links {
-    margin-top: 10px;
-  }
-  
-  #commingsoon .social-links a {
-    font-size: 24px;
-    display: inline-block;
-    color: rgba(255, 255, 255, 0.8);
-    line-height: 1;
-    padding-top: 14px;
-    margin: 0 10px;
-    text-align: center;
-    transition: 0.3s;
-  }
-  
-  #commingsoon .social-links a:hover {
-    color: #fff;
-  }
-  
-  /*--------------------------------------------------------------
+}
+
+#commingsoon .social-links {
+  margin-top: 10px;
+}
+
+#commingsoon .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1;
+  padding-top: 14px;
+  margin: 0 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+#commingsoon .social-links a:hover {
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
   # Contact Us
   --------------------------------------------------------------*/
-  .contact .info-wrap {
-    background: rgba(255, 255, 255, 0.06);
-    padding: 30px;
-  }
-  
-  .contact .info i {
-    font-size: 20px;
-    color: #fff;
-    float: left;
-    width: 44px;
-    height: 44px;
-    background: rgba(255, 255, 255, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  
-  
-  .contact .info .social-links {
-    padding-left: 60px;
-  }
-  
-  .contact .info .social-links a {
-    font-size: 18px;
-    display: inline-block;
-    background: #333;
-    color: #fff;
-    line-height: 1;
-    padding: 8px 0;
-    border-radius: 50%;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
-    margin-right: 10px;
-  }
-  
-  .contact .info .social-links a:hover {
-    background: #ff0000;
-    color: #fff;
-  }
-  
-  .contact .info .email:hover i,
-  .contact .info .address:hover i,
-  .contact .info .phone:hover i {
-    background: #ff0000;
-    color: #fff;
-  }
-  
+.contact .info-wrap {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 30px;
+}
+
+.contact .info i {
+  font-size: 20px;
+  color: #fff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info .social-links {
+  padding-left: 60px;
+}
+
+.contact .info .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.contact .info .social-links a:hover {
+  background: #ff0000;
+  color: #fff;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #ff0000;
+  color: #fff;
+}
