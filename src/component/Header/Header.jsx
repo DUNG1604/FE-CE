@@ -97,9 +97,9 @@ const Header = () => {
                 </li>
                 {/* <li class="dropdown"><a href="#"><span>Định hướng</span> <i class="bi bi-chevron-down"></i></a> */}
                 <li class="dropdown">
-                  <Link to="/dinhhuong">
+                <a onClick={handleClick} href="#">
                     <span>Định hướng</span> <i class="bi bi-chevron-down"></i>
-                  </Link>
+                  </a>
                   <ul>
                     <li>
                       <Link to="/Commingsoon">Công cụ</Link>
@@ -110,9 +110,9 @@ const Header = () => {
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <Link to="/dinhhuong">
+                <a onClick={handleClick} href="#">
                     <span>Đào tạo</span> <i class="bi bi-chevron-down"></i>
-                  </Link>
+                  </a>
                   <ul>
                     <li class="dropdown">
                       <a href="#">
@@ -200,9 +200,9 @@ const Header = () => {
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <Link to="/dinhhuong">
+                  <a onClick={handleClick} href="#">
                     <span>Liên hệ</span> <i class="bi bi-chevron-down"></i>
-                  </Link>
+                  </a>
                   <ul>
                     <li>
                       <Link to="/ungtuyen">Ứng tuyển</Link>
