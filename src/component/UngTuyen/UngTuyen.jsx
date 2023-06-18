@@ -73,12 +73,13 @@ const UngTuyen = () => {
                             </div>
                             <div className="content">
                                 <p className="sub-title">
-                                    Khi tham gia CareerEmpower, bạn còn nhận được những lợi ích sau:
+                                    Khi tham gia CareerEmpower, bạn còn nhận được những lợi ích
+                                    sau:
                                 </p>
                                 <ul>
                                     <li>
-                                        Được định hướng chuyên môn và đào tạo kỹ năng mềm qua các khóa
-                                        học được thiết kế cá nhân hóa theo nhu cầu của bạn.{" "}
+                                        Được định hướng chuyên môn và đào tạo kỹ năng mềm qua các
+                                        khóa học được thiết kế cá nhân hóa theo nhu cầu của bạn.{" "}
                                     </li>
                                     <li>
                                         Tạo dựng thương hiệu cùng với các bạn sinh viên NEU trên các
@@ -86,18 +87,20 @@ const UngTuyen = () => {
                                         CareerEmpower.
                                     </li>
                                     <li>
-                                        Được cấp chứng nhận khi tham gia và hoàn thành các dự án thực
-                                        tế của CareerEmpower cùng mạng lưới các nhà tuyển dụng, doanh
-                                        nghiệp hàng đầu trong nhiều lĩnh vực như FPT, VNG, Vinhomes…
+                                        Được cấp chứng nhận khi tham gia và hoàn thành các dự án
+                                        thực tế của CareerEmpower cùng mạng lưới các nhà tuyển dụng,
+                                        doanh nghiệp hàng đầu trong nhiều lĩnh vực như FPT, VNG,
+                                        Vinhomes…
                                     </li>
                                     <li>
                                         Được mở rộng mạng lưới quan hệ với các nhà tuyển dụng và
-                                        chuyên gia hàng đầu trong các lĩnh vực như FPT, VNG, Vinhomes…
+                                        chuyên gia hàng đầu trong các lĩnh vực như FPT, VNG,
+                                        Vinhomes…
                                     </li>
                                     <li>
-                                        Được tư vấn định hướng sự nghiệp chính xác và khoa học qua các
-                                        công cụ DISC và Sinh trắc vân tay và các buổi talkshow chia sẻ
-                                        kinh nghiệm.
+                                        Được tư vấn định hướng sự nghiệp chính xác và khoa học qua
+                                        các công cụ DISC và Sinh trắc vân tay và các buổi talkshow
+                                        chia sẻ kinh nghiệm.
                                     </li>
                                     <li>
                                         Thực tập làm việc trong môi trong chuyên nghiệp, năng động,
@@ -213,36 +216,27 @@ const UngTuyen = () => {
                                                     <option hidden disabled selected value="">
                                                         Vị Trí làm việc
                                                     </option>
-                                                    <option value="Nghiên cứu và phát triển sản phẩm">
-                                                        Nghiên cứu và phát triển sản phẩm
+                                                    <option value="Research and Development">
+                                                        Research and Development
                                                     </option>
                                                     <option value="Designer">Designer</option>
-                                                    <option value="Quay dựng video tiktok">
-                                                        Quay dựng video tiktok
+                                                    <option value="Editor">Editor</option>
+                                                    <option value="Lập trình web">Web Deverloper</option>
+                                                    <option value="Communication Team Leader">
+                                                        Communication Team Leader
                                                     </option>
-                                                    <option value="Editor video tiktok">
-                                                        Editor video tiktok
+                                                    <option value="Social Content">Social Content</option>
+                                                    <option value="Social Media">Social Media</option>
+                                                    <option value="Content Tiktok Leader">
+                                                        TikTok Content Team Leader
                                                     </option>
-                                                    <option value="Lập trình web (Có kinh nghiệm)">
-                                                        Lập trình web (Có kinh nghiệm)
+                                                    <option value="Tiktok Content Creator">
+                                                        Tiktok Content Creator
                                                     </option>
-                                                    <option value="Leader truyền thông (Có kinh nghiệm)">
-                                                        Leader truyền thông (Có kinh nghiệm)
-                                                    </option>
-                                                    <option value="Content Marketing">
-                                                        Content Marketing
-                                                    </option>
-                                                    <option value="Leader Content Tiktok (Có kinh nghiệm)">
-                                                        Leader Content Tiktok (Có kinh nghiệm)
-                                                    </option>
-                                                    <option value="Content Tiktok">Content Tiktok</option>
                                                     <option value="Event">Event</option>
-                                                    <option value="KOLs nhân sự">KOLs nhân sự</option>
-                                                    <option value="Employer Brading">
-                                                        Employer Brading
-                                                    </option>
-                                                    <option value="Truyền thông nội bộ">
-                                                        Truyền thông nội bộ
+                                                    <option value="KOLs nhân sự">KOLs HR</option>
+                                                    <option value="Internal Communication">
+                                                        Internal Communication
                                                     </option>
                                                 </select>
                                             </div>
@@ -260,7 +254,6 @@ const UngTuyen = () => {
                 </div>
             </section>
         </main>
-
     );
 };
 

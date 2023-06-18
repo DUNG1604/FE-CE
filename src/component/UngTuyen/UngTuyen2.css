@@ -4,243 +4,254 @@
 # ungtuyen Section
 --------------------------------------------------------------*/
 .ungtuyen {
-    padding-top: 150px;
-    font-family: "Inter";
-    text-align: justify;
+  padding-top: 150px;
+  font-family: "Inter";
+  text-align: justify;
 }
-.ungtuyen .section-title p{
-    /* text-align: center; */
-    font-size: 22px;
-    color: var(--green);
-    
+.ungtuyen .section-title p {
+  /* text-align: center; */
+  font-size: 22px;
+  color: var(--green);
 }
-.ungtuyen .ungtuyen-title h2{
-    font-family: "Vollkorn";
+.ungtuyen .ungtuyen-title h2 {
+  font-family: "Vollkorn";
 
-    font-size: 22px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.ungtuyen .ungtuyen-title p{
-    font-family: "Vollkorn";
-    font-size: 32px;
-    font-weight: 700;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-.ungtuyen .section-title h3{
-    font-family: "Inter";
-    font-size: 14px;
-    font-weight: 500;
+.ungtuyen .ungtuyen-title p {
+  font-family: "Vollkorn";
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.ungtuyen .section-title h3 {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .ungtuyen .sub-title {
-    
-    font-size: 17px;
-    font-weight: 500;
+  font-size: 14px;
+  font-weight: 500;
 }
-
 
 .ungtuyen .info-container {
-    background-color: var(--green);
-    height: 100%;
-    padding: 30px;
-    border-radius: 10px 0 0 10px;
-    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
-    color: #fff;
-    font-size: 13px;
-  }
-
+  background-color: var(--green);
+  height: 100%;
+  padding: 30px;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-size: 14px;
+}
 
 .ungtuyen .content ul {
-    list-style: none;
-    padding: 0;
-  }
+  list-style: none;
+  padding: 0;
+}
 
 .ungtuyen .content ul li {
-    padding-bottom: 5px;
-    position: relative;
+  padding-bottom: 5px;
+  position: relative;
 }
 
-.ungtuyen .content ul li i{
-    padding-right: 10px;
-    position: relative;
+.ungtuyen .content ul li i {
+  padding-right: 10px;
+  position: relative;
 }
 
+.ungtuyen .info-item {
+  width: 100%;
+  background-color: #009282;
+  margin-bottom: 20px;
+  padding: 20px 20px 20px 40px;
+  border-radius: 10px;
+  color: #fff;
+}
 
-  
-  .ungtuyen .info-item {
-    width: 100%;
-    background-color: #009282;
-    margin-bottom: 20px;
-    padding: 20px 20px 20px 40px;
-    border-radius: 10px;
-    color: #fff;
-  }
-  
-  .ungtuyen .info-item:last-child {
-    margin-bottom: 0;
-  }
-  
-  .ungtuyen .info-item i {
-    font-size: 20px;
-    color: #fff;
-    float: left;
-    width: 44px;
-    height: 44px;
-    background-color: rgba(255, 255, 255, 0.2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    transition: all 0.3s ease-in-out;
-    margin-right: 15px;
-  }
-  
-  .ungtuyen .info-item h4 {
-    padding: 0;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 5px;
-  }
-  
-  .ungtuyen .info-item p {
-    padding: 0;
-    margin-bottom: 0;
-    font-size: 14px;
-  }
-  
-  .ungtuyen .info-item:hover i {
-    background: #fff;
-    color: var(--color-primary);
-  }
-  
-  .ungtuyen .ungtuyen-form {
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    border-radius: 0 10px 10px 0;
-    
-  }
+.ungtuyen .info-item:last-child {
+  margin-bottom: 0;
+}
 
-  .ungtuyen .ungtuyen-form h2{
-    color: var(--green);
-    font-size: 24px;
-    padding-bottom: 25x;
+.ungtuyen .info-item i {
+  font-size: 20px;
+  color: #fff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 15px;
+}
+
+.ungtuyen .info-item h4 {
+  padding: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.ungtuyen .info-item p {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.ungtuyen .info-item:hover i {
+  background: #fff;
+  color: var(--color-primary);
+}
+
+.ungtuyen .ungtuyen-form {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 0 10px 10px 0;
+}
+
+.ungtuyen .ungtuyen-form h2 {
+  color: var(--green);
+  font-size: 24px;
+  padding-bottom: 13px;
 }
 /*   
   .ungtuyen .ungtuyen-form .form-group {
     padding-bottom: 8px;
   } */
-  
-  .ungtuyen .ungtuyen-form .error-message {
-    display: none;
-    color: #fff;
-    background: #df1529;
-    text-align: left;
-    padding: 15px;
-    font-weight: 600;
-  }
-  
-  .ungtuyen .ungtuyen-form .error-message br+br {
-    margin-top: 25px;
-  }
-  
-  .ungtuyen .ungtuyen-form .sent-message {
-    display: none;
-    color: #fff;
-    background: #059652;
-    text-align: center;
-    padding: 15px;
-    font-weight: 600;
-  }
-  
-  .ungtuyen .ungtuyen-form .loading {
-    display: none;
-    background: #fff;
-    text-align: center;
-    padding: 15px;
-  }
-  
-  .ungtuyen .ungtuyen-form .loading:before {
-    content: "";
-    display: inline-block;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    margin: 0 10px -6px 0;
-    border: 3px solid #059652;
-    border-top-color: #fff;
-    animation: animate-loading 1s linear infinite;
-  }
-  
-  .ungtuyen .ungtuyen-form input,
-  .ungtuyen .ungtuyen-form textarea {
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 14px;
-  }
-  
-  .ungtuyen .ungtuyen-form input[type=text],
-  .ungtuyen .ungtuyen-form input[type=email],
-  .ungtuyen .ungtuyen-form textarea {
-    padding: 5px 15px;
-    
-  }
-  
-  .ungtuyen .ungtuyen-form input[type=text]:focus,
-  .ungtuyen .ungtuyen-form input[type=email]:focus,
-  .ungtuyen .ungtuyen-form textarea:focus {
-    border-color: var(--green);
-    border-radius: 5px;
-  }
-  
-  .ungtuyen .ungtuyen-form textarea {
-    padding: 10px 12px;
-  }
-  
-  .ungtuyen .button {
-    text-align: right;
-  }
-  .ungtuyen button[type=submit] {
-    background: var(--green);
-    border: 0;
-    padding: 10px 45px;
-    color: #fff;
-    transition: 0.4s;
-    border-radius: 5px;
-    width: 100%;
-  }
-  
-  .ungtuyen button[type=submit]:hover {
-    background: var(--cam-logo);
-  }
-  
-  @keyframes animate-loading {
-    0% {
-      transform: rotate(0deg);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-    }
+
+.ungtuyen .ungtuyen-form .error-message {
+  display: none;
+  color: #fff;
+  background: #df1529;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.ungtuyen .ungtuyen-form .error-message br + br {
+  margin-top: 25px;
+}
+
+.ungtuyen .ungtuyen-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #059652;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.ungtuyen .ungtuyen-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.ungtuyen .ungtuyen-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #059652;
+  border-top-color: #fff;
+  animation: animate-loading 1s linear infinite;
+}
+
+.ungtuyen .ungtuyen-form input,
+.ungtuyen .ungtuyen-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.ungtuyen .ungtuyen-form input[type="text"],
+.ungtuyen .ungtuyen-form input[type="email"],
+.ungtuyen .ungtuyen-form textarea {
+  padding: 5px 15px;
+}
+
+.ungtuyen .ungtuyen-form input[type="text"]:focus,
+.ungtuyen .ungtuyen-form input[type="email"]:focus,
+.ungtuyen .ungtuyen-form textarea:focus {
+  border-color: var(--green);
+  border-radius: 5px;
+}
+
+.ungtuyen .ungtuyen-form textarea {
+  padding: 10px 12px;
+}
+
+.ungtuyen .button {
+  text-align: right;
+}
+.ungtuyen button[type="details"] {
+  background: none;
+  border: 2px solid;
+  border-color: var(--cam-logo);
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 10px;
+  /* width: 100%; */
+  font-size: 14px;
+  position: relative;
+}
+
+.ungtuyen button[type="details"]:hover {
+  background: var(--cam-logo);
+}
+.ungtuyen button[type="submit"] {
+  background: var(--green);
+  border: 0;
+  padding: 10px 45px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.ungtuyen button[type="submit"]:hover {
+  background: var(--xanh-sang);
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
   }
 
-  
-  .ungtuyen .Use-Ungtuyen .form-select {
-    font-size: 14px;
-    padding-left: 15px;
+  100% {
+    transform: rotate(360deg);
   }
+}
 
-  .ungtuyen .Use-Ungtuyen select  {
-    color: #757575;
-  }
-  .ungtuyen .Use-Ungtuyen option:not(:first-of-type) {
-    color: black;
-  }
-  .ungtuyen .Use-Ungtuyen select:focus  {
-    color: #000000;
-  }
- 
+.ungtuyen .Use-Ungtuyen .form-select {
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+.ungtuyen .Use-Ungtuyen select {
+  color: #757575;
+}
+.ungtuyen .Use-Ungtuyen option:not(:first-of-type) {
+  color: black;
+}
+.ungtuyen .Use-Ungtuyen select:focus {
+  color: #000000;
+}
+
+.ungtuyen .info-container .btn-details {
+  text-align: center;
+}
