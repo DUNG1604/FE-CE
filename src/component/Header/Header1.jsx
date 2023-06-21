@@ -41,7 +41,7 @@ const Header1 = () => {
                   </Link>
                 </li>
                 <li class="dropdown">
-                  <a href="#mission">
+                  <a href="/#mission">
                     <span href="/#mission">Về chúng tôi</span>{" "}
                     <i class="bi bi-chevron-down"></i>
                   </a>
@@ -65,9 +65,9 @@ const Header1 = () => {
                 </li>
                 {/* <li class="dropdown"><a href="#"><span>Định hướng</span> <i class="bi bi-chevron-down"></i></a> */}
                 <li class="dropdown">
-                  <Link to="/dinhhuong">
+                <a onClick={handleClick} href="#">
                     <span>Định hướng</span> <i class="bi bi-chevron-down"></i>
-                  </Link>
+                  </a>
                   <ul>
                     <li>
                       <Link to="/Commingsoon">Công cụ</Link>
@@ -78,9 +78,9 @@ const Header1 = () => {
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <Link to="/dinhhuong">
+                <a onClick={handleClick} href="#">
                     <span>Đào tạo</span> <i class="bi bi-chevron-down"></i>
-                  </Link>
+                  </a>
                   <ul>
                     <li class="dropdown">
                       <a href="#">
@@ -168,9 +168,9 @@ const Header1 = () => {
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <Link to="/dinhhuong">
+                <a onClick={handleClick} href="#">
                     <span>Liên hệ</span> <i class="bi bi-chevron-down"></i>
-                  </Link>
+                  </a>
                   <ul>
                     <li>
                       <Link to="/ungtuyen">Ứng tuyển</Link>
