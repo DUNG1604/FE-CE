@@ -9,7 +9,9 @@ const UngTuyen = () => {
   const [course, setCourse] = useState("");
   const [linkfb, setLinkfb] = useState("");
   const [ungtuyen, setUngtuyen] = useState("");
-
+  const [linkcv, setLinkcv] = useState("");
+  const [linkportfolio, setLinkportfolio] = useState("");
+  const [loading, setLoading] = useState(true)
   function onChangeHovaten(e) {
     setHovaten(e.target.value);
   }
@@ -31,7 +33,14 @@ const UngTuyen = () => {
   function onChangeUngtuyen(e) {
     setUngtuyen(e.target.value);
   }
+  function onChangeLinkcv(e) {
+    setLinkcv(e.target.value);
+  }
+  function onChangeLinkportfolio(e) {
+    setLinkportfolio(e.target.value);
+  }
   function handleLogin(e) {
+    setLoading(false)
     e.preventDefault();
     const newUse = {
       hovaten: hovaten,
@@ -41,6 +50,8 @@ const UngTuyen = () => {
       course: course,
       linkfb: linkfb,
       ungtuyen: ungtuyen,
+      linkcv: linkcv,
+      linkportfolio: linkportfolio
     };
     var url =
       "https://script.google.com/macros/s/AKfycbxqb7x0p0Y9pZk9-eP9tfwavnT0OdO6ETOOI1kPBOfAvZ-vDVx2yT65rHfEtf22bq-g/exec";
@@ -60,7 +71,11 @@ const UngTuyen = () => {
     setSchool("");
     setSdt("");
     setUngtuyen("");
+    setLinkcv("");
+    setLinkportfolio("");
+    setLoading(true)
   }
+
   return (
     <section id="ungtuyen" className="ungtuyen">
       <div className="container" data-aos="fade-up">
@@ -282,6 +297,8 @@ const UngTuyen = () => {
                     name="subject"
                     id="subject"
                     placeholder="Link tải CV của bạn"
+                    value={linkcv}
+                    onChange={(e) => onChangeLinkcv(e)}
                     required
                   />
                 </div>
@@ -292,18 +309,31 @@ const UngTuyen = () => {
                     name="subject"
                     id="subject"
                     placeholder="Link portfolio của bạn"
+                    onChange={(e) => onChangeLinkportfolio(e)}
+                    value={linkportfolio}
                   />
                 </div>
 
                 <div className="button form-group mt-5 ">
-                  <button type="submit">GỬI THÔNG TIN ỨNG TUYỂN</button>
+                  <button className="btnSubmit" type="submit">GỬI THÔNG TIN ỨNG TUYỂN</button>
+                  {/* <div class="lds-ring"><div></div><div></div><div></div><div></div></div> */}
                 </div>
+
+                {/* {loading ? <div className="button form-group mt-5 ">
+                  <button type="submit">GỬI THÔNG TIN ỨNG TUYỂN</button>
+      
+                </div> :
+                  <div className="button form-group mt-5 ">
+                    
+                    <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+                  </div>
+                } */}
               </form>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </div >
+    </section >
   );
 };
 

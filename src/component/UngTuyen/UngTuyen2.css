@@ -8,11 +8,13 @@
   font-family: "Inter";
   text-align: justify;
 }
+
 .ungtuyen .section-title p {
   /* text-align: center; */
   font-size: 22px;
   color: var(--green);
 }
+
 .ungtuyen .ungtuyen-title h2 {
   font-family: "Vollkorn";
 
@@ -123,6 +125,7 @@
   font-size: 24px;
   padding-bottom: 13px;
 }
+
 /*   
   .ungtuyen .ungtuyen-form .form-group {
     padding-bottom: 8px;
@@ -137,11 +140,11 @@
   font-weight: 600;
 }
 
-.ungtuyen .ungtuyen-form .error-message br + br {
+.ungtuyen .ungtuyen-form .error-message br+br {
   margin-top: 25px;
 }
 
-.ungtuyen .ungtuyen-form .sent-message {
+/* .ungtuyen .ungtuyen-form .sent-message {
   display: none;
   color: #fff;
   background: #059652;
@@ -155,7 +158,7 @@
   background: #fff;
   text-align: center;
   padding: 15px;
-}
+} */
 
 .ungtuyen .ungtuyen-form .loading:before {
   content: "";
@@ -196,6 +199,7 @@
 .ungtuyen .button {
   text-align: right;
 }
+
 .ungtuyen button[type="details"] {
   background: none;
   border: 2px solid;
@@ -212,6 +216,7 @@
 .ungtuyen button[type="details"]:hover {
   background: var(--cam-logo);
 }
+
 .ungtuyen button[type="submit"] {
   background: var(--green);
   border: 0;
@@ -245,13 +250,58 @@
 .ungtuyen .Use-Ungtuyen select {
   color: #757575;
 }
+
 .ungtuyen .Use-Ungtuyen option:not(:first-of-type) {
   color: black;
 }
+
 .ungtuyen .Use-Ungtuyen select:focus {
   color: #000000;
 }
 
 .ungtuyen .info-container .btn-details {
   text-align: center;
+}
+
+/*  */
+.lds-ring {
+  position: relative;
+  /* width: 30px;
+  height: 30px; */
+}
+
+.lds-ring div {
+  left: 47%;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  margin: 8px;
+  border: 5px solid var(--green);
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: var(--green) transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
