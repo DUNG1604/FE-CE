@@ -31,6 +31,36 @@ const UngTuyen = () => {
     function onChangeUngtuyen(e) {
         setUngtuyen(e.target.value);
     }
+    // function handleLogin(e) {
+    //     e.preventDefault();
+    //     const newUse = {
+    //         hovaten: hovaten,
+    //         email: email,
+    //         sdt: sdt,
+    //         school: school,
+    //         course: course,
+    //         linkfb: linkfb,
+    //         ungtuyen: ungtuyen,
+    //     };
+    //     var url =
+    //         "https://script.google.com/macros/s/AKfycbxqb7x0p0Y9pZk9-eP9tfwavnT0OdO6ETOOI1kPBOfAvZ-vDVx2yT65rHfEtf22bq-g/exec";
+
+    //     $.ajax({
+    //         url: url,
+    //         method: "GET",
+    //         dataType: "json",
+    //         data: newUse,
+    //     });
+    //     console.log(newUse);
+    //     alert("Gửi thành công !");
+    //     setCourse("");
+    //     setEmail("");
+    //     setHovaten("");
+    //     setLinkfb("");
+    //     setSchool("");
+    //     setSdt("");
+    //     setUngtuyen("");
+    // }
     function handleLogin(e) {
         e.preventDefault();
         const newUse = {
@@ -42,24 +72,22 @@ const UngTuyen = () => {
             linkfb: linkfb,
             ungtuyen: ungtuyen,
         };
-        var url =
-            "https://script.google.com/macros/s/AKfycbxqb7x0p0Y9pZk9-eP9tfwavnT0OdO6ETOOI1kPBOfAvZ-vDVx2yT65rHfEtf22bq-g/exec";
+        const url = "https://script.google.com/macros/s/AKfycbxqb7x0p0Y9pZk9-eP9tfwavnT0OdO6ETOOI1kPBOfAvZ-vDVx2yT65rHfEtf22bq-g/exec";
 
         $.ajax({
             url: url,
-            method: "GET",
-            dataType: "json",
-            data: newUse,
+            method: "POST",
+            contentType: "application/json",
+            data: JSON.stringify(newUse),
+            success: function (response) {
+                console.log(response);
+                alert("Gửi oke thành công!");
+            },
+            error: function (xhr, status, error) {
+                console.log(xhr.responseText);
+                alert("Gửi thất bại!");
+            }
         });
-        console.log(newUse);
-        alert("Gửi thành công !");
-        setCourse("");
-        setEmail("");
-        setHovaten("");
-        setLinkfb("");
-        setSchool("");
-        setSdt("");
-        setUngtuyen("");
     }
     return (
         <main id="main">

@@ -1,11 +1,12 @@
-
 .UngTuyen {
   margin-top: 73px;
-  
+
 }
+
 .backgr .container .UngTuyen {
   color: #fff;
 }
+
 body {
   box-sizing: border-box;
 }
@@ -14,11 +15,13 @@ body {
 .pd-10-14 {
   padding: 10px 14px;
 }
+
 .fl {
   display: flex;
   justify-content: flex-end;
   margin-top: 22px;
 }
+
 /*  */
 /*--------------------------------------------------------------
   # ungtuyen
@@ -32,6 +35,7 @@ body {
   color: #fff;
 
 }
+
 #ungtuyen::before {
   content: "";
   position: absolute;
@@ -48,10 +52,12 @@ body {
   padding: 150px 0;
   color: #fff;
 }
+
 #backgr .container h1 {
   font-weight: 600;
   margin-bottom: 1rem;
 }
+
 #backgr .container .content {
   padding-top: 20px;
 }
@@ -59,10 +65,12 @@ body {
 .title .sub-title {
   font-size: 35.2px;
 }
+
 select {
   word-wrap: normal;
   width: 100%;
 }
+
 .col-md-6.form-group {
   margin: 0 0px 22px 0;
 }
@@ -85,6 +93,7 @@ select {
   padding: 15px 20px;
   margin-top: -10px;
 }
+
 .row.gy-2.gx-md-3.row-form {
   margin-bottom: 52px;
 }
@@ -98,14 +107,17 @@ h2 {
 .row-content {
   align-items: flex-end;
 }
+
 select option {
   padding: 10px;
   color: #212529;
 }
+
 .content p.sub-title {
   font-size: 24px;
   font-weight: 600;
 }
+
 .btn_submit {
   background-color: #006837;
   border: 1px solid transparent;
@@ -122,4 +134,31 @@ select option {
 .btn_submit:hover {
   background-color: #fff;
   color: #006837;
+}
+
+/*  */
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.Loading-main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.loading {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
 }
