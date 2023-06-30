@@ -1,6 +1,28 @@
 import "./UngTuyen2.css";
-import React, { useState } from "react";
+import React, { useReducer, useState } from "react";
 import $ from "jquery";
+import { v4 as uuidv4 } from "uuid"
+const initState = {
+  loading: false,
+  data: [],
+  error: null
+}
+const loadingReducer = (state, action) => {
+  switch (action.type) {
+    case "REQUEST":
+      return {
+        ...state,
+        loading: true
+      }
+    case "SUCCESS":
+      return {
+        ...state,
+        loading: false
+      }
+    case "ERROR":
+    default:
+  }
+}
 const UngTuyen = () => {
   const [hovaten, setHovaten] = useState("");
   const [email, setEmail] = useState("");
@@ -11,7 +33,8 @@ const UngTuyen = () => {
   const [ungtuyen, setUngtuyen] = useState("");
   const [linkcv, setLinkcv] = useState("");
   const [linkportfolio, setLinkportfolio] = useState("");
-  const [loading, setLoading] = useState(true)
+  // const [loading, setLoading] = useState(true)
+  const [loading, loadingDispatch] = useReducer(loadingReducer, initState)
   function onChangeHovaten(e) {
     setHovaten(e.target.value);
   }
@@ -40,9 +63,19 @@ const UngTuyen = () => {
     setLinkportfolio(e.target.value);
   }
   function handleLogin(e) {
-    setLoading(false)
+    loadingDispatch({
+      type: "REQUEST"
+    })
+    setTimeout(() => {
+
+    }, 2000)
+    // setLoading(false)
     e.preventDefault();
+    const now = new Date();
+    const dateString = now.toLocaleString();
     const newUse = {
+      date: dateString,
+      id: uuidv4(),
       hovaten: hovaten,
       email: email,
       sdt: sdt,
@@ -73,7 +106,10 @@ const UngTuyen = () => {
     setUngtuyen("");
     setLinkcv("");
     setLinkportfolio("");
-    setLoading(true)
+    loadingDispatch({
+      type: "SUCCESS"
+    })
+    // setLoading(true)
   }
 
   return (
@@ -321,10 +357,10 @@ const UngTuyen = () => {
 
                 {/* {loading ? <div className="button form-group mt-5 ">
                   <button type="submit">GỬI THÔNG TIN ỨNG TUYỂN</button>
-      
+
                 </div> :
                   <div className="button form-group mt-5 ">
-                    
+
                     <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
                   </div>
                 } */}
